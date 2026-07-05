@@ -1,0 +1,271 @@
+a quick summary I know I've been talking
+a lot on this code because I know this
+eventually is gonna get clumsy so that's
+why I'm gonna repeat it one more time so
+first and foremost in it get called so
+your global execution context recite
+here then an executional context of the
+function in it comes up and on top of
+that this say first name loads up as
+soon as the first name actually
+completes his execution it's gone and
+then finally in it poof it's gone so now
+let's go ahead and watch this very
+closely I'm gonna copy all of this code
+I'm gonna move on to closure and I'm
+gonna paste it up there so far no
+difference okay now what happens and
+this is very surprising to a lot of you
+is I don't actually run this one
+directly when I don't run this directly
+that means I have a reference of that
+method but I'm not executing it a write
+straightforwardly and what happens if I
+just return this one okay so that is
+very very interesting now whenever you
+run this method it creates this first
+name and then there is this function but
+it doesn't execute that function
+immediately rather it passes a reference
+on it and you can execute it wherever
+you like or whenever you like for
+example if I just go ahead and save or
+let's call it as value I'm now this is
+not really great variable name but I'm
+running out of it honestly so when I say
+this now can you imagine what is
+happening as soon as the in it runs in
+it doesn't really just execute and just
+poof gauze goes away but rather it just
+gives me a reference of this one now
+there is an ambiguity here now in it
+mounts up and on top of that this say
+first name mounts up but since the first
+name actually we get the reference of it
+it just not completely is gone that's
+why the init cannot actually perf and
+goes away now this is a classical
+statement where actually if I introduce
+pointers to you and try to explain you
+that we still got a reference of it and
+that's why memory cannot free it up it
+would be much more easier to understand
+but that's not would be a hundred
+percent correct but for understanding
+perspective it's absolutely amazing just
+imagine you got a reference and you got
+do something from this method that's why
+total removal of in it from the memory
+is not possible and total removal of
+this first name is also not possible
+okay so you might be asking so how can I
+actually run anything because right now
+nothing is running actually and if I
+open up the console I know there's too
+much going on in the console let's clean
+that up and I'm gonna simply say node
+I'm inside zero five yep zero five zero
+five and this is zero six zero five a
+game closure there we go so if I run
+this there is nothing right now because
+yes a hundred percent you are right that
+in it executed but in it has nothing
+nothing to print right now if it would
+have something to print like if I just
+go ahead and say log and it can say I am
+in it and I can wrap that up definitely
+inside the paranthesis or not
+paranthesis the codes there we go now if
+I run this one now surely in it is
+executing but it's state of executional
+content is not going away totally
+because something is here which is not
+which hasn't yet served its purpose so
+what you can do in that situation you
+can just go ahead since this value is
+technically now say first name we are
+calling it value but inside in the
+memory it is known as say first name you
+can go ahead and execute this yep this
+is your closure now let's go ahead and
+save this and if I run that again it
+says I am hit H but it also prints you
+the first name and since since I told
+you that in it poof it's not gone away
+because it has some more purpose to
+serve its reference is not deleted and
+that is why you get an access to this
+first name if this in it would be gone
+and only this guy would be hanging
+around then it wouldn't have an access
+of these things and that's why I told
+you it can quickly become absolutely
+messy I'm gonna show you some examples
+where these things can be more kind of
+manipulated now let me give you a bit
+more example classic edit example which
+is always given up but if you understand
+this part of it it's gonna be much more
+easier for you so I'm gonna comment all
+of this
+I'm gonna move up here and now let me
+give you another example you're gonna
+see this a whole lot of time now let's
+just say similar to this same function
+in it we're gonna simply say function
+and let's call it as do addition do
+addition okay so what it does whenever
+you do an addition you pass on a value X
+to it and simply you can do whatever the
+addition you want to do but we don't do
+the addition directly rather we're gonna
+go ahead and simply say return I want to
+return another function which takes
+another parameter Y and then we are
+gonna go ahead and call return X plus y
+okay now this is already very tricky
+code now whenever you are gonna call
+this method it's not gonna directly add
+the things it rather will give you a
+reference of the function and then you
+can add it so how to use this one it's
+actually a little bit tricky and you're
+gonna see this code quite a lot for
+example I just say that I want to do add
+function so I'm gonna simply say
+something like add five this can be a
+variable name and then you can simply go
+ahead and say do addition
+but do addition takes a parameter so X
+needs to be given let's just say I give
+five so will I get a result directly
+here no not at all because what this add
+five is holding is the execution of do
+addition when the execution of do
+addition happens it doesn't do anything
+it returns to you a reference of this
+guy so next time or in order to do the
+addition this add five needs to be
+working just exactly what we did here
+value and parenthesis so what I can do
+is I can run this add five and using
+these parentheses now but since in this
+case an X value is also required I'm
+gonna go ahead and say I'm gonna add
+five to you now now these are just
+literal values it can be any values so
+don't really bother too much about that
+okay but right now we're just returning
+these values so it would be really good
+if I just do a console dot log here so
+I'm gonna simply say log come on
+log there we go and if I just move this
+guy
+cut this out and move it up here and
+there we go now let's go ahead and try
+to run this one again and let's see what
+happens and there we go we see nine
+because first time the value in the do
+addition of four is being passed on but
+four alone cannot do anything because
+what add five is holding up is a
+reference so these are very common
+scenario that you're gonna see that
+we're a bunch of methods and all these
+things are happening and what it also
+brings us is a sometimes a typical case
+scenario happens where you can have a
+back-to-back these things so let me show
+you one more thing here a very
+interesting one okay so this next thing
+is gonna be a bit confusing for you but
+let me show you that because it's
+important that you get an idea of it now
+what is our method name it is do
+addition so it looks like a regular
+method so do I always need to hold a
+reference of it no you don't need to
+always hold a reference of it and then
+run it in the next line what you can do
+which is bit surprising to many of you I
+can go ahead and call do addition just
+like this it requires you to pass on a
+value okay let's go ahead and pass on
+four or four is already given let's give
+five any value is gonna work and just
+after that you can pass on another value
+here and can give another one here and
+then you can just go ahead and print
+this out right now this is gonna just
+return the value so it's important that
+we cut this out and we actually go ahead
+and do a log of it and there we go now
+what do you think is gonna happen and
+I'm pretty sure you have never seen a
+per and thisis this crazy we run it up
+here and just after that we run it up
+here when I run this one notice we got
+ten here the above five and four is
+actually nine so that's just ignore that
+part and we got ten here as well now
+this is very very strange to a lot of
+people that how we are able to do this
+this is all possible because of the
+closure and also also because of how
+memory is working in JavaScript
+remember the do addition never goes off
+from the memory because still one
+reference is alive of it as soon as one
+reference even a single reference of
+function is allowed it doesn't puff goes
+away and that is why the internal
+function still is alive now let me show
+you
+one more thing I have to look up a
+little bit on the Google but I just
+wanted to show you it's nothing related
+to code but just wanted to give you a
+brief I dove yet so let me search for it
+found it you don't need to worry too
+much about it but yes I found it so
+notice our Redux which is another
+JavaScript state management library yes
+it's there in react angular and probably
+you'll be using it later on no we're not
+going to be learning it as of now but
+notice here there is a design decision
+here usually people don't go that much
+of in the documentation it's hundred
+percent okay I like to dig deep into
+that notice here it there is a statement
+here while designing the redux it's
+considered as little bit tough but it's
+actually one of the finest way of
+managing the state of big application
+notice there is a straight article here
+why does apply middleware uses a closure
+for dispatch and disclosure whatever we
+have learned here is actually
+implemented in the design decision of
+the redux as well so again a whole lot
+of libraries and framework which are
+really like the go-to way of doing a lot
+of things and react and angular uses
+these things behind the scene they are
+just closure so again they have a whole
+lot of in detail in-depth analysis about
+it and a whole lot of discussion which a
+lot of geeky hell people likes to have
+it just like me but again you don't need
+to go to much of depth but just to give
+you a fact that these two paranthesis
+syntax is pretty common in redux and
+this is all coming up because of the
+closure involvement and you're gonna see
+them a lot it's not like and talking all
+about this for fancy stuff these are
+actually being used almost every place
+ok quite a lot of information in just
+mini video so hit that subscribe and
+let's catch up in the next one
+[Music]

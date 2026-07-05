@@ -1,0 +1,308 @@
+hey there everyone atheist here back
+again with another video and somehow in
+the last video the free the frame of
+this video set that we are filming here
+got froze and in the middle of the video
+so half of the video is me talking half
+of the video just the screen but yeah we
+can't do anything about it so in this
+video we will be focusing more on the
+styling part of it and I'll try to walk
+you through with a couple of examples of
+how we can actually have these settings
+and all of that so right now this is the
+basic card we have done the styling uh I
+would not say we have done the styling I
+would rather say that we have done the
+basics the Styles uh properties are
+there but we haven't written any style
+so that it can actually take a great
+shape and this is a great example of how
+we can actually make things uh come to
+the life just within a second so let's
+first focus with the heading text you
+can go all crazy up here and can try out
+different things I'll just go with the
+font size I'll go with the very Basics
+so I'll just go for the 24 of the font
+size
+looks decent to me I would then go up
+with the font styling of let's put a
+weight onto this one so I'll say font
+weight and then we're going to go ahead
+and say bold
+all right save this looks decent and
+let's also give it a padding this time I
+want to give a padding on the horizontal
+so I'll just go ahead and say eight
+and there we go we can give padding a
+vertical as well in case this is looking
+too uh or we can give a a little bit of
+a margin from the top to the image
+whatever same uh say make sense to you
+or whatever feels good you can go ahead
+and work on with that now further we
+have some stylings that we can do to the
+card itself so notice here we have a
+card and we have a card elevation
+elevation we'll be using majorly for uh
+just some things like shadows and all of
+that let's first focus on the card
+itself so the major thing that will
+shape up the card is going to be the
+height and width let's try uh 350.
+and this is the card width and let's
+also wrap up the height of this card as
+well so we're going to go ahead and say
+uh probably 360. you can play around
+with the number that how it looks like
+and how it's going to go uh so this is
+good enough let's try to give it a bit
+of a border radius as well uh so we're
+gonna go ahead and say border radius and
+let's try not much but the six right now
+this is not visible this will be much
+more visible as we go ahead and move on
+the card elevation as well let's try to
+give a little bit of the margins as well
+so
+let's go ahead and remove this go up
+here and say margin vertical
+and will also give a margin of
+horizontal as well so we'll say 12 here
+so that shrinks a little bit and will
+also give a margin horizontal not Max
+height
+margin horizontal and let's also give it
+a 16. let's see what it looks like uh
+decent notice here that my simulator is
+a little bit off here on the screen so
+this is now coming up to a shape of what
+a card should look like we can also try
+a little bit of the elevated now
+elevated is usually the properties that
+I keep for myself whenever I need to
+give some elevation kind of a things
+like Shadows or anything or any such
+properties like that so let's go ahead
+and give it some background colors and
+all of that so let's come up here and
+we'll say background color and we'll go
+with the white definitely we can come up
+and change this later on
+so this is the card that's looking like
+almost now giving us a shape that yes
+the card is there obviously we need to
+give some images properties as well for
+the rounded corners and everything but
+good enough let's also give uh can we
+give a color to this one
+uh not really I guess
+let's try this
+color and we'll be going with the let's
+see
+save that and this is not going to take
+any impact because we need to probably
+say individual onto this color so this
+doesn't work like that again I don't
+know everything these are things which
+you try hit run and all of that so let's
+go ahead and try with the elevation
+and we'll give it a number of three so
+that some elevation card elevation uh
+it's little bit off from the screen so
+notice it just adds these black layer at
+the bottom that's what the elevation
+does let's try a shadow offset
+shadow
+offset and again this is a property
+again so it needs a width and height
+will give it a width of 1 and we'll give
+it a height of 1. that's all
+and that's all we can again come back
+onto this one with the shadow colors and
+Shadow width and all of that now let's
+go ahead and try to play around with a
+little bit of the images okay because
+this is something which might be
+bothering to a lot of you because these
+Corners are not rounded so that's that's
+understandable very much understandable
+let's go ahead and first try to give a
+margin from the bottom so
+just going up here margin bottom and
+let's try eight
+and uh there we go we cannot see as of
+now because we haven't got this card
+title and all of that any color so let's
+go ahead and first fix that so we're
+going to go ahead and give it a color
+and we'll say
+so car title is here and we'll be
+copying and pasting this to all of this
+card label uh description and to footer
+you can play around with the different
+colors I'm just pushing this so that you
+can see that when we say margin bottom
+of 0 and 8 this is what it's making a
+difference it was little bit difficult
+to see in the first place but now it is
+much more visible let's try to give a
+little bit of the radius so here's an
+interesting property about the image
+that you can give a margin
+on the top uh margin top left
+now it's not margin actually it's a
+border
+yeah border this is what I was talking
+about so border
+top left radius so this is the property
+that you can give so on the top hand
+side on the left you can give about a
+radius in case you are in the images so
+notice here it rounds the corner so yes
+very interesting property that you can
+control each individual element with
+these properties similarly we can go
+ahead and say border top right radius
+and we can go ahead and give six or we
+can go Fancy with the 26 and you get the
+idea how this is all going on but I'll
+not go that much fancy I'll just keep it
+with the basics so there we go card
+image is nice now let's go with the card
+body this is where we can play around
+because if you remember the card body is
+actually something which is
+encapsulating all the other elements so
+you can play around a lot here with the
+flexbox and that's one of the reasons
+why we always put it into a card body
+let's play around with that by having a
+flex property we will say Flex one and I
+gave you an assignment in the last video
+to study a little bit about the flex
+grow we're gonna go ahead and say Flex
+crew of 1 here as well and let's also
+add some padding so padding horizontal
+to be 12. let's save this and there we
+go we got the padding up here try to
+give me in the comment section what does
+the flex grow in the last video I show
+you some documentation what does the
+flex grow does and probably you might
+want to tell me in the comment section
+what it does and tag me up on Twitter or
+Instagram answer this all right now
+let's go on to the title
+titles should look like a title so let's
+go ahead and put up some the font size
+so font size I think 22 would be good
+enough yeah this looks like a title and
+let's also add a font weight so font
+weight and we obviously will be going
+with the Bold here
+there we go looking already much
+beautiful and let's add a little bit of
+the margin bottom so margin bottom
+that's going to be
+four
+yep or maybe six
+yeah better okay then we have a card
+label now this is a card label so we'll
+be having same properties like font size
+so let's copy this and
+paste this
+have it here this one could be a little
+bit like somewhat 16 or something so it
+looks like yeah this is a title we'll be
+having a little bit of a shorter font
+font size for the description as well
+let's go ahead and give it a font size
+of uh 16 card label could be
+14
+yep and this could be
+12 maybe
+yeah good enough all right
+okay so this is let's go back on to
+First the car title so car title is
+looking good so whatever all the
+properties that we wanted to have on
+this title I think we are happy with
+this then we move ahead into the card
+label let's try to add a margin bottom
+to this one so margin bottom so it is
+separated a little bit so this is four
+there we go looking good enough I think
+the margin bottom should be 4 here as
+well just playing around it with a
+little bit of eyeballing and this could
+be six
+yep good enough then we have the card
+description and uh we'll be having a
+little bit of a margin bottom so we'll
+copy this
+and just place it up here and this one
+could have a margin bottom of 12.
+there we go looking nice and what else
+can we do is
+we can have more properties here for
+example we can have a flex shrink
+of one onto this one and not doing much
+as a flex shrink in this case but we
+could have moved this onto a different
+places we can have like for example we
+can have in this card description I want
+to have a margin top as well
+margin top
+of maybe six
+yep now looking much better we can also
+choose a bit of a different color so
+that will actually make sense let's go
+to
+one of my old website UI Color Picker
+and from here we can actually select
+some of a different shade of a color
+which this will make sense so I'll just
+copy this go back onto this one and the
+description can have a better color
+there we go
+could be a little bit darker one let's
+try
+a little bit different yeah this one
+will be better let's try this one and we
+can have a card description color save
+that Yep this one is making sense
+all right so now this is looking more of
+a like a card and we can have more of
+these cards the the great idea about
+this is we can have as many cards as we
+like and we already have this scrolling
+icon so notice here just with a quick
+few things we were able to create cards
+which are nice and easier and obviously
+you can play around with them make them
+much more beautiful if you like Hawa
+Mahal to be on the center how you can do
+it that's an assignment maybe you want
+pink City to be just below this or on
+the right hand side maybe this 12 minute
+survey should be on the right hand side
+or at the center of the card how you can
+do that
+see you need to learn one thing that I
+cannot just go ahead stand here and show
+you all the things although I can but
+that would not be your learning your
+learning will come only and only when
+you are going to experiment read a
+little bit more of the documentation and
+figure out things as you go that's how
+we go and just by watching this video
+you have understood and learned a lot
+about the properties that you can go
+ahead and do that so that later on when
+I do it's a much faster learning
+experience for you so that's all what
+we'll be doing for this particular video
+let's catch up in the next one

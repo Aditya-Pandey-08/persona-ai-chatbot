@@ -1,0 +1,253 @@
+hey there everyone it's here back again
+with another video and in this video
+we're going to be talking about the two
+more topics which are again belongs to
+the same category of type narrowing and
+the first one is easy the second one
+takes a couple of minutes to actually
+adjust but it's also easy not to worry
+I'm here everything is going to be easy
+so not to worry on that part I hope you
+are enjoying the series if yes do share
+it up with all of your friends and hit
+that subscribe in case you want to okay
+let's go ahead and talk about the two
+more type of how we can narrow down the
+type this entire portion of the series
+is about how we can go into the more
+preciseness of the type so that we can
+take better action and that's what the
+typescript is all about getting the
+types all narrowed down so let me walk
+you through with the documentation again
+and these all examples that we'll be
+talking through some portion of these
+examples come from the documentation but
+I've modified them a little bit for the
+easier understanding but yes the source
+is always documentation so the next in
+the line is the instance off so this is
+how further down you can narrow wrote
+down the things and they just do mention
+the Prototype and all of that but the
+idea is the focus of your attention
+should be on anything that is or that
+can be constructed with the new keyword
+that's where this instance off actually
+comes into the picture so uh this is a
+common keyword it's something that is
+obviously uh there so you can just go
+ahead and check out anything is X is an
+instant of date so uh anything just you
+can use new keyword like we create a lot
+of classes we can also create arrays
+with the new keyword we can create
+objects with a new keyword all of that
+that can be find out I'll just borrow
+this code into the code reader so I can
+just show you a little bit more so we
+have gone through with this one so this
+is an instance off now again in the
+value they says hey this is a parameter
+and all that we'll just get rid of that
+because we don't need this parameter we
+don't need this part Let's uh let's
+adjust this code a little bit so it's
+easier to understand
+and there we go all right so what this
+function is doing it's a log value now
+notice here this x can be a date or can
+be a string so how can we find a date
+because remember date can be easily
+created any type of variable can be
+created just by saying new and then we
+create a date just like that a new date
+is being created similar to that you can
+actually go ahead and create an array
+like this so anything that uses this
+queue new keyword is uh there and this
+keyword instance of is almost like not
+literally but almost like type of type
+of checks you for the default types
+instance of check you whether this
+object was an instance of some class or
+maybe some uh something like that so
+here we checked whether the x is an
+instance of date so it just returns it
+true if that returns it true we are able
+to further narrow it down now notice
+here if I come up here we are 100 sure
+that X is going to be date in this case
+and in the other case it's going to be a
+string so yes this is also a valuable
+keyword where the type of doesn't really
+cut through there you can check whether
+this is instance off and again remember
+from the docs it can only be used where
+there is a new keyword that there is a
+potential of having a new keyword so
+this is the easy part now coming up on
+the part which is little bit tricky
+which is the type predicates okay uh
+this is where typescript has nothing to
+do it's a bit of a logical flaw not flaw
+I wouldn't say but a logical uh kind of
+a flow that goes through and which
+sometimes matches and it introduces a
+new set of keyword let me show you and
+again we're going to be using the same
+example that is given up here pet fish
+and all of that so we'll just just gonna
+literally line by line write this
+keyword but then we're only going to
+write this much and then to understand
+it we are going to use our own functions
+okay but first let's go ahead and use
+this one so we're gonna go ahead and say
+function
+and this function there we go in this
+function we're going to say get food
+there we go and before we actually go
+ahead and Define this get food and stuff
+we need to actually have a fish so again
+this is all coming up from the
+documentation not making anything up so
+there we go so this is a fish and we're
+defining a type of it which is going to
+be like this and we're going to say that
+hey you are going to have a method of
+swim and this is going to be a method
+like that this is not going to return
+anything so we're going to go ahead and
+say wide so this is really simple we're
+going to go ahead and put a semicolon
+duplicate that this is not a fish this
+is a bird and a bird don't swim they
+actually fly so we're going to have a
+fly method now we have two types just
+like we had interface we could have type
+again both the same values and based on
+this now we can use an example that was
+given to us in documentation so we're
+going to go ahead and create a method
+which says is fish so obviously just
+like we had method like is admin this is
+a method which is going to validate
+whether the input value was given is a
+Fisher
+really simple uh it could be any
+variable well whatever you want to say
+it could be either a fish or it could be
+a bird so these are two values
+now what we want that this function
+should return as a true or false value
+now how they do it in the documentation
+is a little bit of a typecasting pet as
+fish and all of that so let me walk you
+through so what they do is first they
+say that pet let's cast this as fish so
+just like that let's wrap this up inside
+a parenthesis once you actually do this
+then they try to check the method so
+fish has a method of dot swim and if
+that method exists that means it cannot
+be unidentified so we're gonna say if
+that is not equal to
+undefined did I say it unidentified I
+mean to say undefined okay so what we're
+going to do is we're gonna simply go
+ahead and say return there all right so
+really simple yet a little bit more of
+the code that is involved but here we
+are saying pet is a fish if it has a
+method of dot swim that is not undefined
+then true it is a fish so that is
+exactly what they are doing and they are
+exactly saying like this but things
+actually change a little bit so let's
+try to use this this much so far we have
+got the code from the documentation but
+let's try to implement that so further
+down the road I try to get some food for
+the fish so let's go ahead and get some
+food for the fish and I know that the
+food is different for fish and for birds
+so Pat is going to be type of either
+fish that might come or it could be a
+bird
+all right now since I have the access of
+this method which is is fish I can use
+an if and else condition here I can go
+ahead and simply say is fish which is a
+method available to me and I can pass on
+this pet here okay so far no problem and
+if that is the case then here if I go on
+to line 66 I'm 100 sure that whatever
+the value of the pet comes up that has
+already been identified for true for the
+fish case now let's go ahead and say
+that if this is the case then we are
+going to return as a fish food and if
+not then obviously it is a bird so we're
+going to go ahead and return this is a
+bird food I don't know what to call
+fission but I'll also say this pet here
+now in theory if we have defined it so
+well and we have done this so much this
+is coming up directly from the
+documentation by the time we reach line
+66 the pet should be identified as truly
+as fish and on the line 69 it should be
+identified truly as bird but that is not
+the case if I hover over this pet it is
+still confused typescript is still
+confused whether this is a fish or a
+bird here also goes same that it is a
+fish or a bird so still the value or the
+type of the value is not being
+identified although it is not giving us
+any error it will still work as it is
+fine but this method is truly not
+behaving because what this method is
+returning is a true and false value
+which is a Boolean in this in the case
+so returning a Boolean that is fine
+notice here it is returning a Boolean it
+is not returning me a type of fish or a
+bird okay so what does the documentation
+says documentation says that you can use
+pet is fish so you can instead of
+returning a Boolean you can use the
+syntax of pet is fish that means you are
+typecasting it as a particular type for
+example I can come up here since here on
+the line number 60. I'm 100 sure that if
+this returns as true then I'm sure the
+return type is fish and again you have
+to use a colon here my bad there we go
+so this is a bit of a new syntax but now
+you get the idea the True Value
+returning Boolean is not going to cut
+through in this special case but if you
+go ahead and return the type which could
+be fish or anything else in your case is
+now a guarantee that we are returning
+truly not as true but actually as a fish
+when I come here now we are identifying
+that we are returning a fish or we are
+returning a bird I guess this is a
+little bit of a weird syntax but this is
+fantastic how they have implemented it
+mind boggling but really really I
+absolutely love that how they have
+defined it yes the documentation is also
+almost like that but I have just tried
+to break it down this one is not so
+great explanatory I've just modified
+this example but again everything is
+coming from the documentation we don't
+learn anything from elsewhere it's just
+documentation so I hope you have enjoyed
+this one I'm super happy that you are
+hit that subscribe button and let's
+catch up in the next one

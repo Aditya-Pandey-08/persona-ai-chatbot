@@ -1,0 +1,222 @@
+hi this is zes and welcome to the ns3
+video guide now I was working with the
+network simulator third version and I
+faced a lot of problem while installing
+it and working on it so I thought let's
+make out some videos so that other
+people uh should not face these kinds of
+problems now first of all what is ns3
+and when you before uh get started with
+the ns3 you should be visiting this
+website NSN
+am.org and why should you choose the ns3
+the first question arises out here now
+you might be working with some of the
+protocols you want to redesign or
+reinvent your protocols want to imple
+implement them or maybe simulate them
+ns3 is the choice of preference for all
+of such work because first of all it
+comes up with an open source version and
+open source is always going to be the
+choice of preference out there so you
+want to redesign some protocol you want
+to implement them test them how much
+efficient they are how much power
+consumption they are taking and all of
+such things can be work out on the
+ns3 now in these couple of videos I'm
+going to talk about the installation and
+what are the problems you can face up
+with them now definitely it's not going
+to be a very long series out there just
+like my other series but it will
+definitely will help you a lot so let's
+talk about the ns3 and I would again
+recommend that before starting go ahead
+and visit their official website so that
+you can take a deep look what's getting
+out there now first of all let's talk
+about the prerequisite what you should
+have before working on with the ns3 now
+I would not recommend that you should go
+ahead and install ns3 on your windows
+based platform or your Mac based
+platform so you should be aware with
+some of the Linux Basics don't expect me
+to go ahead and uh create a series along
+with this for a Linux 101 series it is
+not going to be that you should be aware
+of some Linux Basics again I'm not
+saying that you should be a master of
+Linux but some Linux Basics would
+definitely would help you like you
+should be able to Traverse along the
+directories creating some directories
+listening some of the files and all of
+that so Linux Basics is again a pretty
+requisite after that you should have
+some basics of programming language
+again you need not to be a master but
+some of the basics about C++ would be a
+charm to work on with the ns3 you could
+also go up with the C or maybe the
+python again would be a great choice but
+some Basics need need to be out there
+after that you should be aware of the
+some of the networking basics of course
+you are going to design a new protocol
+maybe on the wired Wireless want to test
+out some of the fields how to change up
+the fields so you should be aware with
+the some networking Basics again you
+should not be mastering any of them go
+ahead and start the ns3 but these are
+the prerequisite you should have along
+with that now after having the
+prerequisite there are some tools of war
+that you should have to play around with
+this war now you are maybe onto your
+windows or your Mac but you don't want
+to make sure that you are installing
+directly onto your system there is a
+reason behind that now I have many
+important files on my computer and since
+I'm going to work with some new things
+there are high chances you may corrupt
+out your windows or your backc and you
+don't want to lose your all of your
+important files so what we're going to
+do we're going to take up a software and
+we are going to install entire operating
+system onto top of their software now
+the great reason behind doing so is when
+anything goes wrong with your virtual
+environment you can simply uninstall
+that software and your original machine
+is going to be safe out there so there
+are a variety of choices when you are
+working with that the first choice is
+the VMware again my favorite choice
+always out there now there is there are
+two types of version being available
+with the VMware the first one is the
+VMware Player which which you can simply
+go ahead and download from this link and
+the reason why I'm showing the VM Player
+version is because it's free and free is
+always going to be the best choice now
+if you're a professor at any
+Universities or want to go ahead some
+spend some of the Decades with the uh
+these kinds of network simulation and
+all of that I would recommend you to go
+ahead and buy the
+workstation workstation is really a
+charm of work and you would definitely
+not regret every penny being spent with
+the workstation but no uh such pinky
+promises out there you can go ahead and
+install the VM player as well if you're
+not comfortable with the VM player there
+is another Choice the virtual box and it
+is being run and governed by the Oracle
+you can simply go ahead and download
+that as well but for all of my video
+purposes I'm going to use the VMware
+Player version for the Mac User you can
+have the parallel or maybe the fusion
+you can simply go ahead and download the
+the fusion version of the Mac from this
+link I have shortened the URL so you can
+simply go ahead and install that as well
+again Fusion is a paid version but
+definitely a charm to work on with now
+after these tools of War what we are
+going to use is we are going to talk
+about with the Ubuntu version now there
+are great other choices like Fedora
+maybe Mint or other Linux version you
+can work on with but yubu will save you
+a lot of time it is being highly
+compatible with the ns3 so you can go
+ahead and go with that now for the
+Ubuntu you have got a lot of choices
+like there is a desktop version there is
+a server version but uh during uh some
+of the problems that I have faced in the
+past while working with ns3 I would
+recommend you to go ahead and download
+the server version there is hardly any
+difference you will face at the first
+time and you will not notice any kind of
+difference between the server and the
+desktop version at the first go so
+definitely you can go ahead and got with
+the server version there are a couple of
+IDE that we are going to work with it
+now the IDS for our choice is going to
+be the eclipse but I would not say that
+you should go ahead and download that
+Eclipse right now because we are going
+to go ahead and take that onto the go so
+these are the tools of war that you
+should have now let me go ahead and uh
+check out the browser so that I can also
+show you the links from where you have
+to download the stuff now first of all
+here is the ns3 version that you should
+have now this is the
+ns3 that you can have simply now you
+should go ahead and definitely check
+with the ns3 after that there is a vmw
+now the player is very deep down inside
+so you have to scroll a lot and at the
+bottom you will find there is a player
+version which is absolutely free you can
+simply download the product and install
+that on your system definitely I'm not
+going to make a video for the
+installation of VM player because that's
+a simply exe file just double click on
+it go next next I agree and simply stuff
+like that and if you cannot do that you
+should definitely not be watching this
+series because this series is not going
+to teach you how to install a simple
+piece of software on
+Windows then we have got the virtual box
+there are variety of version for the
+virtual box for the Mac users for the
+Linux users for the windows user go
+ahead and download any of that uh shown
+here after that there is a fusion also
+you can download the fusion just from
+here and can install that for the Mac
+users and here is our ubun 2 and I would
+definitely say again that you should be
+go you should go ahead and install the
+server version and here is the LTS
+version which you can simply see here
+that is a long-term support version and
+definitely the choice now again a very
+simple uh thing that you should know
+before going on to the virtualization is
+that go ahead and download the 32-bit
+version of the yubu now there is a
+reason behind that because your system
+may be 64-bit or maybe 34- bit but since
+you're going to do a lot of
+virtualization and you're going to
+install all of these things onto top of
+a software that 32-bit version is again
+recommended so go ahead and download the
+Tedd toit version of the Ubuntu maybe
+desktop or maybe server that's again a
+choice of prefer for you go ahead and
+download any of that but make sure that
+you download the 32-bit version for the
+very beginner go so let's check out the
+next video so that we can work out on
+the installation of youan 2
+[Music]

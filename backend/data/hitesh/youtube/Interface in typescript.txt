@@ -1,0 +1,285 @@
+hey there everyone this year back again
+with another video and in this video
+we'll talk about interfaces in
+typescript now interfaces are pretty
+cool in typescript and yes I would 100
+agree they sound exactly similar to type
+that we have already studied in the
+typescript
+so they almost are identical and that is
+why it is required at least two or maybe
+three videos to finally understand where
+the interfaces are and why these are
+being so much used into the world of
+typescript now before we move forward
+make sure you hit that subscribe Button
+as well as forward these playlists
+entirely into your WhatsApp group into
+your college group so that everybody can
+take advantage that would be really
+really beneficial for me and you both of
+us let's move ahead and talk about
+interfaces so let me take you on to my
+screen we have created a new file my
+interface dot TS and yes you'll find a
+lot of similarities between that so yes
+I do understand that part and we'll take
+care of what is the differences between
+them the versus part and all of that but
+right now let's go ahead and just talk
+about the interface so yes it starts
+with the keyword interface and let's
+just say let's try to assume a scenario
+you're creating a new user and this user
+has some of the properties like maybe
+email maybe a user ID maybe there's a
+Google login maybe there is a database
+ID as well and you are trying to start a
+trial for this user for whatever the
+services you are you are actually
+selling and also you want to give him
+some discount code as well so this much
+of the scenario will help us to get an
+entire overview of how things are going
+to be there so I think that's a good
+scenario to understand the interfaces
+Bit by Bit And Pieces by pieces so
+moving further let's just say we call
+this one as simply user feel free to
+call it whatever you like and we have a
+user so let's just say user starts with
+an email that is going to be a simple
+string and we'll be saying that you
+should also have a user ID and that will
+be a number
+all right and yes I do agree you might
+be saying hey let's go ahead and create
+a type of this and then call this like
+that and yep that also exists and that
+also works uh but we are not here for
+type we'll go through with the
+differences between them in the next
+video but right now let's just jump back
+into interface that yes now interface is
+more like a scenario or kind of a like
+interface doesn't have those
+nitty-gritty and details of how it will
+work but these are basic overview of
+that whenever you're creating a user
+these are the field which are compulsory
+these are the methods which are
+compulsory now how you implement them
+that is totally up to you but interface
+yes Loosely you can say it's smooth like
+a class but yeah lose form of class very
+broad overview a very superficial view
+it will ask you it will force you that
+there should be a method it the name
+should be the same but it doesn't say
+what should you do inside it it just has
+a basic protocol things that hey this is
+uh I expect this is or what it's
+supposed to do but it helps a lot in the
+code and especially in the long and
+really bulky code that this helps helps
+a lot so let's try to create a user so
+let's just say we create a user hitesh
+and let's just Define that that this is
+going to be a type of user as soon as I
+do this this creates a problem that hey
+if they should be a type of user empty
+parenthesis nope that's not going to
+work because you are messing up uh email
+and the user ID so if I go ahead and say
+email ID is going to be let's just say h
+at the rate h.com and of course we need
+a user ID that will be 2211 whatever
+that is okay
+this is great this is really valid maybe
+let's just say user is also trying to
+log in from the Google and he does have
+a Google ID so we'll be saying Google ID
+Google token whatever that is but I'm
+not sure it might be not as compulsory
+there is a email and password login as
+well so you can obviously use these
+fields which we have used in the past as
+well so this is now optional you pass it
+great you don't pass it nobody's going
+to stop you and there are also read-only
+fields which we have already seen in the
+past so read only can be something like
+a DB ID so there is a database ID you
+don't want to change it it should be
+number it's not optional so obviously
+you have to fill it so we're going to
+say that DB
+ah ID and that one will be a number so
+I'll be saying to do yeah that that's
+the database ID now the advantage of the
+read-only is same as what we have
+studied in the past hope you have
+watched that video so for example if I
+go ahead and say email
+that email is going to be let's just say
+I
+changed my mind and I say it's going to
+be etch at the rate hc.com I wish I
+would have that domain but if I go ahead
+and try to manipulate any of the
+read-only values for example dbid and
+change it from two to three three it's
+not allowed you get the idea this is
+really basic we have seen this and done
+this in the past as well now what makes
+interfaces really interesting is the
+definition of the functions and there
+are a couple of ways how you actually
+Define it let's start with the trial
+user so we're going to say there is a
+start trial and you want to provide a
+method for that so start trial and there
+are a couple of ways how you define the
+method the first one is the boring one I
+don't like it much second one I like
+more so the first method is you define a
+name and then you say hey this is going
+to be a method there can be written type
+of void or string whatever that is let's
+start with the string so now as soon as
+you create a user type of hitesh you
+need to provide a method here as well
+that needs to be there so let's just go
+ahead and say start trial something like
+this and this needs to be a method that
+is compulsory you cannot just go ahead
+and say hey for because it's it's not
+allowed it will pop you that Hey
+whenever you're creating this this needs
+to be a function which returns a string
+as well so it's really easy to Define
+that so what we can do is we can just go
+ahead put up a colon and say hey this is
+going to be a method and there we go now
+only compulsory part onto US is to
+return a string so we'll be saying
+something like trial started that's it
+and that's pretty much it that's all it
+is right now and yes of course there
+could be more logic inside it but this
+series is not about logic building this
+is more about getting friendly with the
+typescript now there is another way of
+doing this which is something that I
+like more because it's much more clear
+to understand I'll be saying let's just
+say trial and what you can do in this
+one is you can just put a parenthesis
+just here and this makes more clarity
+actually to me that this is not going to
+be anything this is going to be always
+in method and then after that you define
+what type of data it is going to return
+it might return nothing it might return
+any uh badly any but you can just go
+ahead and say string now if I go ahead
+and try to return something like two it
+will say hey what are you doing you
+shouldn't be doing that you should be
+returning a string so yeah that is one
+of the way this is my favorite way but
+again let me know in the comment section
+which is your favorite way maybe you
+like it more this is more something that
+is making sense to you now last but not
+the least is remaining is the discount
+code so let's just say user wants to get
+a coupon so we're gonna say get coupon
+these days it's a very sales tactical
+world so get coupon and coupon should
+have a name so let's just say we are
+saying coupon name and that name is
+going to be in the string and the return
+type is going to be a number
+number there we go
+now obviously we have to put up this
+method now get coupon and there is
+something really interesting in this one
+which typescript allows you to do is
+first let's get coupon and then again
+this should be a method which is going
+to return a number so let's just say we
+are going to go ahead and say return uh
+10 because you get a 10 off but notice
+here uh right now you're saying hey you
+should take a parameter of string right
+now it's saying hey user.getcoupon so it
+should be a method so right now it's not
+popping us anything but in in
+technicality you should be providing a
+name which is a compulsory one you
+should always get that and I'm pretty
+sure by doing a little bit of The Tweak
+settings and stuff it will yell at us
+now interestingly you should always
+provide a coupon name and let me show
+you something interesting I can just go
+ahead and say name and then I can
+provide something like this there we go
+h10 something like this and this is
+allowed this is totally loud you don't
+need to match this name with whatever
+the name you are providing it is just a
+reference that hey you are providing a
+coupon name which should be a string and
+you should always provide that that is
+the whole idea you can go ahead and
+provide a value as well which should be
+a number and now it is expecting that
+there should be two values that you
+should pass on here now right now it is
+uh
+are not giving you anything but you can
+just go ahead and say off and if I go
+ahead and try to put up something like
+string like this notice here it says hey
+no you're not allowed to do so you can
+totally avoid it or if you're passing it
+up let's just say you have to give a
+number so that is 10 because it's a 10
+off so you get the idea that how this is
+being done and again uh these are all
+compulsory parameters that we're passing
+on right now and this gives a brief idea
+of how to define interface again use
+cases always helps us to get things more
+readable but again interface is not done
+yet we need to have a little bit more
+discussion about interface you can
+easily get it confused with the types
+but yes these things makes it a little
+bit more powerful and one thing to note
+here one thing very important to note
+here start tile is a method which
+returns a string it doesn't force me
+that how you are starting the trial and
+it is also making me compulsory that
+whenever you're using the sitesh
+creating that there should be a method
+start trial and you should return a
+string no matter what logic you put up I
+really don't care so this interface is
+always like in like an interface like
+for example your operating system is an
+interface for Hardware it doesn't allow
+you that when you click a button how
+does it happen you don't know and you
+don't care about it you just know if I
+click on this something happens if I
+double click on a folder it opens up how
+it does behind the scene what methods
+are being called you don't care so that
+is an interface and that is exactly the
+same interface in the typescript as well
+let's go ahead and catch up in the next
+video

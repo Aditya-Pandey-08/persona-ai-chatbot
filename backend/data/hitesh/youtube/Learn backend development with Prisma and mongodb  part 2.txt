@@ -1,0 +1,1119 @@
+all right
+hey there everyone tesh here and welcome
+to another late night stream of live
+coding uh we're trying to learn the
+back-end development with prisma
+i took another session yesterday and
+those who haven't joined that i'll walk
+you through a little bit brief overview
+for that and we'll continue from there
+onwards yesterday we did a prisma setup
+we did uh worked on the jwt tokens
+cookies and even signed up one of the
+user as well so we'll be working and
+we'll be going through with that
+so i hope you're doing good uh hey rahul
+full pumped up for tomorrow uh for a dsa
+course uh yep that also is going to roll
+out tomorrow uh i'll be having another
+co-instructor uh she's very talented and
+she's going to be taking majority of the
+lead yes i'll be there as well
+so
+that part we are going to take up
+tomorrow
+and yep we'll be taking more questions
+as well because these are the sessions
+in which i do teaching a lot first so
+that's why a lot of people who are just
+not interested in the learning part
+they're usually gone and only the
+interested people are there in this
+stream so we're gonna be working through
+with that uh hey muthu how are you doing
+it's been a while hope you're doing good
+and
+all this so
+uh hello hey hey hey everyone hope you
+are doing good
+hope you are all excited for today's
+session should i give you a brief
+summary and overview first and then we
+can get started with that would you like
+to have a small
+recap of what we did yesterday
+let me know in the comments if you want
+to have a recap of uh yesterday what we
+did and then we can proceed further so
+that all the people who are re-watching
+these videos can actually
+just make a small sense of it
+all right
+so these are actually very meaningful
+session instead of just having a
+discussion section we'll do that that
+are also good but these are way more
+advantageous because they actually help
+you to learn something
+okay uh ah great nathan says i got
+internship offer from qualcomm qualcomm
+is a good company for software
+ah that's that's great congratulations
+to you
+uh so okay a lot of people are here uh
+so jimmy says yes uh a recap would be
+great okay let's get started with the
+prisma and how we're gonna get with that
+so let me share my screen and get
+get back on to that
+so
+okay so this is the screen uh that we
+have and let me just go with that okay
+all right so what we have here is
+yesterday we studied about prisma and
+how to install the prisma and whole
+bunch of other things as well so we'll
+be going with that and let me walk you
+through so first we started with the
+basic of installation so we installed
+express and then we worked into index.js
+we simply got imported these express and
+then we created an app from express and
+we simply said that hey these are the
+middleware so that i can inject any json
+data so that is what we did yesterday
+then we created a simple route that
+simply says if you hit the route slash
+it gives you a high from youtube so
+that's what we did and how we got
+started
+and
+again somebody's saying zoom full screen
+hey probably it's time that you watch it
+on your
+desktop or something let me just go
+ahead and crop this hope this is good
+now
+okay
+so what we did after that we installed
+prisma i walked you through how the
+steps of prisma installation is and we
+did a detailed walkthrough
+of the prisma
+and i walked you through that how we can
+actually have a prisma and have a
+database source of mongodb and we
+connected the mongodb from atlas
+and we created these models we studied
+them in detail model user and model post
+we have customized these models for
+having slug title body author author id
+and we established a relation one to
+many relation with that so that is what
+we have done so far
+after that we realized that we need a
+couple of helping packages so we went
+into utils
+first we actually created a jwt token so
+for that we actually went up into
+helpers and this is how we generated a
+token a jwt token but then we realized
+we will be injecting this token through
+the cookies so we created a helper
+utility file which is cookie token
+and this takes a user and a response and
+response was set into the cookie we made
+these cookies as http only so that only
+server can manipulate these cookies
+and then we started working on the
+controllers so in the user controller we
+worked on the sign up mechanism through
+the prisma so prisma is a simple tool
+that allows you to connect with your
+database and you don't have to worry
+about is it a mongodb or any other kind
+of a db the setup is same for sql server
+setup is same for nosql so any kind of
+nosql data works and instead of
+remembering the mongodb itself creation
+of the process we can use something like
+prisma.user.create
+and can pass on the data we studied that
+from the documentation yesterday and
+then we are just using cookietoken to
+just sign up a user and we tried and
+tested it out using uh the postman as
+well so let me go up here and we tried
+up a sign up with that uh in the last
+time we can actually go ahead and try
+this again in the body we signed up with
+a youtube user this is another day so
+let's go ahead and sign up with google
+and this is going to be simply
+google.gmail.com
+password is also going to be google we
+tried how we can actually run that send
+it up sending a request and as we send
+the request we get a success so let me
+go ahead and zoom this a little bit
+so there we go so this is where we are
+getting the zoom so uh nice love that so
+we are getting a success of true and
+then we are getting a token a user an id
+and all of that now i showed you earlier
+that this all is coming up because in
+this token
+when we are having this
+cookie token
+remember we actually said that uh user
+password is going to be equal to
+undefined
+that is the reason inside my postman we
+are not getting this otherwise we are
+transferring this user this should all
+be getting up here
+okay all right so this is all good
+and uh
+screen gone black is it
+when i'm zooming is the screen going
+black or is it able to zoom properly can
+anybody know let me know in the comment
+section when i'm zooming what is
+happening
+okay
+okay screen is going black or is it all
+good when i zoom in let me know in the
+comments
+i'm waiting for you for your feedback
+is the zooming technique fine or is it
+just going all the way blank
+hey somebody can
+okay um
+is it black or is it zoomed
+it's fine okay no sir everything is fine
+okay great so that means i can zoom in
+and focus your attention on some part
+okay
+great so this is what we have achieved
+so far that we were able to use this
+token use jwt token and we were able to
+sign up a user remember we also did a
+little bit on the user router
+so we have this sign up which is having
+a post method which is doing a sign up
+great so far and in the index we
+actually created a route for it so this
+is the router and this is where the
+routing is done
+okay all right now we should be moving
+further uh that would be fantastic that
+if we can move further down the road now
+let's see how we can actually log in
+some of the user that would be fantastic
+one if we can log in some of the user in
+order to do the login can you tell me
+where should i write start writing the
+first because first of all the
+functionality of the login should come
+so where should i write functionality
+can anybody tell me in the comments that
+would be great if you can help me a
+little bit to complete this project that
+would be great
+okay waiting for you
+okay so just let me know where can we
+actually write this
+okay all right
+so let's go into user controller and try
+to write that so this was my user signup
+i'll just shrink this up and then we're
+going to go ahead and simply say that we
+need to have another one
+so
+and
+we'll be going for a login user
+okay so how the login is going to work
+it should be pretty simple just like the
+previous one we're going to go ahead and
+replicate that we're going to go ahead
+and say hey let's use a method of login
+and what did i told you yesterday
+whenever we are interacting with the
+database what should we always remember
+can anybody tell me uh if you were
+present in the last class that would be
+great what happens if your database or
+if you are doing any uh connection with
+the database
+okay
+so how that can work whatever
+what did i told you yesterday
+that what happens when you interact with
+the database
+in case those who miss the class
+whenever there is a database interaction
+always assume that database is in some
+another continent that means
+any operation the database is supposedly
+happen in a sync way because it may take
+some of the time
+then all we got to do is request
+and response and maybe next in case you
+want to use it we will not be using it
+and then we can use a callback method
+okay
+so really simple we're going to go ahead
+and try catch
+this thing
+so with the try catch it should be
+really fairly fairly simple of doing the
+things we are just throwing an error so
+let's go ahead and say hey let's throw
+this and new error
+and here just let's just say whatever
+the error is we're gonna just handle
+that like this
+okay
+so moving forward how we can actually
+login into a user obviously we have to
+work with the try block of that
+now for this obviously we have to take
+some information from the user
+so we're going to say
+take info
+info
+from user so for that the information is
+going to come into request.body
+and what all the information you need to
+take i want to take email and
+oops
+email and uh password
+and this obviously is going to come in
+so let's store this as information so
+we're going to go ahead and go like this
+and we're going to say simply const okay
+so now we have extracted uh the
+information so that is great
+okay
+let's go up work uh more further we
+would like to check that both
+information should be there so let's use
+a simple if and else condition just if
+statement would be good if there is no
+email
+or if there is no uh password
+then we're gonna go ahead and simply we
+can just copy paste this one
+copy this paste this and instead of this
+error we'll be returning a customized
+error
+that says please
+provide
+email and password
+okay so this conditional or this check
+is fine now how can we log in a user
+now there are many users in our database
+so we have to find the unique user based
+on email so we can say find a user based
+on email okay so how we can do that now
+prisma gives you all of this information
+by really simple methods so all you have
+to do is first find that user because
+once we have found that user we have to
+actually call this cookie token and pass
+this so that rest of the thing can be
+done from yesterday's work whatever we
+did yesterday
+so let's go ahead and create a user
+that user will be given to us by a
+method known as prisma dot user whatever
+the database you are or collection you
+are interacting with
+and then we have a lot of methods so we
+have a find first find many find unique
+in this case find unique works really
+best for us because we want to find a
+unique user based on the email itself
+okay let's go ahead and provide the
+parameter that how this actually works
+now in this you can define
+the way how you write queries in
+in prisma is really simple all you got
+to do is you can simply write a where
+clause just like we do in other
+databases so really simple
+and i want to have an email so remember
+this email is we are catching up from
+the body itself so that is what we have
+passed on
+so this is what we have found but there
+are chances that there might be no user
+so just handle the case of
+when
+there is no user so in that case
+uh what we can do is let's just throw up
+an error so we're gonna say if there is
+no user
+then
+we can actually copy this yep that would
+be great
+copy that and paste it
+we can throw a simple something like no
+user found
+or user not found that would be great
+and there are also
+uh cases where the password doesn't
+match so let's handle the password
+mismatch although there are better ways
+of handling the password mismatch but
+let's just say we're going to say
+password miss match
+so same thing we can do
+we can just copy this and paste this
+condition here this time the condition
+is different the condition is going to
+be whatever the user it has all the
+property
+similarly we're going to get password if
+that doesn't equals to
+a password
+then we can throw up an error that
+password is
+incorrect
+i know there are better ways of storing
+the passwords and doing the things and
+all that but right now we're just going
+through with the very basics
+and uh we can do a lot of stuff with
+that assuming that we can have more of
+these validation checks and stuff let's
+just say let's just assume now that
+somehow a user is there and validated so
+you can provide more validations here
+i'm just trying to give you a brief
+overview of how to do a back-end
+development using prisma obviously it
+can improve a lot we can go ahead and
+say hey cookie token
+here is your user and here is your
+response so that you can send a cookie
+to anyone
+so now i think with this much of the
+things a user should be able to log in
+okay let's save this one but so far the
+route is not defined that how the user
+is going to actually
+do a login so for that i can go ahead
+and use user routes and i can just go
+ahead and duplicate this
+let's just say i want to have a login
+and user will be uh log
+in there we go
+as soon as i do this it automatically
+imports it up there
+and that's it that's it pretty much it i
+think within this much only a
+user actually should be able to log in
+okay uh since we are already here let's
+go ahead and define a logout route as
+well because that is going to be like
+super super easy uh to work on with and
+then we can define a route for that so
+at least our user route will be all
+completed
+okay so
+this part is all done so let's go ahead
+and minimize this so we our user is now
+signed up our user is logged in so let's
+go ahead and say that now we want to log
+out a user
+okay so let's go ahead and say export
+dot
+log out
+and this is also going to be simple
+async operation i'm pretty sure
+you are aware of this now
+and you are working with that
+okay
+so this is all great so far now let's go
+ahead and
+just log out so how we can log out the
+user can you give it a thought a moment
+that how this all is going to be there
+can anybody give it a thought small that
+how the log out is going to be done so
+so far if you notice in the log login
+the only thing which is
+keeping me logged in is the cookies and
+i can only manipulate the cookies
+uh through this
+server only because these are http only
+cookie
+so
+if i go ahead and from the server
+and remove this and somebody's saying
+hey please increase the audio the audio
+seems to be pretty much fine in my
+controller any more than this audio is
+going to give trouble to the people who
+are actually using audio gears and
+headphones probably your phone speakers
+is a little bit low so yes that is great
+uh we can actually go ahead and clear
+the cookies or remove the cookies and
+that should solve our problem and those
+people who are having the audio issues
+probably upgrade your uh audio a little
+bit or increase this because i think
+this is a perfectly fine audio that we
+have i cannot speak louder than this
+sorry
+okay
+so let's clear the cookies let's clear
+the cookies so async is going to be
+there and all we can do with the sync
+is let's go ahead and say hey this is
+going to be request this is going to be
+response we are not using
+uh this next but again now we don't need
+to call any helper methods for this one
+because again first let's try catch
+because it might throw up an error
+i'm pretty sure by this time you might
+be aware of this throw statement uh
+pretty much
+even if you are watching it for the
+first time you know what this statement
+is doing i'm pretty sure of it
+okay
+so
+now let's try so how we can clear the
+cookies
+clearing the cookies is really simple
+you don't need to call any method this
+response is able to clear the cookie and
+it has a by default method that you can
+go ahead and use cookie so there is a
+clear cookie i can use this method
+and i can just go ahead and say hey i'll
+be using a token so clear the cookie
+whose name is actually token that's all
+i have to say
+okay it is going to
+simply go ahead and find the cookie a
+cookie is actually stored into key value
+pairs so when i say clear cookie it is
+going to go ahead and look into your
+browser and will try to clear the cookie
+okay uh looks like theta is saying what
+are you trying to say hey d rich i think
+you were not there in yesterday's live
+stream and probably you didn't watched
+yesterday's live stream that's why a
+little bit difficulty that you are
+facing there so i think that should be
+fine
+okay now if this is all done then we
+also have to report a success a report a
+success as true so this is all done so
+further we can chain on another json
+response so we'll be saying adjacent uh
+now you can actually go ahead and do a
+status there are a couple of ways you
+can go ahead and do errors dot status
+of 200 because that's all okay and then
+you can send a json response
+just like that or you can go ahead and
+simply just raise a json response like
+this and inside this you can go ahead
+and say success is actually true so any
+indication to the front end based on
+what kind of documentation you're
+following what kind of company policies
+you're following you can simply go ahead
+and have this one here
+okay so that should be fine and should
+be all good
+and now users should be able to
+uh log in that's all that we have let's
+go ahead and define a route for that as
+well so we're going to go ahead and say
+that hey this is a route now the best
+part about this route is it doesn't need
+to be post route it can be a simple
+uh
+a get route that would be great so let's
+go ahead and say hey if anybody hits a
+route of logout obviously api slash
+logout then we have to go ahead and
+simply say hey just go ahead and do a
+out
+it doesn't need to be a post route it
+simply needs to be a get route
+all right so this is what we have done
+so far so our functionality is good
+let's go ahead and test out this
+functionality that if we are able to log
+in
+from the youtube account or the google
+account that we have created okay let's
+go ahead and try this out so this time
+we need to hit another route this is
+going to be a login
+so for login all i have to do is email
+and password the name is not required
+and let's see if we are able to receive
+a token or something let's go ahead and
+send it this needs to be also a post
+route
+if i send this up
+seems like there are some issues
+and we need to troubleshoot this one
+okay let me go ahead and see that okay
+seems like i forgot to save some file
+okay
+uh password is incorrect okay at least
+we are hitting up something
+okay so there we go
+let me go ahead and save this
+and there we go okay let's try
+google gmail.com and try to send this up
+and we are receiving
+password is incorrect let me check
+because i think probably in the user
+controller i have
+uh messed it up
+it says if user.password
+is not equal to that password so let me
+just go ahead and check out the user
+controller here one more time
+all right
+so this should be
+user.password let's just check why this
+error is coming in
+we are finding
+if there is no user okay if there is
+uh it's getting me password is incorrect
+okay let me try to kill this app and try
+to run this again because probably
+okay let's try to
+sign up with another user
+slash api
+login
+and we're gonna say
+youtube and this one also needs to be
+youtube
+and let's try to send
+ah seems like again the same error
+password is incorrect
+okay so i think there is some error or
+some mistake that i have done here
+let's go ahead and say throw new error
+hmm
+password because i do a lot of these
+kinds of typos so it's pretty common for
+me
+and we can see that
+a little bit
+okay so this is a login
+there's a logout
+logout is fine
+let's see so because the ul you'll also
+be facing these kinds of errors so let's
+go ahead and
+debug that
+okay so
+so if a password is incorrect an
+exception is thrown
+okay
+let's see
+user route login and we're post login
+that is fine
+routes are fine user controller
+and this one should be all good if i'm
+making any typo or something
+if the password is not equal to this
+password
+then there should be an error
+is it
+catch the error and then return the
+response hmm
+okay let's go ahead and try to comment
+this out for a second
+so that i can check whether the things
+are working fine or not
+and let's go ahead and move on to the
+postman and let's try this out let's try
+to send this
+okay all right we are getting a success
+true and a token is coming up but the
+user is empty so definitely the user is
+not coming in so that means
+uh we are having some mistake
+okay let's go ahead and catch that
+mistake so we are making a mistake
+somewhere here
+uh into this finding oh my bad i
+actually
+wait
+forgot that so now it should be good
+again you will be doing these kinds of
+debugging as well so go ahead and
+try to follow
+these practices again coding is never
+perfect
+you all are going to make mistakes and
+so am i
+okay let's try this one more time
+and
+there we go again another so one thing
+is all good
+now we are getting an error on to line
+65 okay
+uh
+so
+okay line 65 we are getting a
+catch throw
+new error
+ah user not found so probably i'm trying
+to log in with a user
+which is not available let me try with
+the google because i think google is the
+one that i created
+google and let's try this
+okay maybe problem in sign up let's try
+to sign up a fresh user copy that and
+have another tab
+and let's do
+a sign up
+having a post request
+get all the data from here copy this
+and
+inside this
+because of the error handling yup that
+might be one of the case
+a const catch error ah maybe that that's
+one of the case let's go ahead and have
+a body
+raw
+in the json and then we can paste it up
+and let's try to have
+what are the fields that we are catching
+up into the sign up
+let's see name email and password
+so we need to have a name as well
+and then we're gonna have a simple name
+so this time let's just go ahead and say
+uh this is going to be one
+this is going to be one add the date
+gmail.com and this is going to be
+one two three four five six seven eight
+okay
+and comma here
+let's go ahead and see if we are able to
+sign up again
+ah connection is refused seems like i
+need to reload the application
+and let's go ahead and run this sign up
+was working fine just a moment ago let's
+try to send it again
+okay at least the sign up is working
+uh login is working fine for you maybe
+maybe again we need to debug it here
+this happens quite a lot so common thing
+now we can actually grab this email and
+password
+and try to have
+a login
+okay so i'm gonna go ahead and grab this
+one and let's try to have the same thing
+for slash api slash login
+okay
+and let's send it there we go so
+probably it just needed a reload and we
+are able to log in the user the reason
+why i'm showing all of this because in a
+lot of videos you see directly
+everything working and there's no
+debugging but in the real world you have
+to debug the things so that is what i'm
+i'm going through with that
+okay so all right so we have gone
+through with that now we need to hit a
+route of the log out as well
+and is this live or pre-recorded videos
+and these are live videos man these are
+live videos
+uh i'm all up here uh just staring at
+the screen and writing all the code i'm
+all up here this is all live
+okay
+so uh there we go now if i click on the
+cookies uh hope you can see that there
+are some localhost cookies that are
+available here so there's a token
+and this is all the token that we have i
+can actually go ahead and zoom this a
+little bit so notice here we have these
+cookies available so i can just close
+this show you again that these are
+cookies so if i click up here a little
+bit on
+just on the right side so here you can
+see there is cookies
+yeah nodemon betrayed me
+obviously nerdmon betrayed me to be
+honest so if i click on the cookies then
+i get all these tokens so i can go ahead
+and see these token
+and while the token is available which
+is there so if i hit another route which
+is slash logout
+i should be able to clear this cookie
+log out
+and i can just go ahead and say send
+okay it says cannot post obviously
+because the request was get so let's try
+the get and there we go success true now
+if i check the cookie and there is no
+local host cookies okay so so far the
+user functionality is all good we are
+able to work on the user functionality
+pretty nice and pretty easily so at
+least the user part is all done now
+we'll be working through with one more
+part which is uh going to help us in the
+later on phase
+which is having a middleware
+so what we're going to do is we're going
+to create a simple middleware that we
+can inject anywhere and that will help
+us to verify whether the user is logged
+in or not so basically it's going to
+just track the cookies and will give us
+the information that is it going to work
+or not okay
+and then we have to work on with the
+post as well so so far a lot of things
+are here let's go ahead and create a
+middleware so i'm going to go ahead and
+say middlewares
+and inside the middlewares i'm going to
+create a new file
+and that will just see if we are
+logged in or not logged in dot js
+okay so i hope i hope for a lot of you
+uh this is the first time that you're
+writing some of the middlewares as well
+so let me walk you through that how you
+can actually go ahead and
+and kind of a
+write a middleware it's actually really
+really easy first we're going to need a
+couple of things so let's just say from
+user controller
+we'll be needing the prisma i think
+that's it
+is logged in prisma is required and
+we'll also need a jwt as well
+so we're going to say jwt because in
+order to verify the token we have to
+have token so we're going to go ahead
+and say require
+and we're going to say json web token
+okay now watch closely that how we
+actually go ahead and
+write these things okay
+so
+let's go ahead and
+write a really simple
+simple middleware
+so first let's say is
+logged in
+and then we're going to go ahead and say
+hey this is a sync operation because it
+might take some time so that is totally
+fine we're going to say request response
+and next for all of the middleware the
+most important part is next because
+without these necks middleware doesn't
+exist every middleware when it's done
+its job you can take notes as well
+needs and needs to have next so in any
+project whatever you're building this
+needs to have okay
+now we can go ahead and say hey this is
+all good let's go ahead and do
+yeah really try catch and going with
+that so we'll be saying hey error and
+then we can throw this
+throw new error
+and the new error is going to be simply
+error okay
+let's try to build a middleware which
+can verify that whether the user is
+logged in or not so the first thing to
+verify is the token so i'm going to go
+ahead and hold this token into available
+i can access this with the request if
+you study the request on the express a
+tiny bit more not too much but a tiny
+bit more
+then uh
+uh what we can do is just access this
+request dot and it has a method known as
+cookie there we go and from the cookie
+you can put up a dot and access any of
+the cookie that you have stored so that
+is how you actually access the token or
+the token first we can say if there is
+no token then obviously the user is not
+logged in so if there is no
+token
+the user is not logged in so we can send
+a response directly send
+a response of
+please
+login
+and we can throw up an error as well so
+we can go ahead and use this throw error
+directly although sending or throwing an
+error is not an ideal way not my first
+choice but let's just say in this case
+we want to get away safely so i'm going
+to go ahead and say you are not
+logged in but my ideal case would be
+to send a
+response and close
+next that would be the ideal case but
+we are not living in the ideal world
+okay
+but this is not the case so i'll just go
+outside the token let's just say let's
+just say the token is present so how we
+can actually decode the token the token
+can be decoded based on a couple of
+things the first one being what is
+what is the jwt
+uh secret that you have kept so you have
+to ex uh kind of access that as well
+let's go ahead and simply go ahead and
+say that i want to go ahead and decode
+this so
+decoded token or just decoded whatever
+this i'm going to say jwt dot verify in
+order to verify you just need couple of
+things the first one is the token that
+you want to verify
+and the second thing is uh just simply
+the secret that you have and we have
+kept our secret so that it remains
+constant throughout the application is
+dot env dot jwt underscore secret all in
+caps so that's how we got it
+there we go
+okay so this is what we have now this
+decoded will have a value of true and
+false and it will give you all the
+information so whatever the payload you
+have stored in the jwt token your user
+id whatever you have used that will be
+given to you into this one okay
+so let's go ahead and try to find that
+whether such user exists or not so we're
+going to go ahead and say request
+dot user
+so if that user exists we'll just send
+that user into the request itself and
+then we can just move on
+so we can just go ahead and say there
+are a lot of ways how you can handle
+this this is one of the way we can go
+ahead and say prisma
+if you have paid attention you know how
+to find a user we can go ahead and say
+find unique
+this is how it works you can provide a
+where clause
+and then in the where clause you can
+just go ahead and say that from the id
+i want to find
+decoded remember it you it has all the
+access so it has the user id
+okay now where does all this comes from
+so if you remember when we were storing
+or creating a jwt token let me walk you
+through again with that because i'm
+pretty sure many of you might forgot
+that
+so we have this
+helper we created a jwt token remember
+we created the jwt token based on user
+id so we were having this user id as a
+payload into this one
+and
+now we can go ahead and use this same
+user id here and we'll extract the id if
+we are able to do this that means user
+exists user exists
+and yes you can do more of the checks so
+you definitely can do
+more checks and in production we usually
+do
+but again this is fine enough we can go
+ahead and do a simple next
+and that's it
+the most important part is in these
+middleware the custom middleware that
+you're writing you have to have to write
+this next
+and we can simply go ahead and say hey
+the next is here that means now you can
+proceed to other middleware if you have
+any or you can just keep on doing
+whatever you are doing okay so this is
+the basic middleware that we have
+written
+now using these middlewares
+we can actually go into other things
+that we want to do so for example in the
+prisma we have a user so if only the
+user is logged in then only he should be
+allowed to
+make a post request update the post
+request or anything like that so this is
+what we have as the basics so i think we
+have done enough uh for this video
+and we have gone through with that so
+that is all great so far now let me go
+ahead and open this up onto my this is
+screen
+all right all right so i hope you have
+enjoyed this so far and uh have
+understood that how the entire process
+is being done and we can use a lot of
+checkings no i i understand that we have
+skipped a lot of checking of the
+password encryption of the password
+because i didn't wanted to make it like
+a full-fledged back-end development
+course yet i wanted to focus more on
+prisma that how you can use prisma and
+make a complete application rest api uh
+using mongodb and prisma so that's why
+where we are focusing on and the best
+part is that there are only a handful of
+users so i can
+give you all the answer of the questions
+if you have regarding this session prism
+or anything if you have any question go
+ahead and ask me i would be really happy
+to answer them
+this series will continue for probably
+one or two more of the sessions so that
+we can have some understanding about how
+we can post something from a logged in
+user and then you will have much more
+idea
+okay uh goodness says thank you so much
+for taking our time and making us aware
+of the new text hey really enjoying this
+this is so much fun here because
+the users only interested users are here
+who are watching something and are
+learning something and helping you to
+understand we have also started
+javascript now in our batch as well so
+a lot more in-depth classes will be
+hosted for them but anyways if you have
+any questions feel free to ask i would
+be really happy to answer them if you
+have any
+okay so all right i hope this is good
+any questions you can ask otherwise uh
+we can just call it a day
+okay so how this is
+okay uh let me go ahead and open the
+widget
+okay so
+okay uh there's a strange question
+which says how does it read your code
+and how does one code with grader
+i don't know what that is
+uh hey sir completed pro back-end
+developer course what should i do next
+uh
+build more projects
+that would be great
+tomorrow we'll be using bcrypt i think
+because we have installed brick rate
+while projecting the light
+initialization uh yes we have installed
+it uh
+but i think
+uh it's not really great to use that
+because we'll go quite in depth of it
+and i've already covered that a larger
+part of it and they say it's funny i
+started learning prisma today so you
+should watch yesterday's live stream and
+today's live stream and i think you'll
+be good to go with the prisma itself
+okay uh kaiser can you show us how to
+implement refresh token and access token
+gwt that would require definitely
+another live session and surely we can
+try this and we can do this
+and the gunjan says express needs a lot
+of revision i will revise and do more
+hands-on that's great yes i agree
+express revi requires a lot of revision
+a lot of continuation of the work and
+all of that
+and this in the stage says how do you
+manage your time easily easily
+okay
+uh
+sir use oauth in the next application in
+this application uh
+we'll go for
+next application next application that
+would be great dedicated application on
+uh this one
+uh typescript uh i don't want to use
+typescript as of now because there is
+still a huge user base of javascript and
+only handful of people and especially in
+the corporate environment they are using
+handful of typescript only i do have a
+course on typescript in my angular
+course
+i cannot use these sessions into
+typescript because it becomes a lot of
+prerequisite you know you need to know
+javascript and on top of that you need
+to know typescript and then so it
+becomes a lot of prerequisite for the
+users and i think about the mass
+audience the mode user should be able to
+understand the process and after that it
+doesn't really matter if it is a
+javascript or typescript it's all the
+same
+all right so i think uh
+really good really good session and stay
+tuned hopefully tomorrow also if i'll
+get enough time i'll set up another
+session so that we can discuss more
+about the post as well that what is
+going on and how this is all going on
+all right
+let's catch up tomorrow i have a class
+early morning so i'll catch up uh
+i'll catch you up tomorrow as well
+and okay
+so that's it for this one bye bye good
+night enjoy this late night stream and i
+hope you're enjoying this
+uh bye bye everyone thank you so much
+for catching up

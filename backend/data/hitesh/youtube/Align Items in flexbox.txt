@@ -1,0 +1,199 @@
+hey there everyone and welcome back to
+the flexbox training now in this video
+we are going to talk about uh the
+opposite of what we talked in the
+previous movie in the previous video we
+talked about the justify content which
+works alongside with the main axis now
+it happened to be that the main axis
+Works in a horizontal manner in the web
+if it our main axis would have been
+working from top to bottom then uh the
+justify content works from top to bottom
+okay so this is really tricky situation
+in the flex boox but that's how it was
+designed okay now so in this video we're
+going to talk about the Align item which
+works on the perpendicular of the main
+axis also known as uh other access or
+whatever you call that you get the idea
+and one unal announcement here uh that a
+lot of people asked me about uh this
+wallpaper uh they wanted it this is a
+customized wallpaper so I can just give
+it to you uh you can just download it
+from
+h.com flexbox I did uploaded it there uh
+I know some of you might be thinking hey
+what what is that what was that yes some
+of people just asked too much time so
+hey what's there in the in in this
+wallpaper I can surely give it to you no
+problem at all okay and we are going to
+be working in 03 I have copied and
+pasted from our start folder and in the
+start folder uh this is 03 and this is
+how it looks like so we are going to
+again start from uh the bare minimum
+Basics there so so again uh let's have a
+div and that is going to have one so
+command shift d that is going to be two
+and this is going to be three this is
+going to be
+four five and maybe one more six maybe
+one more okay seven that's it that's it
+I promise okay so this is how our
+properties looks like we have been aware
+of it and we have been also aware that
+if I just select my container there and
+just give it a display of flex
+everything just aligns here and we have
+also studied about the justify content
+so justify content like Center just
+works like that okay so it just works
+from left to right what about if we want
+some more control over top to bottom in
+that case the Align item comes into the
+role now as soon as I'll just use the
+Align item nothing will happen and
+That's a classic mistake everybody does
+that that's why I am also going to do it
+first so as soon as I say align item and
+I just do a center here and you might be
+expecting that it should get center of
+the page I know a lot of you expected
+that but this is not happening so can
+you guess what is the reason here now
+this is a classic mistake of not
+determining your container height and
+width okay in order to explain that a
+little bit more I would like to add a
+property of Border here and border is
+going to be let's just say one pixel
+solid and
+black okay now what is h happening you
+expected that it will just jump down to
+the center of the page but your page is
+not having that height you only have to
+uh you only have this much of the space
+to work on with and this is a very
+classic mistake every beginner makes it
+and there is no issue with that it's
+okay everybody learns with the mistake
+so how you can expect this align item to
+work in order to have an align item we
+have to have some kind of space from top
+to bottom as well in this case uh let me
+just give it a height of uh you can also
+get a height of 100 viewport height uh
+but that is going to be too much for
+this example and now it jumps to the
+center but I'm going to get a little bit
+which is uh good for our educational
+videos purposes and I'm going to get 500
+pixel so that I can see everything here
+also I'm going to leave this border on
+so that you can see what is happening
+and in fact I will make it a little bit
+darker for three pixels so that you can
+see nicely and clearly here what is
+happening okay now let let's talk about
+the Align items and what offer what it
+offers to us and the first and the
+foremost property is the flex start and
+as soon as I do that it's going to just
+uh mix it up and it's going to just Flex
+start to uh the top here now don't get
+confused with the justify because we are
+applying two properties here okay the
+justify content Center brings it to the
+center otherwise uh this guy is just
+pushing to its top okay and there is
+also which is flex end and if I save
+that it just brings everything at the
+bottom here okay again you should be
+aware of what is your container height
+to play on with because we are talking
+about top to bottom and we have already
+seen the center here so there we go and
+you might be asking what are other
+properties being offered by it now
+luckily for us it also offered five
+properties and most of the flexb item uh
+uses the five property value kind of
+thing so Flex start flex and Center what
+else we do have a stretch property as
+well which is quite useful in some cases
+uh stretch here and it just stretch the
+element uh from top to bottom just like
+what you expected sometime it's really
+really helpful uh based on what you want
+to achieve with your uh Target and again
+uh sometime it's helpful and there is
+one more and in order to dis display and
+explain that I have to actually get
+something inside this so here I would
+like to have an H1 tag and that H1 will
+have seven and now what is going to
+happen this seven is going to be a big
+guy and rest of the guys are going to be
+a little bit smaller so uh let's go to
+the flex box and that property is known
+as Baseline and as soon as I hit the
+Baseline what is going to happen now
+you'll notice here that the base line of
+this 7 6 5 all of them are just lining
+up regardless of it is too much tall and
+takes too much space from the top or
+bottom wherever it does um you can
+expand that to a little bit more but
+it's going to always keep into the
+Baseline height and again um a classic
+mistake let me also tell you that that
+I'm going to say uh people expect this
+but uh there's a little bit trick here
+let me show you that and for that I'm
+going to select the H1 and I'm going to
+give it a font size of let's just say 30
+pixel which is really insane but let me
+show you here um come on did I save
+that
+or let's just give it a 50 pixel which
+is going to be really really big okay
+now this is this looks like a really big
+is it getting selected or not let me
+just try to give it a color and we're
+going to get a color of
+black okay yep it is getting selected
+now although it's not getting much
+bigger here uh but what you will notice
+that now uh still this is going to line
+up and this is one of the beauty about
+the flex boox that once you are using
+the flex box uh everything just stays
+there and no matter what the size is
+what the other properties you are
+defining and uh are you putting extra
+CSS over on top of that so that's that's
+the power of the uh this Flex box and I
+always recommend to just align
+everything using the flex boox okay
+because what flexbox gives you is the
+power of aligning elements so uh just
+keep everything inside the divisions and
+then just align all of your division on
+the page however you want to have and
+then start adding element inside it like
+H1 tags and images and all of that
+because flexbox will just keep it there
+keep it there and that's super important
+okay so uh this was pretty interesting
+video and now you have uh the idea about
+the two properties uh the justify
+content and align items again these are
+both container level properties we
+haven't yet applied any rule uh to the
+inside or the child elements we are
+going to cover them up but first let's
+cover up all the container level
+properties

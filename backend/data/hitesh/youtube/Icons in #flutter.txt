@@ -1,0 +1,224 @@
+hey there everyone at a shear and
+welcome back again with the flutter
+series so yes we are officially back
+with the Fletcher cities I was busy in
+recording more than hundred videos for
+one of the other CDs we'll talk about
+that probably in the later videos but
+right now the thing is we are back with
+a flutter series so we can get started
+and can explore more about flutter can
+learn how we can read the documentation
+and implement tons of features here so
+let's go ahead and do that and yes in
+case you notice these are classes this
+is my first official YouTube videos with
+the glasses these are not vision
+correction the doctors said actually I
+need these glasses if I want to work for
+a long hours on computer these are
+absolutely necessary I was having so
+much of the pain in eyes reddish Ness
+these are compulsory now I cannot avoid
+them now okay so coming back on to the
+point in case you want to use exact same
+files that I'm using exercise files I
+will be uploading them on the resource
+I've created a full-fledged resource we
+had I have curated all the videos in a
+proper sequence with proper exercise
+files and the link is going to be in the
+description section so that all of you
+can join up there build up a community
+can help each other
+by answering questions and asking
+questions and can get all these exercise
+files absolutely for free of course so
+let's get started and talk about moving
+further into this so this is the project
+that we were working on in the previous
+video in this video make sure you are
+aware with these color creation process
+this is compulsory for every future
+videos in case you haven't watched that
+go previous videos watch them up so this
+is what we have created again nice color
+on the app bar that we have got come on
+I can just bring your peer here there we
+go so this is what we are having we do
+have a nice top bar with a customized
+color that we have picked up also we
+have got a nice bluish color a floating
+action bar surely we can customize the
+color of this right now we have got a BG
+color for that we don't have actually
+any color for this floating this is by
+default coming up as a blue surely we
+can customize the format of customizing
+is exactly same just like what we had in
+the previous videos exactly same but I
+think the blue is pretty decent it
+pretty okay here okay the next thing is
+we want to add an icon here so
+definitely we need to study about
+seconds in the flutter and the whole
+concept is not about just writing two
+lines of code and adding the icons
+surely we can do that but the concept is
+we need to understand how to read those
+documentation so that if I miss
+something you can just go ahead into
+documentation and explore things surely
+no author or no video creator can cover
+up all the things that's why reading the
+documentation is important scalable okay
+so this is the eye King class that we
+will be studying together so here we
+have got an icon class in the flutter
+you can Charlie search on the icon and
+this is the class that you're gonna get
+and icons are pretty powerful here I
+noticed that you can have interactive
+icons like icon buttons the icons which
+we will be using and there is an icon
+theme image icon so I haven't read the
+image icon yet so obviously there are a
+lot of options that are being given to
+us and lot of customizable features as
+well in the constructor we can see we
+have got icon data means which I can you
+want to use and then we have got a key
+means if you want to pass on some
+information double the size you want to
+get in the double format the color that
+we have studied a little bit in the past
+and we have string semantics labels so
+it's pretty powerful if I click on this
+one we can see we can create a icon here
+just like this and then can call and I
+can this not I can we will be doing a
+little bit different than this one but
+surely the point is that information can
+be passed in this manner in a proper
+format and we can utilize that pretty
+easy to do nothing really serious and
+since this is coming up from Google
+obviously it support all the icons from
+the material design and the naming is
+definitely important so this is the cash
+this is build so whatever the I can you
+want to use make sure you go on to this
+material IO the icons name just remember
+the name by the way visual studio is
+going to help you a lot in that but so
+this is all the prerequisite now first
+we are going to get this build icon then
+we're gonna go for a proper icon that we
+need for this application and remember
+that always come up here and explore
+more for example colors or I can data so
+what are the icon sets that you want to
+use so go ahead notice here I can data
+is here so you have to name it material
+I can ace
+unit something like that okay so this is
+how you get Dyken data but there is an
+easier way as well so let me show you
+that okay so let's go up here we want to
+insert the icon into our floating action
+button that's the important point you
+should always remember one thing that
+you will be getting quite a lot in the
+flutter is the child child is something
+like you want to pack up some
+information and store that into a bigger
+item that's where the child comes into
+the role for example the floating action
+button is a big thing inside that our
+unpressed is a one event but I want to
+give more information so I can store
+that in a child and can pass it like
+that you'll be seeing that quite a lot
+so there we go child and inside the
+child I want to use I can the first
+thing is pass on the icon data of course
+there are multiple ways to pass on the
+icon data one of them is saying icons
+dot and then you get all these icons for
+example I want to have a build I can
+just get the build thanks
+vs code for suggesting all of this so
+this is the first information that you
+can pass on although this information is
+like totally good enough for having an
+icon let me just save that I guess I
+missed a comma or something no it's it's
+just fine like that way and I can just
+go up here hit the shift our to rebuild
+the application and hopefully the icon
+will appear so there we go nice and easy
+I can appears up here but probably for
+some reason you like a red icon or
+something like that or probably you like
+an icon with the bar color we definitely
+can go for that although this color is
+actually fine but still just for the
+sake of experiment purposes I'm gonna go
+ahead and add a color property as well
+so that you can understand how these
+things are done so we want to add a
+color onto the icon so obviously I'll go
+up here in the icon and just like I read
+in the constructor part that how to add
+an icon I can pass on a color property
+and can add an icon I can just go up
+here and after the Builder I'm gonna put
+a comma and I'm gonna add a color and
+now I'm gonna be passing a color of
+course the color should be in the proper
+format we already talked about this
+proper formatting in the previous videos
+I'm gonna be just for testing purpose
+using the bar color I'm gonna save that
+and now I'm gonna hit shift or to reload
+that okay
+so there we go nice and ugly green color
+it is looking purely ugly just here the
+white color was absolutely fine there
+but now you know the concept in case you
+want more customization up here so
+here's a quick assignment for all of you
+what I want you to do is change the
+background color here from blue to this
+green which we are using at the top bar
+and make the icon white once you have
+done this make sure you give me those
+few lines of code that you have used to
+accomplish this task and post them in
+the discussion section in the resource
+the link is actually in the description
+so you can go ahead and use that for now
+this looks purely at least so I'm gonna
+just remove that save that okay so this
+is our application let me hit shift
+reload so that we can see nice and white
+icon and I don't need actually the build
+I can I just need an add I can here so
+I'm gonna go for add save that and shift
+our to get this icon here and there we
+go nice and easy plus I can surely I can
+pass another value for the size as I
+read in the this one so I can pass on a
+size parameter and can assign a value in
+double and can increase the size of it
+but I think it's it's just fine as of
+now okay so this is our video about
+learning about the icons in the flutter
+make sure you hit that subscribe button
+because without hitting that subscribe
+button this video series cannot continue
+further in case you hit that subscribe
+do let me know in the comment section as
+well so that's it for this video and
+let's catch up in a next one
+[Music]

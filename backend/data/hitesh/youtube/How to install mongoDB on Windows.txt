@@ -1,0 +1,203 @@
+hey there everyone have a shear and
+welcome to the video of how to install
+MongoDB on Windows 10 now this video is
+exactly same if you are having any other
+of versions or slight here and there
+it's it's just the same installation
+process now again the installation
+process for Windows is much more easier
+as compared to the Linux or the Mac OS
+so without wasting any more time let's
+directly jump into the installation
+process
+now installation is straightforward
+first and foremost go to MongoDB comm
+and click on this top blue our top green
+button that says get MongoDB once you go
+on to that what we require is actually
+not the cloud but the server Edition
+because we want to run MongoDB locally
+on our system now again I would like to
+recommend you that MongoDB only supports
+the 64-bit architecture and in fact most
+of the people are now switching to
+64-bit architecture if still you are on
+Windows or any other on a 32-bit please
+go ahead and switch that and we can see
+that's the right version so once you
+click on the download it's gonna
+download the MSI Microsoft installer for
+you and that's basically what we need on
+the base end now we're gonna put the
+start to the installation process and
+then I'll walk you some of the gotchas
+like where are the problem hits up so I
+have already downloaded this one to save
+some of us our time so we're gonna just
+download I'm gonna just minimize it for
+a moment and I have got this one here so
+I'm gonna just make it up and running
+with MongoDB there we go hit the run
+there and the installation is pretty
+straightforward just like you have
+installed any other thing on Windows
+it's just always next next I agree click
+ok so next of course I want to accept
+the terms in agreement in case you want
+to go ahead and read all of that I would
+like to agree for all of it click on
+next now we got two options complete and
+custom for most users in fact 95% of the
+user complete is actually what we
+require we're gonna hit on complete and
+there we go now make sure you understand
+one thing that it is run service as
+network service users you always want to
+check that and also you want to keep
+this checkmark are there which says
+install D as a service what it
+will allow you to is allow you
+MongoDB to run as a service and this is
+exactly what we want also note down
+these directories here it's getting
+installed on C Drive Program Files we
+might need to go there later on so just
+click on next there just remember that
+and it says I want to install MongoDB
+campus as well we're gonna click on next
+and we don't mind if it installs the
+compass as well okay so by the time it
+does a job I would like to and make sure
+if it prompts any security warnings or
+anything just allow it it's totally fine
+it's totally ok so now in the meantime
+it's copying the file and doing the
+installation I would like to point your
+focus on to some documentation so click
+on this upper link which says Doc's
+Doc's are a little bit like they are
+properly arranged but sometime it's hard
+to find for the beginner the exact right
+point where they want to go so click on
+this DB server because that's
+exactly what we are looking up for and
+we are looking for the installation
+instruction here and please pardon my
+cursor some time it blinks on window I
+don't know why and we want to install
+the Community Edition so we are looking
+to look into the documentation of
+Community Edition of course we are on
+Windows so click on windows and this is
+the exact page in case you face any
+other error maybe later on this is the
+page which is going to help you much
+here it looks like my installer is
+asking for some things so we're gonna
+click on finish and there we go now it
+is installed now things are not done yet
+make sure you just scroll down a little
+bit onto the installation process notice
+we have done all these steps for the MSI
+installer now we want to run it so the
+running process is pretty easy so we're
+gonna just keep on scrolling because we
+have done all of this part here we can
+keep on scrolling and there we go
+when it says if you are installed
+MongoDB as a service this is the command
+that you might want to run so we're
+gonna run this entire command so I'm
+gonna hit ctrl C to copy this I'm gonna
+go on my command prompt hit the windows
+and type CMD command prompt I want to
+open you and I want to paste this here
+and I'm gonna hit enter there we go now
+if you're seeing this till the arrow
+here that means everything is good
+we have got MongoDB successfully
+installed here now again I cannot zoom
+it much here but this is exactly what we
+are looking for that mean installation
+is pretty ok now let me tell you a
+couple of things which were used to be a
+problem and how to resolve that in some
+of the previous versions I'm gonna press
+control C to kill this process right now
+this is all good now in some of the
+previous versions of MongoDB you were
+required to create data directory and DB
+directory manually so in case you are
+working with some of the previous
+version again a big notification here
+you do not need to do this if you are
+not an experienced user in the previous
+one versions of MongoDB if you are
+installing it on a Windows you need to
+run an extra command this is completely
+optional which is make directory and it
+requires a slash data and the slash I
+forgot that it was data and DBA data and
+DB it is all written up here now one
+very crucial thing that I would like to
+talk to you is whenever I'm gonna be
+teaching you anything I expect you that
+you will always be running this command
+but when you run this command one thing
+I wanted to show you is let me open up
+this I want to go into C directory there
+we go I want to go into my C directory
+there we go inside the Program Files
+this is my Program Files and I want to
+check out MongoDB let me explore that
+and I want to go into MongoDB and in the
+server make sure that if whatever the
+version you are installing this is
+exactly written here like 4.0 so note it
+down somewhere when you go back into the
+documentation whatever the command you
+are running this should be exactly same
+if your version is 4.2 make sure you're
+writing in the command 4.2 if a version
+is 5 make sure you write the version 5
+here for all the versions which are I
+guess like less than 4 requires you to
+create an extra directory which is a
+slash data slash
+all the people who are watching the
+video right now
+don't need to do anything okay it's
+pretty straightforward installation
+process now one more thing I know I said
+it a lot but one more last thing here
+whenever whenever I'm gonna be teaching
+your MongoDB I will assume that you will
+open up your command prompt run this
+entire line of command here and hit
+enter and we'll keep it up and running
+you can always minimize this and keep it
+up and running I will not mention it
+again any further in this entire
+tutorial series that hey why my MongoDB
+is not working hey you forgot to run
+that command so make sure you keep it a
+note somewhere or just hang it on the
+wall that whenever I need to go up I
+need to get started with MongoDB as a
+server and that command will help you
+I'll probably just bookmark this page or
+something if you are interested again
+pretty straightforward previously it was
+a little bit tricky with the DB path and
+the log path but now they have figured
+it out all through the installation
+process I'm really happy that they have
+just nailed it down everything so
+smoothly so that's it for this video and
+from the very next video we're gonna be
+learning about MongoDB shell and we'll
+be performing definitely the crud
+operation so in case you are new here
+make sure you hit that subscribe button
+on my youtube channel and we'll catch
+you up in the next video

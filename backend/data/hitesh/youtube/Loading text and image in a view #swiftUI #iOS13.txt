@@ -1,0 +1,216 @@
+hey there everyone at this year back
+again with another video and now that
+our UI we are almost set to build this
+UI let's go ahead and make this and
+before we go further I have created some
+assets you don't need them technically
+but if you want I can provide you a link
+for that but again I highly recommend to
+create some of the assets on your own so
+these are some of the logos that I've
+created I'm a big fan of iced tea so
+I've created a fictitious brand name as
+iced tea and I'm gonna try a login for
+that and surely you can use any other
+logo or any other photo that you would
+like and in the iOS world we design the
+photos or any assets in 1x 2x and 3x so
+usually most of the default things
+actually go ahead right easily with that
+so I'm gonna go up here and there we go
+I'm gonna just drag and drop this iced
+tea right up here so that these are
+automatically available that's all what
+we need in case you want any other logo
+or anything I highly recommend to do it
+on your own you can use the learn code
+online logo as well which is a pretty
+dope logo ok now what we want to do is
+we want to go into this content view and
+start writing some code for that I'm
+gonna resume this here so that we can
+see some of the assets directly without
+even needing this simulator my simulator
+is right up here but we technically
+don't need it right now okay it's gonna
+take a moment to build the app build
+succeed and there we go hello world is
+up here let's shrink that ok looks
+pretty nice there we go ok now as I told
+you we are going to use the Z stack and
+the reason why we want to use the Z
+stack is because putting anything in the
+background where the Z stack is actually
+super simple whether that's an image or
+a color I'll show you that what does
+that mean in a minute but right now what
+I want to do is I want to modify this
+text instead of the hello world I want
+to say as something like a welcome so
+we're gonna say just welcome and there
+we go
+now these text has a lot of properties
+that we can play around and solve them
+is a legislative on to have a custom
+font we surely can have it but some of
+these things are being provided by the
+iOS as a default for example I can just
+simply say dot large title and it will
+convert that into the large title
+I don't know why it is not Auto resuming
+but usually does so there we go and it's
+gonna just bump the font a little bit
+there become and surely this is not
+looking the way I want it to be so I'm
+gonna bold it a little bit for that I'm
+gonna say font weight font weight and
+I'm gonna say dot semi bold let's go for
+semi bold there is a bold option as well
+that is like too much of the bold stuff
+we are also going to have a padding so
+dot padding and as of now we are gonna
+go for the default padding but in case
+you want to go for more of that let's
+just say more components will come up at
+the bottom so you can just mention a dot
+bottom and then put a comma and mention
+at that 2030 it's almost like arbitrary
+it's going to automatically define the
+value for you and surely I want to
+change the color as well because my logo
+is of little bit orangish I'm gonna use
+a direct foreground color that is gonna
+be color dot or range now surely some
+people don't like to use the system
+default color that is also too really
+fine and you can use your own colors as
+well okay now I know that this text is
+actually awesome but it is gonna consume
+a lot of space right up here so what
+I'll do is I'll just select all of it
+right click and show the code action and
+I want to just extract it to a sub view
+and once it is done I'm gonna just say a
+this is a welcome text and hit enter so
+there we go so that my this stack
+actually remains easily and clean here
+now after that I want to design an image
+or I want to put an image here as well
+for that the simply thing I can do is
+use an image and once you're using the
+image there are variety of ways how you
+can actually use it I'm gonna use it
+just for the string version of it
+because system is already aware that I
+have some assets so for that I'm gonna
+just simply say ice-t and image should
+be able to pop up not right now I have
+to mention some of the more properties
+as well well the property is gonna be
+resizable there we go so that it
+automatically shrinks based on the size
+of the devices and I'm going to also
+mention the aspect ratio of that that
+what you are looking for
+for that we are looking for the content
+mode as soon as you put a dot you're
+gonna see a variety of options not
+variety actually just fit and fill I'm
+gonna go for the fill as of now and then
+I have to define the most important
+which is gonna be frame and this frame
+is like defining what is going to be the
+width and height of the image so I'm
+going to first define the width and
+there we go for the width I'm gonna
+choose a hundred and fifty and for the
+height there we go we are gonna choose
+one hundred and fifty surely you can
+move it to anything else if you would
+like to and let's just resume this
+hopefully things are gonna appear okay
+and it should be fairly fast there we go
+so I stay he is coming up here we are
+going to definitely arrange that so
+first and foremost we are going to make
+it a dot clipped so that all the things
+which are going outside of this frame
+actually get clipped up and this is nice
+and we are also going to have a padding
+on this okay and we are gonna notice
+that some of the things are not working
+nicely so we need to fix that as well
+and for the pilot padding again I'm
+gonna use a dot bottom dot bottom and we
+are gonna use a seventy five for that
+okay
+now let me show you what is going on
+wrong so as of now you can see that this
+image is actually overlapping the
+welcome so definitely z-stack is not
+working fine so before we fix that up I
+would like to just first and foremost
+it's not well indented so I'm gonna this
+is nice and this is now nice okay
+so I'm gonna go ahead and select this
+one here I will extract that as a
+subview again so show code actions and I
+want to just extract it in a sub view
+and I'm gonna call this one as image
+loader or whatever you like to have okay
+but the issue remains still which is
+that I'm having just the Z stack and
+that's why they are overlapping each
+other so one of the easy way is to just
+select all of them right-click and again
+show code action and I want to wrap them
+around in a vertical stack of course
+that makes sense in this case so I'm
+going to just go ahead and do that
+oops looks like my image loader is moved
+the hair outside so I'm gonna just cut
+that and we'll move just below the image
+loader and we are going to hit the
+resume and hopefully hopefully things
+are gonna make sense now
+come on build that and there we go so
+things are making sense now welcome is
+at the top the ice-t logo is up here
+okay nice and easy
+but you might be asking why do we have
+this z stack up here now z stack is for
+those cases where we want to do
+something drastic and different for
+example I can just choose a color dot
+black whoops if I can write black
+properly I can choose a color black and
+notice immediately we have turned this
+app into kind of a night mode not
+exactly but kind of but these might be
+bothering you that why is it not going
+all the way top and bottom these are the
+safe areas usually default in default
+case your app is going to respect that
+but in case you don't want to do that
+you can just simply go ahead and apply a
+property here that says dot edge ignore
+something edge ignore safe area so there
+we go and we're gonna say dot all you
+can just mention top or bottom as well
+and now you have got app which is
+totally just outside of that so there we
+go nice and easy
+now this is looking absolutely good but
+again I'm gonna leave that as a simple
+comment because I want to go for a plain
+white ish look for this one this is
+gonna look absolutely good on the
+simulator so there we go we have learned
+about the text and some of the image
+loading property as well as converting
+that into the night mode as well almost
+and we are gonna have a lot more fun
+here next we need to have inputs as well
+but we're gonna do that in the next
+video
+[Music]

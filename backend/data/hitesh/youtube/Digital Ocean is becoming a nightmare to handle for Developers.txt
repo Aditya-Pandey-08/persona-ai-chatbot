@@ -1,0 +1,101 @@
+hey there everyone adesh here back again
+with another video and this video is
+about digitalocean and no this video is
+not even tiny but sponsored even
+dissolution doesn't know that i'm making
+this video because it's not really
+very friendly to them it's a little bit
+less friendly to them now we have been
+using digitalocean for a while in a lot
+of our production environment and you
+talk about the development environment
+and testing ground oh boy we use
+dissolution a lot not only that i have
+used distillation in a lot of my courses
+in the online boot camps and the live
+classes offline classes we have used it
+heavily and it's such a great service
+and so much ease to work for the
+developers that we kind of become a fan
+at one point of time
+yeah that's the story that one point of
+time now in the recent uh couple of
+months we have been facing a lot of
+issues with the digital ocean and i
+thought let's make this information
+public because i have used them in a lot
+of courses and i think everybody should
+know that so a lot of our accounts not
+just mine a lot of our team accounts are
+not able to pay on the digital ocean i
+think there is something that is super
+wrong with the dislocation that how this
+is going on and i think digitalocean
+should do something about it because
+it's such a fantastic service
+and these small minor things get so much
+of our trouble that we can just work
+forward in the direction he appear so
+let me show you on my screen that what
+the problem is with the dislocation as
+we are facing right now so this is one
+of our account where we test a lot of
+things before we put it in the public or
+we put it into the tutorials we actually
+love to test them out in the production
+itself so notice here it says your
+account has been suspended and the
+droplet has been powered down so sad uh
+please power on the droplets once you
+have paid the bills okay we would love
+to pay it now the amount it's saying is
+just mere 14
+which we have to pay for our testing
+grounds but there is no submit pay
+button in fact you might be wondering
+okay this card probably is not working
+which is ending with some number
+let's just add another card so okay
+let's go ahead and add another card okay
+there is just cardholder name so let me
+put up my name maybe more field will pop
+up later on so we're gonna go up here
+i put up my name which i'm pretty sure
+is correct and i'm going to add the same
+billing address up here and save the
+card and voila
+it doesn't work
+so how should i supposed to pay my bill
+if the card is not working and in case
+you're wondering yes we tried with the
+paypal and everything it's not working
+so there is something seriously wrong
+that we are not able to pay our bills
+and this is not the trouble that only i
+am facing we are facing this trouble in
+a lot of accounts of digital ocean so we
+are not able to pay our bills uh the
+cards are not being accepted there is no
+alternate payment uh methods for the
+india no upi's no net banking and no
+domestic cards are available what should
+i do what should i do definitely the
+only option is to move away from the
+digital ocean and this should be known
+by everyone so that you can also take
+your decision before moving anything
+into the production on digital ocean you
+might also face this situation let me
+know in the comment section if you are
+facing the situation and if anybody from
+digitalocean is watching this i would
+love to talk to you to figure out how we
+can solve this uh issue permanently or
+what your team is doing to solve this or
+we have to move so that's it for this
+video really really a short video
+informational video to show you that
+what it is happening so that you can
+take better decision about choosing your
+hosting provider that's it for this
+video we'll catch you up in the next one

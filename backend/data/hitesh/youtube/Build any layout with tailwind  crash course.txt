@@ -1,0 +1,915 @@
+hey there everyone here back again with
+another video and welcome to fun with
+tailin so we have recently started a
+series on fun with Tailwind where I walk
+you through with how I deal up with the
+things in the CSS again giving the fact
+that I'm not an super expert in the CSS
+or the Tailwind but so far I've been
+able to navigate through with all the
+designs that comes up to my way and I'll
+share all these tips and tricks and
+hacks that I have uh gained over the
+years as experience in dealing with the
+Cs
+so in this video I'll walk you through
+as a kind of a crash course of how you
+can build any layout that you really
+want to build with just the tailwind and
+it doesn't involve too much of the CSS
+once you understand the core foundation
+and the hacks of it that's it you'll be
+able to design any layout at all so let
+me walk you through with that how this
+is being done and first let's understand
+a little bit of the UI and ux approach
+I'm not an UI uxx expert but over the
+years I have dealt and have got a chance
+to work with so so many of these experts
+that I've have noticed a few things so
+let me share with that again by no means
+this is a expert resource on the UI or
+something but let me share what's my
+analysis on that so uh let me share the
+screen first and first we will try to
+understand what actually I'm trying to
+share uh with you for so let's just say
+this is our Mobile screen this is how
+usually mobile looks like and on the
+other hand this is how our desktop looks
+like almost kind of a same so the
+difference between both of them is that
+they are actually different in the space
+this one is more on the vertical top to
+bottom side this one is more of a
+horizontal size so in the world of
+mobile what I've noticed is that you
+don't have too much of the option the
+easiest of option on all the Mobile
+screen what people prefer is one thing
+at a row so if we have a one row like
+this we like to display the content just
+a bottom row like this and so on and so
+forth this is usually the display the
+block itself or the row itself might
+contain card maybe buttons or something
+like that this is the most common design
+that I have seen on the other hand what
+I've noticed what some in very rare case
+is being done is you sometimes have
+these kinds of block which are divided
+into two parts so this is usually the
+situation of my row that over the years
+I've noticed that hey this is all it
+looks like the moment you try to inject
+three of them in any of the mobile
+devices this is not considered as a
+great approach because this is too
+clumsy for anybody to actually see and
+visual there are certain designs in
+which we have three rows in that but
+this is considered as clumsy the max
+that we want on the mobile device is two
+this is what I've seen over the years so
+yes these are possibilities to have that
+but this is what it looks like so on the
+mobile device all I have have to worry
+about is either my row or my content
+should take entire space or at a Max
+should be divided into two parts that's
+my major problem which I have to address
+on the mobile screens on the other hand
+the bigger screen has a different way of
+analyzing the things on the bigger
+screen there are variations in that the
+first variation is equal halves and the
+second variation is non equal halves let
+me walk you through with that so the
+first variation that we are going to
+talk about is actually uh equal or equal
+sections that would be better so this is
+my equal section and the another one
+that we have is something known as
+non-equal
+section uh non-equal section that's what
+we
+have okay so what's the difference
+between the equal section and non-equal
+section let me walk you through so in
+the equal section what you're going to
+notice that you will find something like
+which takes the entire row of the screen
+uh little bit rare but it might happen
+the most usual case that you're going to
+see that in the equal section your
+screen is actually divided into two
+equal portion of it this is the most
+common layout designs that you're going
+to see two equal portion right now they
+are not very equal but just try to get
+the sense of what I'm saying or you'll
+see that your screen is divided into
+three equal parts so we have some kind
+of a layout architecture which goes like
+this or maybe which goes like this three
+equal parts we also have some of the
+screens which actually takes it a little
+bit far apart and have four equal parts
+that's also doable this is how let's
+just say two and let's just say we have
+three uh they are not equal by any means
+but this is what the usual design you
+are seeing the common thing between all
+these design is this one actually
+divides the screen into two equal parts
+this one divides the screen into three
+equal part this one design divides the
+screen into four equal parts no matter
+what it is these are equal section
+moving five equal section rarely but
+once we understand how we can actually
+divide this into four it's doable with
+the five and six and so on but from the
+good UI perspective this is how it looks
+like and this is actually the first part
+which is the equal section there's a
+non-equal section to it as well let's go
+with a non-equal section of how does
+that looks like in the non-equal section
+you'll see that sometimes there are rows
+which are which looks like uh this one
+takes probably 25% and rest whole thing
+is actually taken up by the other part
+of the this is how usually the row is
+divided this might flip as well uh this
+container might come up uh something
+like this oops not like that this might
+come up in in this side and this one
+might come up in this side uh that's
+adjustable that's doable but in this
+everything gets an unequal proportion of
+this and you'll notice that sometimes
+this one might shrink a tiny bit little
+bit more this one might expand a little
+bit more but the whole idea is they
+never share equal space on this one so
+this is the most common one another one
+that you're going to see uh quite often
+is this one takes a little bit portion
+here and then this one takes a lot more
+portion and then this one takes a little
+less portion and you will notice in the
+Tailwind docks even this exact kind of
+design is there so we have this whole
+thing if I go ahead and say I want to
+look into
+installation probably not installation
+maybe dark mode yeah this is what you
+can see this one takes a little bit less
+portion the right one takes a little bit
+less portion this part is really big and
+what you'll notice on the smaller screen
+what they try to do in this one they try
+to hide this first one they try to hide
+the second one and this one takes the
+whole screen on the mobile when we move
+to mobile again same same thing this one
+is taking the entire space or at a Max
+they take two screen now notice this one
+here so this is the common pattern the
+first one the right one goes away at the
+very first uh try to inch it a little
+bit the moment I go into Mobile this one
+takes the whole screen so that's the
+hack which I have noticed in almost
+every website that I work through with
+this so this is the whole thing now I
+have a big overview picture let me
+summarize this that on the mobile screen
+it's usually uh the content should take
+the entire space that's all it is at a
+Max it might take hey this might take uh
+two equal screen on the mobile nobody
+prefers that this one should take uh
+like for example this one should take a
+space like this uh this one should go
+like this this is usually considered as
+not so great practice with the US yes
+there are uis with that which actually
+doesn't follow this but very rare case
+very rare case although can be done but
+you will rarely notice that in the
+mobile the best is user has a best
+experience when he can tap on the
+content and see the content in a good
+width so either it is two equal halves
+or it is the entire one and here let's
+summarize this equal section the screen
+is divided into two equal part three
+equal part four equal part that's
+usually it is in the non-equal section
+one portion takes majority uh one
+portion takes majority one portion takes
+minority now how much is the majority
+minority we will figure it out in a
+minute but this is the whole idea so got
+it Mobile screen just two option majorly
+on the big screen two option only equal
+sections non equal section if you
+understand this big picture then
+building any layout is much much easier
+and you will see that how easy it is
+actually to build it always see the
+website from the row perspective first
+what goes inside the row is a different
+perspective alog together I'll walk you
+through with a separate uh crash course
+on that but notice here there might be
+entire card in it or might be just image
+or might be four images in that but this
+is how usually the designs are there and
+go ahead and check out any website
+you'll see that entire thing is rowwise
+designed even if we go to the Tailwind
+homepage this is taking the entire left
+to right this portion this row takes two
+part this part and this part this one is
+a little bit longer one this is a
+shorter one notice here an image on the
+left side a content on the right side
+two portions that's it this one whole
+thing just one big row this one this
+whole thing two portions one image one
+this one that's it this portion divided
+into three columns 1 2 3 that's it what
+goes inside we'll worry about them later
+on notice here anything that you work
+out through this is how the content
+layout is designed just go ahead and
+take a look on this in this one right
+side entirely empty this portion we have
+content and then same half and half
+divided this one empty so you just
+scroll anything and you'll see that this
+is a common pattern and this is how I
+always look for it that how things are
+actually being designed so how we are
+going to do this now it's time to write
+some code let's click on the component
+and for this particular video I highly
+highly recommend not the component docks
+actually that you actually bump this
+video onto 4K it will be much more
+easier because to understand these
+things it's actually rather easier to
+work in the playground yes in the last
+video we did a setup of doing all these
+things into uh vs code setup as well but
+here since the output is on the right
+side it's much more easier to actually
+have a visual aspect of how things are
+actually done so what we're going to do
+is we'll just zoom it a tiny bit don't
+want to do it too much otherwise it's
+little difficult to actually move it
+like this okay first of all let's go
+ahead and remove everything that we have
+now the first thing that I want to do is
+let's say we have a div this is the
+outer div inside this I will have a
+inner div this div will have some of the
+properties but first let's have uh two
+of these divs and what I'll do is let's
+have a couple of cursors and then we'll
+have a class what all classes you want
+in this one obviously this div will not
+have any content so let's go ahead and
+give it a minimum height of of what 100
+pixels minimum height of whatever you
+like 100 pixels seems good so now this
+div has a height and we're going to go
+ahead and do a rounded LG for rounded
+corners on these larger wids and let's
+give them uh Shadow as
+well Shadow just to make it look good
+otherwise no point in that let's finally
+give them a background color so that we
+can see them on the screen much better
+they are still on the screen
+but not really that visible so BG Das
+orange d500 we'll use the shade of 500
+because it looks good now obviously this
+is Orange let's go ahead and change this
+one to teal okay now this is how it
+looks like by default obviously each div
+is a block level element so it goes from
+left to right if you need something like
+this then obviously it looks great even
+on the smaller screen but the problem
+comes up when you want to have multiple
+layouts with this one so what my hack is
+to design any kind of layout is actually
+to introduce the grids now grid looks
+absolutely crazy it has so many
+properties but I'm not going to teach
+you all the properties in this video
+this is not a grid tutorial this is
+moreover a hack of Designing any layout
+so if you want a grid tutorial there are
+plenty of other uh tutorials on that now
+once I do grid it does change nothing at
+all where actually things go change is
+how you do and thing uh design the
+things now one of the hack another hack
+that I have is I always think from the
+bigger screen first now you might be
+thinking hey uh we were trained to do
+something like design mobile first yes I
+designed for mobile first but I think
+for the bigger screen first so the way
+how I do things is the classes like grid
+which will be applied on the smaller
+screen I don't care about them but if
+I'm taking care of something in the
+bigger screen I always think like from
+smaller and above screen so this is how
+the break points of the uh Tailwind
+Works SM then you write it that means
+this property will act for all the all
+the thing all the screens which are
+above the smaller screen so the way to
+think it is always think from on the
+smaller and bigger screen I will do this
+so that you can later on come up and
+apply properties without any colon or
+something and that applies on the mobile
+so by default the properties apply on
+mobile so I go ahead and say that you
+know what I want that on the smaller and
+above screen I want two columns so I'll
+just go ahead and say grid Das calls and
+I want two columns the moment I do it
+obviously we need a little Gap let's go
+ahead and have a gap of two four two is
+good enough four too much two
+okay uh no just not like that we'll just
+have a gap of
+four come on yeah this one is good
+enough okay so we have this one and on
+top of this let's have a margin of four
+so that this is better now notice here
+what happens with this okay did I missed
+anything okay it looks good now notice
+here when I said smaller and above it
+says hey just go like this so always on
+the all big screen this is going to be
+divided into two equal half no matter
+what you do or what you put inside them
+doesn't really matter the moment I go on
+the smaller screen
+automatically these are designed for me
+I don't have to do anything at all so
+automatically the grid takes place and
+my designs are done this is how you want
+most of your designs but let's just say
+for some some reasons you want to
+overwrite that on the smaller screen I
+want to follow the same thing then I can
+come back and overwrite this that hey
+grid Das calls D2 so I'm explicitly
+writing first for the bigger screen uh
+yes I know everybody says design mobile
+first but in the reality if you'll just
+work in the production nobody writes for
+the mobile first everybody just worry
+because the screen is opened up when
+you're writing code onto a de screen and
+this is how it works okay so notice here
+now on the the smaller screen also we
+are following the part so if you
+remember half of our work is done
+automatically this one works and we have
+explicitly told it to work on the half
+and half so mobile actually is not that
+difficult to work on and you can achieve
+any layout with this how nice this is
+okay now one more thing the moment you
+are saying grid calls 2 and grid calls 2
+and all of that make sure your inner
+divs are equally matching that as well
+so if I'm dividing things into two
+columns there should be two divs to
+actually match those columns so this is
+the first thing that you have to
+remember uh I'll actually copy and paste
+all of this and we'll give it to you so
+for example right now uh let's just go
+ahead and duplicate this and we will
+just comment this out to actually have a
+discussion on this now let's just say I
+have another of this one so I have three
+of these elements this one is not teal
+uh let's just go with the red come on
+select this red nice red so notice here
+since my grid is actually taking care
+for only two columns but I have in in
+this div I have three of the divs to
+take care about it I have to think like
+that that is the first thing so let's
+just say you want your screen to be
+divided into three equal parts all I
+have to say is first of all I'll worry
+about above screen smaller and above
+that's my uh way of thinking so I just
+go ahead and say uh for smaller and
+above screen that means the larger
+screen let's just go ahead and say grid
+calls three all right so notice here
+when I go ahead and move this is all
+three columns but the moment I go ahead
+and say uh hit the break point of the
+smaller one since I'm zoomed in that's
+why it's looked a little bit there
+otherwise if I go to 100% Zoom you'll
+see that it is actually a smaller screen
+you can see a little hovering of that
+but on the smaller screen you can just
+go ahead and do something like this like
+hey on the smaller screen also I want
+three equal parts but since I mentioned
+you will rarely find this is too much
+squished for it you don't want to do
+this on the bigger screen this looks
+great and this is how I exactly want but
+but what should I do on the smaller
+screen in such scenario you will rarely
+find that people want to divide them
+into two equal half two equal half
+because there are three elements in this
+row so what should be the best way to
+handle such scenario you'll notice that
+let's just take it entire width of the
+Mobile screen that is the best way to
+handle it so in that case what should I
+do we just noticed it you have to do
+nothing sometimes not doing the things
+is actually the best thing let's just
+remove this grid calls 3 which is
+actually for smaller screen let just go
+ahead and it automatically does it for
+me I don't have to do anything at all
+all I have to worry about is smaller and
+above screen there we go beautiful
+design there we go two equal parts and
+this one mobile optimized so grid is
+actually not that difficult uh to worry
+about if you go and do something like
+that okay uh what else can we do uh we
+can actually divide it into four equal
+parts as well so if I go ahead and say
+hey you know what now we have four
+another color um maybe purple
+yeah good shade of a purple so now
+notice here again the same problem
+occurs you are taking care in the parent
+element about three only but there are
+four elements so take care of the four
+elements the best way that I would love
+to do it is just go ahead and say four
+there we go they on the all the bigger
+screen that is smaller and above it
+actually works on the smaller screen
+automatically takes care of the things
+for me I don't have to do anything uh
+but on the smaller screen if you want
+that they should be half and half not a
+great design you have not started great
+uh you can do that uh but it would be
+really really difficult so for example
+let's just try this a little bit I want
+that grid Das
+col-2 if I go ahead and work like this
+uh yes uh now we are taking care of the
+in each of the grid columns there are
+two but I usually prefer not to do it if
+it is four screen I want them all to be
+on the one screen I can do that I can do
+that because I understand how the grid
+actually works on the outer layer I can
+do this but I don't prefer for it I
+usually prefer to actually just go ahead
+and uh not write anything that's the
+best thing don't do anything if I go
+ahead and work like this this is better
+design in all together this one here
+okay so uh this is the basics of how
+things are done whether you have uh
+maybe two of the divs four of the divs
+doesn't really matter so what we have
+covered so far is the equal portion two
+portion three portion four portion you
+can divide five portion six portion
+doesn't really matter my talk is not
+going to give you any additional value
+if I just go ahead and add one more
+because I'll be changing the values you
+get that you get that already now let's
+move on and talk about this part which
+is a non-equal section what should I do
+to have this non-equal section uh we
+have to take care about the mobile as
+well which we will but let's talk about
+the non-equal section
+okay uh this one is good I'll just have
+a duplicate of this and I'll comment the
+above because probably you might need
+that don't know why but maybe maybe okay
+so what we're going to do is first uh
+let's start with the three ones because
+that's where the majority or let's start
+with a two because this is where I think
+you'll learn the best so now we have two
+of these elements but I want to go
+non-equal that means I want to have
+something like this 20% or half less
+than half of this one 25% and rest
+should be given to this one so over the
+years what I've noticed is you can
+actually have the grid columns but
+here's the interesting thing so far we
+have been saying we want how many
+columns and all of that but actually we
+can distribute these columns in the
+inner child based on how many total
+columns you have I usually remember this
+with something like uh how much property
+is there with the parent that can only
+be divided now portion you decide 25% or
+70% or 5050 but parent need to have that
+much of the property so this one right
+now you can see smaller and above that
+means the bigger screens have only four
+of these ones so so half and half is
+automatically divided between them uh so
+this is how it looks like uh but let's
+just say these are only two so we'll
+just go ahead and say I want this to be
+two okay let's just go ahead and save
+this now what will happen on the bigger
+screen this is how it looks like so how
+can I go ahead and divide them one thing
+that I learned over the years is
+especially writing a lot of bootstrap uh
+code is designers usually like to divide
+their entire big screen into 12 equal
+columns and then they distribute the
+inner of how much space should be taken
+then this is a very very common
+technique in the design world so what
+I'll say is uh let's just say that how
+many columns we are going to have so on
+the bigger screen or this one is good
+let's just say what happens when I go
+ahead and say 12 uh really nice uh now
+they are obviously taking two spaces out
+of 12 but what you can do is is you can
+actually distribute how many um how many
+of the C column span you would take so
+for example let's just say I say that
+out of the entire 12 how much columns
+you want to take so just go ahead and
+say call span two so this one takes call
+span two now how many is remaining out
+of the 12 that's again property
+distribution so two portion was taken by
+one brother so how much portion is going
+to be taken by another brother so call
+Dash span and this one obviously is
+going to be 10 there we go nice and easy
+now one more thing is when I go ahead
+and Shrink this not not great on the
+smaller screen uh since this is going to
+take the 10 part of it out of the
+12 as soon as I shrink this this doesn't
+satisfy the property that's why this
+Mayhem is happening I don't want that so
+since I have already taken care about
+the bigger screen all I have to do now
+is take care about the smaller screen
+which is easier which is easier I can
+just go ahead and say on the smaller
+screen which is the direct property so I
+can just go go ahead and say grid Das Co
+and I want it to be two and that's it
+now notice here something strange that
+has happened when I go ahead and say uh
+this grid calls is two that's okay your
+grid is going to take two equal portion
+of it but still there is a little bit of
+a space on the right side it's trying to
+achieve that that's because you have
+added some extra property on the child
+this is taking two portion of it but
+this is still trying to take the 10
+portion we have done a mistake can you
+catch it we didn't thought of the
+smaller and the above screen we just
+wrote it like that so always take care
+just write SM for such properties so
+that you can take care of the bigger
+screen first so I'm going to go ahead
+and say this one is SM colon and below
+this is also going to be SM colon that
+means smaller and above screen now at
+least my bigger screen is fixed so this
+one is there so smaller and above screen
+since you didn't mention anything for
+the smaller
+screen this is how it is being divided
+because here you said grid calls to this
+portion so grid should be divided into
+two columns but if I go ahead and change
+it to one maybe this is I want so there
+we go on the bigger screen they are
+taking unequal portion on the smaller
+screen there we go so all I have to do
+is take care of the smaller and above
+screen rest of them don't take care so
+notice here what happened let me just
+summarize this we wanted that on the
+bigger screen we want to have 12 column
+or the 12 12 portion of the property the
+portion of the property will be
+distributed on the smaller and above
+screen so breako and above screen not
+the smaller screen so we went two and 10
+this was my portion so this is what I
+loved but what I want to do for the
+smaller screen so I'll not write
+anything for them if this is I want but
+if I want to overwrite it then obviously
+I'll go ahead and write that hey I want
+it to be divided into two equal parts so
+I'll just say hey uh our child are great
+so let's just have it that's it uh you
+can go ahead and say it in three as well
+doesn't look great but just wanted to
+give you that you can design any layout
+if you know even this much of the things
+okay one more thing which is going to
+bother you a little bit okay on the
+smaller screen I want one so they are
+taking all equal portion so let's just
+try to design something which is like
+Tailwind so let's go back onto the
+tailwind and try to see how this
+actually works let's go into dark mode
+so not dark
+mode over Focus utility first give me
+something
+spacing ah break do we have the third
+portion of it anywhere yeah there we go
+so my screen was a little short so we
+can see this one is taking out of the 12
+if you just ask me probably two and two
+here and rest of them is divided like
+this almost similar we can just adjust
+them so we definitely know that there
+are three of The Columns I have to take
+care of this this is the first part of
+it or let me just hit command Z and
+actually have another one so that we can
+actually have a talk on this separately
+there we go I'll just go ahead and
+remove
+this okay let's talk about this guy and
+try to design something like uh tailin
+uh obviously I know there are three
+elements on it so there we go we have
+orange we have teal and I'll go for
+purple that looks nice uh purple so we
+have three elements uh but this is not
+how they looks for look good for mobile
+so this is the idea I always worry about
+the smaller and above screen first that
+automatically makes me worry about the
+smaller screen on the next step so uh
+the bare minimum thing is let's just
+have a grid and remove everything to so
+that we can think accordingly okay this
+is how we remove this one and also let's
+remove the SM colon to you don't take
+any portion right now we haven't
+distributed the property yet no
+distribution of the property yet okay so
+this is how it looks like on the biggest
+screen they take the div on the smaller
+screen also they take the div so this is
+how they looks like right now now what I
+want to do is obviously on the smaller
+and above screen remember how I think
+the process on the smaller and above
+screen I want the grid to have a calls
+that should be divided into three equal
+portion there we go three equal portion
+that's being divided but I want the
+property distribution to be a little bit
+different so how I'll do is I'll just go
+ahead and say this one uh now the three
+is not great I want them to be divided
+into two 12 equal portion so there we go
+12 is the magic number and this is a
+design standard magic number I'm not
+making them up to be 12 I could have
+done it in the 10 that could make much
+more sense but this is a design thing
+either they divide it into six or the 12
+that's how they do it so in this one for
+the smaller and above screen I'll just
+say how much column span did you want to
+go so I'll just say call Dash span and
+you take two portion of it maybe four
+four is too much two portion of it is
+good enough for you
+and I think the same portion will be
+given to the last part of it so just
+copy this and let's just paste this okay
+but obviously now the distribution two
+and two four so we need to go with eight
+to make it 12 and you need to be
+decently good in the math not too much
+so let's just go ahead and say this one
+is call Das span and we'll go with the
+eight so this is how our Tailwind UI
+looks like or a Twitter layout if you
+want to go with that once we are done
+with this now notice here this looks
+great but on the smaller screen we
+haven't worry about we have worried
+about smaller and above screen so notice
+here uh not so great it is it is doing
+its job great uh the way it can be so
+that nothing hides or nothing has
+unequal portion I would say this is a
+good design as of now but what happens
+on the Tailwind is the moment you
+actually move this uh the right portion
+first of all disappears so they have a
+medium break point as well and the
+smaller screen uh they have only the
+middle elements being displayed uh you
+can worry about the medium Point
+breakpoint as well but my goal right now
+is to focus Morely on the smaller
+breakpoint and above everything so what
+do you want so what I want is that this
+should be hidden when it should be
+hidden the first element or the last
+element let's talk about last element
+when should be the last element should
+be hidden on the smaller screen so okay
+let's just go ahead and make it hidden
+if you do it like this then you're
+worrying about the smaller screen first
+no no no no we don't want to worry about
+the smaller screen first first we want
+to worry about the bigger screen first
+so on the bigger screen I want the
+display should be block that's the way
+how you display it so I'll say that on
+the smaller screen and above I'll just
+go ahead and say uh the display will be
+blocked so I'll just go ahead and say
+block there we go so display block
+shortcut for it and uh this one should
+be same everything should be display
+block on the bigger screen so let's just
+try this so last one so on the smaller
+screen and above you'll be displayed but
+on the smaller screen I want to hide you
+so just go ahead and say
+hidden hidden there we go save this now
+obviously the hidden actually goes at
+the very first so don't worry but notice
+here on the smaller screen this one
+hides on the bigger screen it is
+available exactly like Tailwind there we
+go it's gone now you want that the
+orange portion should also go away and
+what is left is only the teal one so
+I'll just do exactly same I'll come up
+say first I'll worry about the bigger
+screen so on the small screen and above
+go ahead and say uh block so your Block
+Level
+element but on the others that means on
+the smaller screen you are hidden that's
+it we have achieved the exact Tailwind
+UI there we go this is how they actually
+do it now we can add additional break
+point and right now we're just think
+thinking in two dimensional space the
+smaller screen and the bigger but you
+can think in the uh medium perspective
+as well that on the medium uh the orange
+should be block
+but on the smaller screen the orange
+should be hidden so it's all about
+thinking perspective how you can go with
+that I'm completely happy if I'm on the
+smaller screen the moment I go it I want
+to hide both of them I think that's a
+better design so I'll go with that and
+the same thing happens with the Twitter
+as well the moment you try to shrink the
+Twitter uh Twitter is basically three
+column layout again the moment you try
+to shrink it the right portion goes away
+so that's exactly same on the bigger
+screen block level on the smaller screen
+hidden and on the Twitter even if you go
+a little bit on the smaller screen this
+portion goes away and a new portion get
+unlocks so new portion is always hidden
+but on the smaller screen that's display
+block that's how you see those
+navigation item there so it's it's
+actually super simple now I hope you can
+understand what I'm trying to give you
+as a visual perspective of how things
+actually work so now let's come back to
+the analysis so we can now make a screen
+onto two equal portion no problem at all
+grid can do that and by the way there
+are more properties in in the grid if
+you work with that uh there are grid
+like we have this one uh where is the
+property call span we have row span and
+whatnot I don't get into too much I try
+to think my website from the rose
+perspective so there is a row span as
+well but I don't use it too much I just
+always like to hack out my way so this
+is what I have over the years uh figure
+out a way for me so now uh we have two
+equal layouts super easy to design if we
+do nothing automatically takes one
+portion on the screen and another
+portion below it we can also divide the
+screen into three equal portion four
+equal portion five equal portion six
+equal portion no problem at all we have
+also learned about the non equal section
+where we can uh divide the entire grid
+into 12 equal portion and out of that we
+can do the maths four portion eight
+portion 10 portion two portion however
+you want you can actually give the equal
+portion as well if you wish uh like on
+the medium screen I want to change the
+fancy layout it's not usually good but
+this you can do that 12 portion on the
+bigger screen you want to give four and
+uh
+4 and eight portion on the medium screen
+you want to give 6 six and that's doable
+but I don't touch it that much uh so
+non-equal portion you now know how to
+handle this and this three column layout
+this is also what we have done come on
+don't do that and on the mobile screen
+we have noticed not doing anything is
+usually the best because it takes the
+entire screen but if you explicitly want
+to do it then you have to mention this
+always think from the smaller screen
+perspective but what but do the things
+for the bigger screen so the moment you
+say smaller and above you make it a
+habit of writing smaller and above
+smaller and above that actually does so
+much of the things so uh let's just go
+ahead and copy this and I'll actually
+paste it in the vs code as well right
+now my vs code is not even open uh but
+anyways this actually uh makes the
+tutorial as complete that uh how we are
+actually doing the things and how it is
+so this sums up your crash course on
+building and designing any grid that you
+want I hope this video was fun A little
+hacky yes I haven't showed you all the
+things which you can do with with the
+grid there are more crazy things you can
+do but this is my favorite part of the
+grid of Designing any layout that I want
+and still no problem at all that's it
+for this video hope you have enjoyed
+this if you have enjoyed this please
+please please do comment down below uh
+fill up the comment Target we have not a
+highend Target but if you write the
+comment it boost me it helps me to make
+more videos that's it for this video
+let's go ahead and catch up in the next
+one

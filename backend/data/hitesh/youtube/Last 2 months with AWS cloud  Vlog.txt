@@ -1,0 +1,305 @@
+[Music]
+hey there everyone
+hitesh here yes i noticed you i was just
+checking the audio levels
+hey there everyone hitesh here back
+again with another video and welcome to
+my vlog
+a vlog on aws since i'm calling this
+video a vlog i
+first and foremost need to put a big
+disclaimer
+this is not a vlog from a professional
+vlogger so i'm not gonna be telling you
+hey here's my shoe collection or hey
+here is my phone that i bought from
+youtube money this is a very very boring
+vlog on aws
+and cloud and my experience of last two
+months what i have been doing on the
+cloud infrastructure and how i got it so
+in case you are having that goldfish
+retention time pubg is back
+so maybe tik tok can be back soon so
+stay tuned there let's move on and in
+this video
+i would like to share my vlog experience
+about
+handling aws so for understanding all of
+this
+i need to take you back two months in
+the last so many years
+i got a chance to work with so much of
+amazing and talented programmers
+one of that senior programmer and he is
+amazingly awesome and a german dude he
+called me back two months ago and said
+hey this
+i am running a little bit busy and i
+have something where you can actually
+be my helping hand would you like to do
+something on it
+i said hey cool let's just have a video
+call on that and discuss there further
+and then i'll be able to tell you
+that can i make my commitments or not or
+what the program is all about
+so i thought uh i'm not running too much
+busy so probably that's a new thing i
+usually get such contracts quite often
+and i thought hey let's just go ahead
+and do this one i was already
+trying to do all of this so basically i
+was already ready for doing this but he
+in the call told me right out of the bad
+that haitish this is
+not much related to programming you
+won't be declaring any syntax you won't
+be doing any react or in the angular or
+any such project
+rather you will be helping me in the
+cloud infrastructure
+and just after that i said hey listen i
+don't have too much of experience in the
+cloud infrastructure
+i just have basic bare minimum knowledge
+of aws cloud so that i can deploy a few
+of my fun applications
+whenever there is a serious business
+that needs to be done i have always
+hired other guys
+if that is my company and if there is
+somebody else where i'm involved in
+i have just barely worked along with
+them so i've never done this i don't
+have too much of experience in the cloud
+business
+it is always a good advice to just be
+very clear about your knowledge and
+skills where you actually reside it
+always builds a long-term relation
+so and that is the one thing that this
+german dude absolutely love about me
+that he always is
+straight in the face that this is what i
+know this is what i don't know
+so he further said that hey look i know
+you don't have too much of extensive
+experience
+but this probably can be a great chance
+to learn because i don't have any
+helping hand
+and don't worry i'm gonna help you out
+in learning a lot surely you have to do
+a lot of research work on your own
+but don't worry i'll be giving you notes
+and everything that i have
+and you can just move from there on and
+i thought
+uh it's a little bit for me will i be
+able to chew this much or not
+and this is exactly the moment that i
+thought that hey this is
+almost exactly like people might be
+feeling when somebody asked them to move
+from javascript to python or from python
+to java
+this might be exact feeling that i never
+got in the programming but this is where
+i'm getting this feeling
+so i was not very much interested in
+taking up this project or this contract
+work
+but then he told me something which got
+my interest he said that hey this there
+are two works actually
+the first one is my friend's work he
+just recently got started
+with the company and we need to
+restructure their infrastructure of the
+cloud so that they can get
+less bill and another one is this new
+aws account
+so it was a fresh aid of this account so
+i thought this can be my best shot of
+learning aws
+in-depth because absolutely fresh
+account and we are just creating
+everything from scratch so i said okay
+and the next thing that he said that
+this company is already having some of
+their infrastructure on their premises
+and will be moving some of their
+services on the cloud and i said okay
+leave everything right now and let's
+just do it because
+you get a chance of working with the
+fresh cloud and stuff quite often in
+your journey
+but you rarely really get a chance to
+work with a company which is already
+having their infrastructure
+their servers on their premises and you
+will be working on that scale
+on moving some of their services to aws
+this is bonkers so i said
+okay i'm not gonna let this chance to go
+away i was not worried about money or
+how much will i get
+paid i'm ready to invest all of my time
+in this okay let me also tell you
+what kind of experience do i have in the
+cloud so i do have a little experience
+in aws
+a teeny tiny bit in the google cloud as
+well on the aws i have just basic
+experience like having some bean stalks
+some of the cognito features and
+sometimes some load balancing and
+firing up a few ec2 instances that's it
+i haven't touched much in depth of it
+and this was the first time i was
+learning a whole lot about right from
+the iem
+rolls to im users group because this is
+a new fresh start for some of this work
+entirely
+and they are trying to migrate their
+services so i have to learn a whole lot
+about
+and to the fun part we directly got
+started by creating a few roles and then
+directly we moved into creating vpc
+i don't have too much of the higher hand
+or the upper hand in the networking
+and i had to directly create the vpc so
+i had to study a lot
+and this is all where i have been busy
+in the last two months
+so here is my conclusion of the last two
+months and of course the reason why i'm
+making this video
+for the smaller company where we were
+trying to improve their infrastructure
+for some of the things which can be much
+more cheaper for them
+we were able to reduce down their bill
+from six hundred dollars to
+three dollars like this is bonkers when
+i saw this kind of improvement
+i was like hey this is a time to make
+this video because right now
+it is 12 10 in the night it's monday now
+so it's 12 10 in the night and i was
+really pumped up to make this video and
+share this entire experience
+and shortly in the upcoming few months
+and weeks i'll make more videos
+this time it's going to be more related
+to aws what i learned there and all of
+this
+now there is a lot of things that i have
+to share in this entire experience like
+my friend did a lot of interview rounds
+he saw a lot of people doing aws
+certificate but not really happy with
+what the amount of knowledge they have
+and how much bill they have paid on
+their own on aws
+so that they can relate that how much
+you have actually worked on the aws
+surely a lot of them got certificate
+some of them didn't even got certificate
+but they were all lacking some of the
+real world experience
+it is really tough to get real world
+experience but don't worry i'll tell you
+all how you can grab that in the future
+youtube videos
+so don't worry on that but the real big
+question here that probably i would like
+to
+answer here that is it really were to go
+for aws
+and go after these certifications i
+would say no
+it's not really worth to just go after
+certificates
+certificates can really lay down as a
+backbone of something a curriculum where
+you can learn and understand the stuff
+but my advice would be just take some of
+the money
+probably 5000 or 10 000 rupees and
+invest that
+as a budget that probably if i'll get
+some bill of aws
+i'm ready to pay those 5000 rupees there
+because that learning experience of
+creating
+ec2 instances your auto automatic load
+balancing
+your acl your scaling groups so these
+are the things which are much more
+necessary for you
+instead of just running after let's
+finish this course let's give some of
+the dummy test and give the exam
+so on a whole it was a great experience
+and it was a great journey
+of working along with the senior
+architects and understand a whole lot
+about aws
+which i'm pretty sure i wouldn't be able
+to learn if i would be just going for
+the exam so i was just the lucky one
+but i won't be keeping this knowledge
+just with me or just with the exams
+i would be sharing this in the upcoming
+a few videos on the youtube so
+subscribing would be a great option in
+case you are interested in that
+or any kind of programming related
+videos and i would honestly say
+uh in general that aws is still a beast
+i in i got introduced to so many of the
+services which i
+never thought that do exist in aws and
+i'm pretty sure that
+none of you ever actually saw these
+services when we work in a company our
+area is restricted on probably web or
+probably with machine learning or
+something
+and aws is such a monster that so many
+services are hidden inside it
+learning all of them in depth is not
+definitely necessary but there might be
+a use case probably you might want to
+get some startup with that service or
+something like that
+so definitely stay tuned and this sums
+up my
+entire first vlog on aws and my
+experience on that
+so overall i'm super happy that i got
+this chance i learned so much of in
+depth of aws
+and i can say yes i am on to level 2 now
+from level 1 to level 2 of aws
+there is a lot more journey for me to
+cover so yeah
+super happy and super excited and it's
+late night i should probably get to
+sleep now
+and probably tomorrow in the morning you
+will be seeing this video so hit that
+subscribe and
+surely along with programming you're
+gonna see some aws content as well on
+this channel
+time to subscribe that's it for this one
+and i'm gonna surely catch you up in the
+next one
+[Music]
+[Music]

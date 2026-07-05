@@ -1,0 +1,210 @@
+a whole lot of you wanted me to talk
+about war let and Const key words that
+are there in JavaScript surely they
+should be discussed at the very first
+but there is a reason very specific
+reason I didn't wanted to do that at the
+very first I surely could have said some
+gibberish word you could have said yes
+it's okay that's super easy to do but
+you wouldn't have understood why after
+so many years we got a need of
+introducing this let key word things
+were all good with the war and in fact
+you write any other code with the war
+keyword it's all great it's all fine
+it's so why there is a need of let
+keyword because after some of the years
+of the development of JavaScript it was
+it was getting used at the places where
+it was never designed to be especially
+in the backend part in the front-end
+part we need a language which is much
+more lenient we don't want to throw up
+error at the very second place where
+you're writing the code that's why war
+keyword was designed with such a
+leniency that it doesn't give much of
+the error it just throws you undefined
+at the place where you probably will get
+error and that's the reason for so many
+years it was not there the let keyword
+but eventually after some time
+JavaScript was getting used at the
+places where it was never designed to be
+used or like entire mobile application
+entire back-end routing and a whole
+bunch of other places in those places
+it's always good to have errors and this
+for years has been a problem in
+JavaScript the scope how JavaScript
+consider scope and how other languages
+consider scope there is a vast majority
+of difference here and now you're in a
+position that you understand what is
+this global execution context how the
+executional context mounts up and they
+go away and all of these things so and
+we also studied a little bit about how
+one guy comes up and picks up all the
+variable names and all the functions
+definition and stuff like that so yes I
+would agree here that for years we have
+this scope issue in JavaScript and
+there's a solid problem here that you
+need to understand majority of the
+programming language call this as a
+scope this is right now an empty scope
+but anything that has these curly braces
+are called as scope scope are there in
+your
+if and else they are there in your for
+loops and probably dozens of other
+places but JavaScript don't consider
+this as a scope for JavaScript things
+are very different JavaScript consider a
+functions as a scope as long as function
+is there things are all okay and things
+are gonna work fine and on top of that
+there are some global context with
+pickups your variable that also makes
+things really really bad for some
+special cases not for the front end so
+we need to understand that how this let
+keyword can save your life and I would
+recommend that if you're writing code
+especially for back-end and more
+sensitive place then you should actually
+use let keywords so let's finally
+formally discuss that one so I have got
+this new file here which is in 2:06
+advanced ich this is a section which I
+don't consider as much advanced less
+code is gonna be there in this section
+but concepts are bit new and you're
+gonna have more advanced ich topics off
+and that's why I named it like that so
+there are some things that we have seen
+already in the past so let's just go
+ahead and say that I'm gonna use a war
+keyword for first here and I'm gonna
+define my name here there we go we have
+seen this so many times in the past now
+I think you can answer this question
+that what happens when I try to do this
+I'm trying to print my name and I'm
+trying to print it before it was
+initialized and declared as well we have
+seen that this actually gives us a
+result of undefined and I think if you
+have watched the previous video you have
+already seen that this is undefined
+undefined is good for front-end it
+doesn't really block your code it
+doesn't really gives you error but in
+the case of back-end
+I need error I want error here so in
+that case if you can replace this war
+with the Delian keyword in the
+JavaScript lead it actually gives you an
+error and a lot of you might think that
+error is not a good thing but error is
+actually a good thing
+compared to undefined and compared to
+many other things so that's the one use
+case scenario of this led but let's go
+ahead and go back onto the war to
+understand more on this one now coming
+up on to the scope let's go ahead and
+declare a simple dummy scope I'm gonna
+call
+this true so that we always go inside it
+and notice here these curly braces this
+is considered as a scope so in many of
+the cases let's just say I get a last
+name and I define the last name
+something like this I really big and I
+try to print that so let's go ahead and
+have a log off last name what do you
+think is gonna be the result in this
+case I can actually comment this out
+because we have understood this part as
+of now now let's go ahead and run this
+one here we get the my last name up here
+that's okay that's fine we have seen
+this kind of code what happens if I move
+this code outside this block here now
+this is my scope and technically this is
+not scope in JavaScript because this is
+not a method so what is going to happen
+in this case if I go ahead and run this
+again I'm still able to print out my
+last name do a lot of programmer this is
+not really a good thing what the habit
+we have developed is variable which are
+declared inside the scope should just go
+away and should not be accessible to me
+outside here and you might have seen
+this kind of same pattern that when we
+go ahead and declare a simple for loop
+notice by default the syntax that is
+given to me is let not the war because
+it can actually make some of the trouble
+when you declared it with the let the
+scope or the variable actually is poof
+is gone away as soon as this block is
+over that's why in the loops we majorly
+use let keyword because let's just say
+you write another for loop
+you're gonna again there are high
+chances that you use the same name here
+but if the name is war and imagine what
+happened here this last name was
+available to me even after the scope was
+over so this in this particular
+situation can actually mess around your
+code a lot your initialization can go
+all wonky here now what is the solution
+of this one here all you have to do is
+replace this war keyword with the let
+now let's go ahead and save this and try
+to run this one here now JavaScript is
+behaving how you like it to behave it's
+not allowing you to access this variable
+once this is scope
+once the scope is over that's it so now
+I hope you can imagine how neatly this
+thing was was done in the JavaScript
+architecture that if anybody wants to go
+with the classic way of thinking that
+scope is all like a global context and
+executional context and functional way
+then he can use the war keyword and can
+still continue use the language how he
+has learned but all for the new
+programmer who are using the language as
+the backend can just replace one keyword
+war to let and now can consider this
+languages almost all modern languages
+like C++ or go or swift where scope is
+defined with the curly braces so that's
+a very very fantastic and I would say
+honestly very very wise approach of
+handling this situation and this much of
+in-depth analysis is not at all possible
+on the day one when I'm teaching the
+JavaScript so that's why I kept it at
+the very end and now you thoroughly and
+in-depth ly understand of that so all
+the tricky question that comes up in the
+interview where interviewers sneekly are
+these let and war and try to mix them up
+now you know what is happening and how
+things are happening okay so I hope you
+have enjoyed this in-depth behind the
+scene analysis of war let keyword and
+memory scope so I think you can now hit
+that subscribe button if you haven't
+already done that that's it for this one
+and let's catch up in the next one
+[Music]

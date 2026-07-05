@@ -1,0 +1,64 @@
+Vercel got hacked. So, recently there
+was a security incident at Vercel and
+this particular blog post tells what
+exactly happened. So, this is the
+official blog post by Vercel which
+states that there was a security
+incident on April 26th and if we go down
+that there is this interesting thing
+that we have identified a security
+incident that involved unauthorized
+access to internal Vercel systems.
+And we go into the what we know, you can
+understand what really happened. This
+incident originated with compromise of
+Context AI, a third-party AI tool used
+by Vercel employee. So, Vercel guy can
+play was using this third-party tool
+that is known as Context AI.
+And with this particular tool to hack
+what
+Google Workspace got access media. The
+attacker used that access to take over
+employees Vercel Google Workspace
+account. So, risky.
+Access Miller and only environment
+variables to sensitive native. Do
+encrypted native.
+So, if you can see that which enabled
+them to gain to access of some Vercel
+environment and environment variables
+that were not marked as sensitive. So,
+see just using a third-party tool into
+your ecosystem can do these hazard. But
+I will be a two particular uh problem is
+going to be solved again. And also
+Vercel team has said that could be NPM
+package on the device to compromise
+native. Everything is good. And now to
+take more security measures, Vercel team
+has made this sensitive thing as
+mandatory as a default thing.
+You have to mark your environment
+variables as sensitive by default, but
+you can like choose to not mark them as
+sensitive. And you have a sub impact
+native and you have an impact on
+which subset of customers here to impact
+with you don't need non-sensitive
+environment variables to use native. And
+Vercel the personally on to email but I
+do have that your accounts were
+compromised. So, as a best practice of
+my environment variables to change on to
+rotate the of the secrets. Yeah.
+So, this is initially and the all thing
+goes to this particular third-party
+tool. Employee used to hack what just
+because of Vercel internal system got
+access hackers got it. So, that's how
+the chain goes and there was no supply
+chain attack. There was no NPM packages
+thing. So, thankfully that got saved and
+that's what happened in the Vercel's
+ecosystem.

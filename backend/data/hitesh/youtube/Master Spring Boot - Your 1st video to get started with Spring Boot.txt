@@ -1,0 +1,2807 @@
+Are we talking about Java and specially
+Spring Boot? Yes, absolutely. In this
+channel, we rarely talk about Java, but
+we are about to change that in a very
+good way. We're about to talk about Java
+and Spring Boot and specially want to
+walk you through that how the web
+development works with the ecosystem of
+Java.
+Spring Boot is one of the classic web
+framework which allows you to write web
+application in Java and everybody is a
+big fan of that.
+Hey there everyone, my name is Atish and
+welcome to the channel. In this channel,
+we are uploading a whole lot of video
+about the full stack project and we have
+been doing this for almost 14 years now
+and we have been changing stack for over
+the years. It has been into from Laravel
+to JavaScript to TypeScript and we are
+also introducing Java and Spring Boot
+now. Now with this video, I have a very
+simple goal. I don't want to become the
+entire series or anything. The goal of
+this specific video is very simple. I
+want to introduce Java Spring Boot in
+such a way that if anybody wants to get
+started in the web development via the
+Java ecosystem, this becomes the go-to
+video, the standard video that hey, any
+fresher, anybody who is in the college,
+you want to get introduced to the Java
+Spring Boot for the very first time in
+life, this is the ideal video. We have
+made this video in such a way that for
+the very first time we introduce that
+why, how, and what picture of the Spring
+Boot and you feel absolutely comfortable
+in the Spring Boot. The Spring Boot is a
+massive gigantic ecosystem and it is
+completely fine to feel lost that where
+should I get started, how should I get
+started, which package to include, which
+package not to include, give me a
+theoretical as well as a practical guide
+so that I can start my journey. And this
+is that video. In the future, I'm pretty
+much expecting that everybody who writes
+code in Spring Boot recommends this
+video as the very first getting started
+guide to all the freshers in the
+company, all the people in the college
+and say, "Hey, that's the video that
+everybody should be watching." And this
+is one of the best introduction video on
+the Spring Boot. And don't consider this
+just as an introduction. This is not an
+introduction. This is a hands-on guide
+on Spring Boot for the very first time.
+And the person who will be teaching you
+this is Anirudh who happened to be one
+of my early day student and now serves
+through his coding services worldwide.
+He happens to handle a huge amount of
+financial data over the life of his
+coding journey and he'll be introducing
+you through this amazing journey of
+Spring Boot. Very excited. All I request
+you from your side is please show some
+support in the comment section. Share
+this video as much as you can if that's
+possible. If that's not possible,
+totally fine. Just leave a comment in
+the comment section.
+Just a small appreciation or from where
+you are learning, that is more than
+enough for us. A small encouragement
+goes really, really long for us. And
+without a further ado, let me hand it
+over to Anirudh so that he can explain
+you more about the Spring Boot ecosystem
+and I'm pretty sure on one thing. You're
+going to absolutely love this video.
+Hello and welcome to the channel. My
+name is Anirudh. I'm a software engineer
+with more than 5 years of experience in
+Fintech. Today, we will build a
+Java-based backend application using
+Spring Boot framework. And we will see
+how it will help our influencer friend
+set up their merchandise store. We will
+go from the low-level design, get to the
+coding part so that you will understand
+how Spring Boot actually powers some of
+the biggest tech companies around the
+world, whether it is Walmart, Netflix,
+Amazon, Google, and some of the biggest
+players that are out there. So, if this
+sounds exciting, let's get started. All
+right, guys. So, before we get started
+with coding, I want you to do some
+system thinking with me so that tomorrow
+let's say Spring Boot framework is not
+there and you have to implement this in
+a totally new framework, our thinking
+process will remain same. So, we need to
+understand the problem statement then we
+will get into the coding part. Let's add
+one user. So, this user has some
+problems. So, he came to you saying
+"Anirudh, I have a certain problem." So,
+we have to save him. Just like in Marvel
+world, there are superheroes who are
+saving this world from a particular
+incident from happening. So, we are here
+to help Mr. User. Right? So, so Mr. User
+is here and then we need to save him.
+So, what what is he saying? He is saying
+"Anirudh, I want to set up a merchandise
+store. I want to sell particular items
+so that I can make a revenue. Right? So,
+this is a fairly simple ask. What what
+all does he want to sell, right? So,
+this is a first immediate question that
+at least I get. So, I'll ask him "Hey
+user, what all do you want to sell?"
+Then he says "Hey, I want to sell some
+t-shirts.
+I want to sell some mugs. I want to sell
+some stickers." And so on and so forth,
+right? I'll say "Hold on, man. You're
+telling me a very big list. So, this
+seems like a fairly bigger problem than
+what I anticipated. So, I'll gather some
+questions that he that he is doing in
+his business would usually get, right?
+So, I'll ask him "What are some usual in
+your day-to-day operations that you
+would get, right?" So, Mr. User is
+telling me some questions. So, let's
+listen to them. So, Mr. User came back
+and then he said "Anirudh, I have these
+questions usually and these are the
+questions which are frequently asked by
+my customers also. So, I need your help
+so that we will be able to address these
+sort of questions." What are them? Let's
+look at it, right? What is the price of
+an item? So, like, obviously, like,
+whenever somebody is purchasing, they
+would want to know the price, right? And
+okay, when was this particular order
+placed? How many products are left in
+stock so that based on the stock
+availability, I can place an order. What
+items are there in a particular order so
+that I know if let's just there is some
+dispute, I want to do some sort of
+refund, I would want to know, right? So,
+these are just general questions that
+any shop owner or his customer would
+have in their mind, right? So, I said,
+"Okay, let's take a step back. Now, we
+will help you set up the store in itself
+first, then we will see how we can
+address these questions in the end,
+right? So, let's look at some abilities
+like he as a creator, what all can he
+get and how it will help his business
+run, right? So, as a creator, what all
+can he do? Let's write it down, right?
+So, we are saying as a creator of the
+store or as a owner of the store, what
+all you can do? You can
+create a product, you can update a
+product, you can delete a product, and
+you can, of course, once you create, you
+should also be able to read a
+product, and along with it, you should
+also be able to see all the products
+that are ever created, right? So, these
+are some abilities that I can think of,
+right? As a creator, he should be able
+to do all this. But as a customer, what
+all can I do? I should be able to, of
+course, again, read all products,
+read an individual
+product so that I can see its details,
+and I should be able to place an order
+and view my order history, right? This
+is fairly how most of the stores work.
+So, from all this discussion, we
+understood there will be two sort of
+things around which the entire story is
+going to revolve. One is a product and
+one is the order. So, let's add them.
+So, we'll have a product and this
+product will have certain attributes to
+it, right? So, a product will have its
+name, product will have its description,
+it will have its price, and how much
+stock is available for this particular
+product. And additionally, we will also
+maintain a category under which it is
+going to fall. So, if it is apparel,
+then all the t-shirts and shirts will
+come into that. If it is something of a
+tech product, then all tech-related
+things will get into that. Apart from
+this, we will also have one more entity
+which is our order. So, our order is
+also important because that is the
+actual one which is revenue generating,
+right? So, in our order, what all will
+we have? We will have We will capture
+our customer name. We will capture our
+customer email. And we will also collect
+few more things like, okay, what
+products are you actually purchasing in
+this? So, this would be some sort of
+array, right? So, this can be one or
+more. This can definitely not be empty.
+So, because they cannot place a empty
+order, right? So, and of course the
+status of the order. So,
+at a high level, I can feel, Mr. user,
+okay, from our discussion we have these
+information that will be captured. So,
+based on this, let's come up with a
+database diagram and we will see how all
+of these will be linked together, what
+sort of relations that can exist between
+them, and how we will save it into our
+database. Because handling the data is
+the key part. So, let's add some ER
+diagram here and then we will get going.
+All right, guys. Now that we know in a
+high level what all fields we will have
+for our product and order, let's convert
+that requirement into an ER diagram. So,
+let's add one table by the name of
+products. We will add some
+beautification. This is basically the
+beautification given as an option by
+Eraser. So, you don't really have to
+remember any of these. So, I'm going to
+add a table by the name of products.
+Every product will obviously have a ID.
+So, let's add ID, which is a primary
+key. It will have a name, which will be
+string. We will have a description,
+which will be a string again. We will
+have the price of the product. Now, this
+will be decimal, because we should also
+collect the paisa after the decimal
+point. And after that, we will also
+maintain the stock quantity. This will
+be in integer. And apart from this, we
+will also maintain few more metadata
+like created at, which will be a
+timestamp, and updated at, which will
+again be a timestamp again. So, now that
+we have our base product ready, so we
+will have to maintain another table
+where our orders are kept. So, let's
+write down our orders. Now, when it
+comes to orders, let's create one more
+table. This will have a icon of shopping
+cart, and then we will keep a color of,
+let's say, purple, right? Now, this
+orders will also maintain some
+information in it. So, we will start
+with our standard ID string. This will
+be the primary key for this table. We
+will have a customer name.
+So, who is purchasing this? We will have
+a customer email, which will again be a
+string.
+And we will have the status of the
+order. This can be a enum value, but for
+our simplicity, we are keeping string.
+We can have the total amount total
+amount. This will again be a decimal
+value. And at what time was this order
+really placed? So, you can have a order
+placed time, but rather because I'm
+going with the meta information syntax
+of created at and updated at, I'm going
+to pick the created at syntax. Now that
+we have two tables with us, which is a
+products and orders, there is no
+particular relation between them. We
+don't know which order has which items,
+which product is present in which order
+so that we can update the stock. So,
+this is where to rescue us. We are going
+to create a junction table. So, this
+junction table will help us understand
+how these both the tables, which is
+products and orders, are related with
+each other. So, let's write order items.
+Order items. We will add a icon of,
+let's say, list. We will add a color of,
+let's say, blue.
+Right? Now, this order item, again, it
+will have the standard string primary
+key. Now, here something interesting is
+going to happen. One is, when you're
+placing an order, you will have the
+product's price, right? And this price
+is something which is dynamic from time
+to time based on the demand. The creator
+can come, they can update, they can
+decrease based on the sale. Right? But,
+this should not hinder our analytics.
+Let's say tomorrow you want to know how
+much total sale did I make in the month
+of March. So, I cannot do it based on
+the current product's price, right? At
+the time of purchase, how much price was
+present? So, price at
+purchase will, again, be a decimal
+value. This is something which we're
+going to maintain. And this items that
+we have, this order items, can be in
+multiple quantity. So, just like in
+Amazon, you can add a item to the cart,
+you can also mention how much quantity
+of that you want. So, in the same way we
+are going to capture our
+quantity here, which will be an integer.
+Now, I have the order items also. We
+have three tables. You just added one
+more, but this really didn't help me in
+any way. So, what are we going to do
+that will help in our situation where we
+are going to connect these tables? So,
+we want to have some sort of connection
+between the products and orders. So,
+that is where the order items came. So,
+in our order items, we need to maintain
+which order is this part of? And we
+should also see which product for this
+it is placed for. So, we will also have
+a
+product ID.
+So, let's read it in a different way.
+What we are saying here is every order
+items, which is having a order ID, is
+basically mapped with our orders table.
+So, this will When we write this
+particular sentence, what we are saying
+every order will have multiple order
+items. And this order item has something
+called as a product ID. So, we are
+taking this product ID, and then we are
+mapping it with our products table. So,
+do you see how this played out?
+It is basically telling or how Let's
+write it down, right? So, what are the
+relations that got created after we
+added
+these particular lines. So, the first
+one says
+one order can contain
+many order items. So,
+hence, we have our first
+one-to-many relation, right? And we are
+also saying
+one product can appear in many order
+items, right? Because you have stock
+available, and this can reappear until
+the stock is completed. So, this is
+again what is this? This is again
+one-to-many.
+So, this is the relation. Right now, we
+have done it at the visualization level.
+Now, when we come to the code, this is
+exactly how we are going to write and we
+will see how Spring Boot is going to
+make it super easy for us. When you're
+going to do the same thing in a
+different framework, you will see how
+complicated that is. But, when it comes
+to Spring Boot, it is way simpler than
+you can even imagine. So, Annie, now
+that I know Okay, this is the database
+design. Now, tell me, okay, what APIs am
+I going to build so that I can just
+really get started with the code, right?
+So, we will have our APIs for product
+and we will have our APIs for order,
+right? So, let's list them down and then
+we will see based on this how we will
+design our endpoints also. So, first
+thing First things first, we need to
+give a option to create a product. So,
+I'm going with the plural, which is
+basically matching with the table name,
+also. I'm going to use a post method to
+create a product. So, this will be our
+create. And I want to give my option of
+updating a product via put endpoint.
+And And I'm going to give an option to
+read my product via the get endpoint.
+Again, by the same products, but let's
+say I want to read just an individual
+product, right? So, read single.
+So, what I'm going to do? Get again,
+products, but this time with ID. You
+remember we are saying every product is
+uniquely identified by its ID. So, this
+is where it actually comes into play.
+So, let's get back to the API list. Now,
+apart from getting the product, let's
+say you also want to delete the product.
+So, this is where you run your delete
+endpoint. Again,
+by product ID.
+After the product, we have our order
+also. So, we need to be in a position
+where we can place our order. So, this
+will be a post endpoint for orders. Once
+the order is placed, I want to get the
+individual order. So, let's say I'm
+going to use the get orders by ID. And
+then I also want to see all my orders,
+right? Get all.
+Again, this will be
+get with forward slash orders in plural.
+So, this will sum up our entire API
+list. Now, this is a full API list. We
+understood the requirement. We
+understood the DB design. We understood
+what the endpoints will be. Now, we will
+see how Spring is going to help us in
+making this entire project, but in a
+rapid pace. This is where the Spring
+Framework comes. The Spring Framework.
+This is an open-source framework. This
+is available on GitHub, but you don't go
+there and raise some PR and do all those
+things. Okay, this is just for
+educational purpose only, okay? You're
+not supposed to file any issues or
+anything. This is you just open it, see
+it, and close, okay? Now, we will
+understand the Spring Framework from a
+real-world example, right? Whenever you
+are hungry, you would want to go and
+find in your fridge what ingredients are
+present. You're going to cook them and
+you're going to eat, right? So, that
+will suffice your hunger.
+But, let's say you are in so much hunger
+that you cannot even wait for cooking.
+So, that is where your ready-made food,
+which is where you can order from online
+or let's say you can also do the frozen
+food, right? So, somebody has already
+done the cooking. You just have to heat
+it up and then eat. So, someone else has
+already gone to market. They bought the
+vegetables for you. They did the cooking
+also and then they gave it in a frozen
+format. Of course, not everything, but
+there are some items which are
+available.
+In the same way, Spring Framework saw
+some issues that as developers, what all
+common issues that we are facing. So, we
+will take a real world example and from
+that we will understand. I'll open a
+website and then in that we will try to
+observe what all things are there. Okay,
+let's go by a real world example. We
+will take one of the biggest e-commerce
+application in India, which is Flipkart.
+You can see they're already asking me to
+login. I will do the wait.
+So, here you see on their landing page
+you have some sort of carousel and then
+there are products being listed. It is
+of course not saved somewhere in the API
+server, but it is in some sort of a DB
+where the information is present. That
+information, when I open the website, it
+said, "Okay, someone from Hyderabad is
+requesting this page. Let me get the
+information which is relevant to me."
+Right? So, it is going to go into their
+database, going to find, "Okay, what is
+most relevant to Anirudh?" And then it
+is going to return. Right? You have
+again this cart login, right? Okay, one
+is one more thing. Okay, here we have
+authentication, right? So, this is very
+common across applications. You will
+have some sort of authentication which
+is common, right? So, don't you see some
+commonality in this? Every product will
+have some sort of DB connection. Every
+product has to send its information or
+in order to communicate some sort of
+REST API communication has to happen.
+And you need some sort of DB connection
+so that your API server can talk and get
+you the information. It can persist the
+details. Right? So, here Spring
+Framework, people around the world who
+have lot of interest in this, they came
+together. They wrote small small
+packages.
+They wrote what? Small small packages
+which exactly solve this. So, that a US
+developer you don't have to reinvent the
+wheel. You don't have to write your
+authentication again from the scratch.
+What you have to do is you have to go to
+spring find which is most suitable to
+you. You are not someone who is going to
+face this for the very first time,
+right? This might be faced by someone
+else already. So they have done the
+solution and what they gave is they gave
+you you can install this. You do basic
+configuration and once you do your
+configuration as per your application
+need, then you can get started with the
+application development, right? You as
+developer you focus on actual building,
+right? For me as developer what all I
+have to do, I have to do the DB design,
+I have to create these endpoints. This
+is my work. I should not be bothered
+about okay, which DB am I going to use?
+How will I connect to it, right? Those
+are questions which I will hand it over
+to the framework. This is where spring
+is going to shine. It will say it will
+do all the heavy lifting. I'm really
+telling this is a bodybuilder, right?
+This is going to lift all the 25 kg 100
+kg dumbbell for you. You just have to go
+to the gym. So now that you got okay
+from
+real world understanding okay, you
+observe this something is built for you.
+You go take that. You add it as a plugin
+to your project and without breaking
+your project you are going to do some
+config and you can utilize exact same
+behavior across your application. So
+that is bit about spring and if you want
+to know okay, what is the symbol of it?
+This is a leaf symbol something like
+this in green color.
+What is the official website? Let's get
+into spring's website. So this is a
+spring's official website where they're
+saying okay, spring makes working with
+Java easy, simple, productive all
+marketing terms, right? So here they are
+saying okay, what all use cases where
+you can use spring. Whether it is
+generative AI, whether it is
+microservices, cloud, web apps,
+serverless, there are whole lot of
+things and this is why enterprise loves
+it. This there is a certain reason why
+enterprise is actually using it. It is
+not that one day someone wake up at this
+big company and then said, "Okay, spring
+has a leaf and I find it very much
+appealing. I'm going to use it." No. And
+there is a reason why companies like
+Netflix are still using it till today.
+Now, we'll get into the spring projects.
+So, similar to you as developer whom you
+have projects, right? So, spring also
+saying, "Hey, I have some projects
+readily available. You can go through
+them, identify which is most suitable to
+you and then you can pick." Right? So,
+at the center of all, everything is
+spring framework. So, what do they say?
+Let's read out, right? What does it say?
+It provides core support for dependency
+injection, transaction management, web
+apps, data access, messaging, and more.
+One common doubt that everyone uh
+usually have is, "Okay, we have a spring
+framework, then what is a spring boot?"
+You remember in my example where I said,
+"We have food which you can cook and
+eat." And there is also food which is
+readymade available as a frozen food.
+You just have to heat the food and then
+eat. Spring boot is exactly that. So,
+what does it read? Let's read. Spring
+boot takes an opinionated view of
+building spring applications and you can
+get up and running as quickly as
+possible.
+And there are more such projects in
+spring ecosystem. But, right now let's
+get started with spring boot. We will
+set up the project. We will see how
+everything is flowing. We will see how
+all the files are laid out, how it will
+run. So, let's get started with that.
+Fantastic, guys. You have followed the
+tutorial till here. Make sure you drop a
+comment. I'll send you a guide on how to
+get rich in 30 days. Now, let's open our
+IDE. This is IntelliJ IDEA. You can
+download it from the internet basically
+for free. And here you see there are
+various options. Let's start by creating
+a new project. We'll click on new
+project and here we will mention this is
+a
+creator store. You can see I have a
+location under which it will be created.
+I'm going to go by the Java language.
+I'll be picking the Maven build tool.
+And in the group ID, you can see it has
+basically entered my own website, which
+is anilswala.in in the reverse order.
+So, if you have your own website, make
+sure you enter it in the reverse order.
+So, it should be something like
+com.google, right? In the reverse order.
+The artifact is basically same as the
+name. And JDK, whatever default it is
+giving. If let's say you don't have JDK
+installed, make sure you install it by
+one of these options that are given in
+this drop-down. The Java version,
+whatever is default. One thing that I'm
+going to change is the configuration.
+Right now, I want to maintain everything
+in the YAML format, which is my
+preferred way of reading. So, I'll be
+going with the YAML format. I'll click
+on next. And here, the Spring Boot
+version is already picked. This is the
+latest version. Tomorrow, there can be
+something else. So, based on whatever is
+the latest, you go with that. In the
+dependencies part, let's start
+installing some things. These are the
+dependencies which are given at the time
+of creating the project, but I'll also
+show you a way, let's say you already
+have a project, how do I add a new
+dependency into that, right? So, these
+dependencies are similar to what you add
+in your package.json in your JavaScript
+world, right? So, here firstly, I want
+to have one for my database. I'm going
+with the Postgres driver, right? So,
+this driver will help me to connect my
+Java application to the Postgres
+database. And next one, I'm going to add
+one developer utility, which is Lombok.
+This will help me in getting the getters
+and setters for any given class. And
+yeah, of course there are more, but
+right now
+you if you don't know what is getter and
+setter, make sure you revise your Java
+basics, right? Now, apart from these two
+dependencies, there is one more which is
+the crucial crux for this, which is the
+Spring Web. So, this will enable us to
+create and work with REST APIs. Let's
+say you want to work with GraphQL,
+right? So, that is where you search for
+GraphQL,
+and then you add the Spring for GraphQL
+dependency. So, apart from this there is
+one more which is very crucial, which is
+the Spring Data JPA. This is the one
+which is enabling us, this will act as a
+ORM for us, and this will help us
+connect to the DB. Whatever Java classes
+I'm creating,
+this will convert those into the
+database tables inside my Postgres DB.
+So, I'm going to add my JPA
+configuration. And apart from all this,
+there is one more which is the Open API
+Spec. This is not Open AI, this is
+different. This will help you in getting
+your documentation for your website. So,
+this is basically if you know something
+like Swagger, so this is basically that.
+So, it will help you generate Swagger
+documentation. But for now, let's click
+on create and then this will set up the
+template and then give me a basic
+starter guide, right? So, from this we
+will understand the
+project structure and then we will go
+about what all we have in the project.
+On to the left side, you can see there
+are a lot of changes and then because I
+also did Git initialization, let me
+commit this file so that I know, okay,
+this is where I started. I'm all I'm
+basically showing you how I as developer
+work, right? So, I'll make sure from
+time to time I do my Git commits so that
+you whenever you get this repository,
+you see everything from time to time.
+Right? So, this is the setup basic
+setup. Right? So, I'm just committing
+and then I'll just remove. So, this is
+basically the IDE. So, here you have
+commit option. Here you have your
+project structure. Right? On to the left
+side. Right? So, here you have your
+file structure. Right? So, here let's
+see. Let's expand and see what all we
+have. Okay, initially we have dot idea.
+I have no idea what is this, but I'm
+just kidding. So, this is related to the
+IntelliJ IDEA. This is the folder which
+is specific to the IDE itself. So, you
+don't have to touch it. The Maven is in
+short known as MVN. So, here it has a
+properties where it is saying, "When I'm
+going to do my installation of
+dependencies, this is the location where
+I'm going to go, search for the
+dependencies, and get the dependencies
+for you." So, this is similar to your
+NPM JS
+registry. Right? And next we have SRC.
+Okay, we know okay something related to
+source code will be there. We will not
+open that. Okay, we have our Git ignore.
+So, this is a file used to ignore
+certain folders, files in your Git
+history. Okay? Next you have your Maven
+W. This is the actual Maven which is
+present in your project level. So, that
+you don't have to download Maven every
+time. Maven is included in your project
+only. So, that is a good thing. So,
+similar to package.json, we have
+pom.xml. This is an XML format, guys.
+Remember, this is not in JSON format.
+This is an XML format. That is why
+you're seeing all these tags open tags
+close tags something like a HTML. Right?
+But, what we are most interested in.
+Right? Okay, so some things that I saw
+at the time of creating is this the
+group ID artifact ID. Recall? So, this
+is the name. I have some description.
+Right? Okay, these are the things which
+I'm not bothered about. But, I know okay
+there is something like okay, Spring
+Boot version, which is 4.5, right? I'm
+able to understand from this if this
+does not totally make sense, I know,
+okay, by reading this basic uh human
+instinct is kicking in. Now, when we
+scroll down here, we see, okay, there is
+a dependencies list. In this, I see each
+individual dependency is being added,
+right? So, what all we have? We have
+added many things, right? One is a
+Postgres, one is a Lombok, one is the
+Spring Framework in itself, right? So,
+what all dependencies we added are going
+to sit in this place. So, this much I
+can understand. So, tomorrow when I
+wanted new dependency, I'm going to go
+find somewhere, and then I'm going to
+add it into my pom.xml. In the SRC
+folder, we usually have two folders,
+main and test. Main is where your actual
+source code is present, and test is
+where you write your unit test cases. In
+the main, we have Java and resources.
+Resources have application.yml.
+At the time of setup, you remember I
+told that I have a preference of YML.
+So, this is exactly the file which I was
+talking about. The configuration of my
+entire Spring Boot application is this
+particular file. So, from this, I can
+enable some default flags which are
+currently turned off or on, right? I can
+do all my control from this particular
+location. Tomorrow, when I'm going to
+add my database, let's say I want to
+connect to my database, all the
+credentials will be mentioned in this
+particular location. Of course, not the
+direct string, I will mention it in my
+.env, but this is the location where all
+my configuration is going to be present.
+Now, in the Java folder, we see, okay,
+there is one file, because when I was
+working with a Java project, I usually
+used to create one Java file, which is
+my main class, and I have just that one
+file. So, this is that one file. This is
+my main class file. So, here, you see
+there is a run button. Let's see, okay,
+whatever happens happens. Let's click on
+run and then see, okay, what will
+happen, okay? On the left side you see
+there is a target folder which is
+created and then this is where your
+generated output is going to be present.
+So here if you expand and see, this is
+my compiled decompiled version of my
+Java code. So this is where all my dot
+class files are going to sit. If you
+don't understand what is dot class, go
+revise your Java. It is a fantastic
+language you have to learn it. Okay, now
+that I appreciated about Java, my
+application tend to fail. So it is
+saying, okay, there is some sort of URL
+which is missing which I will be adding,
+right? Because we included the
+dependency of Postgres, but we didn't
+really connect our application to the
+database.
+That is nice. So my application is
+actually working. It knows there is
+certain dependency which is asking for a
+detail that I am yet to supply. So this
+is a great start. Now we will get into
+the next chapter. Let's look at some of
+the configuration that is needed for us
+to add so that our application will be
+up and running. So let's add them. So
+first we will add our database
+information
+information. In this we will be
+including our data source. If you
+remember in our error also it was saying
+something around data source URI is
+missing. So we will add the URL of the
+database.
+We will have to mention the username of
+the database and also the password. This
+information either you can get it from
+Neon Supabase or you can spin up a
+Docker machine on your local and then
+you can get it from there. I will show
+you how you can do it from a Supabase
+example. And after this we will also
+have to add some ORM configuration. So
+if you worked with uh some of the
+JavaScript based applications, right? If
+you worked with something like Drizzle,
+Prisma, Mongoose, you must have seen how
+it will make our job easy where you
+don't have to write any SQL commands but
+just do some little programming, and
+that will automatically do all the rest
+of the conversion for you. So, in our
+case, we are going to work with
+Hibernate. So, Hibernate is a ORM
+library, which will exactly work in the
+same way, but for Java. So, when it
+comes to Spring Boot applications, we
+have a different version of it. So,
+where it can I find it when I open my
+pom.xml? Here, you can see we have
+something called as Spring Boot starter
+data JPA. So, this is exactly the
+package which is responsible for our ORM
+configuration. So, in our configuration,
+let's add some details for uh Hibernate,
+okay? Let's add it as Hibernate ORM
+configuration, right? So, here we will
+have to mention our JPA configuration.
+So, JPA stands for Jakarta Persistence
+API. If you don't know what it means,
+just Google it. This is a homework, so
+you can write it down. And this we are
+going to enable the Hibernate's DDL
+auto. So, in the world of database, when
+you work with queries, it is divided
+into DML, DCL, DDL. So, this is the DDL
+which we are telling. So, whenever I
+have a data definition language that is
+present in my application, I want that
+to automatically update my DB. So, I'm
+giving a flag of update. There are few
+more flags that I want to enable. One is
+the show SQL, so that I know like what
+exactly you're running in the
+background, and this will help us in the
+debugging, and then we will also see in
+our logs what sort of tables are being
+created, what sort of insert commands
+are happening, what sort of select
+commands are happening when we do our
+particular CRUD operations. Apart from
+this, I want to enable few more
+properties. So, properties,
+here I want to select my Hibernate and
+format my SQL in a more readable way.
+So, this is one more option that I want
+to enable, so that this is more in a
+human readable format. Now, in this
+entire file right now, I'm just missing
+three information. One is my URL,
+username, and password. All this
+information I can either hardcode it
+here, or I can mention it my dot ENV,
+and from my dot ENV, I can load this
+information into this. So, when it comes
+to production systems, we usually load
+it from our ENV file. But, where do I
+actually get my database information?
+Let's open up Supabase. Right now, I'm
+in my Supabase dashboard. Here, I'll
+click create, and then we'll fill in the
+details that are necessary, and then
+we'll get into the configuration part.
+When we click on create new project, we
+will see a screen similar to this. Here,
+we'll enter our details, and then we'll
+get into the next stage. In the project
+name, I'll enter something like creator
+store.
+In my database password, this is
+something that I have to keep a copy of.
+I'll just click on generate password,
+and then I'll keep a copy of it in my
+clipboard.
+In the region, I'm picking Asia Pacific,
+which is closest to my region, and then
+I'll click on create new project. This
+will automatically spin up a machine in
+somewhere in the Supabase
+infrastructure, and then it will give
+you all the details that are necessary
+for you. Right now, this has spinned up
+in the Singapore location. Now, we want
+to connect to this DB via our Java
+application. So, here you see there is a
+connect button. Here, we will get into
+the direct connection, and we will pick
+a session pooler. This is important. So,
+we cannot go with direct connection,
+because direct connections are usually
+not friendly, and this is not from a
+pool. Rather, this is a direct
+connection to the database, which is not
+encouraged, and sometimes even Supabase
+kind of rejects it. So, in the type, I'm
+going to pick something which is
+friendly with the Java, which is JDBC.
+So, here, right now, I'm getting a
+shared pool. So, in this pool, there are
+multiple connections available and based
+on whenever my application spins up,
+when my application starts, it will go
+check in the pool and then pick
+whichever connection is available. So,
+I'll copy the URL from here and then
+paste it into my application. And in the
+URL here, I have pasted it. So, here I
+see there is this is a very big string.
+Here, I can see the protocol is JDBC.
+This is something very important. You
+cannot remove JDBC from here. We have
+our protocol of Postgres and this is our
+server where our database is hosted.
+Here, we have our username. Let's copy
+our username. Let's paste our username
+here. And then you see it is asking me
+to enter the password. So, password is
+already with me. And then I can just
+remove everything after the query
+parameter. Now, one way is we either
+store these as plain text in here, but
+the risk is whenever I commit this
+files, this will be available to
+everyone in the world. So, that is not
+something which I want to happen.
+Rather, I want to store these in my ENV.
+And when my application starts, what is
+going to happen? I'm going to start it
+via the main class. So, here I have to
+do some changes so that my {dot} ENV is
+loaded and it is available in my
+application.yml. Okay, guys, right now I
+am on Google. I have searched for Maven
+repository. This is similar to what we
+have in the JavaScript world for npmjs.
+So, this is the website which is
+responsible for listing all the
+dependencies that we are looking for. It
+will maintain versions of the dependency
+and you can find the installation
+scripts for them. You can of course you
+can find the documentation around it and
+a lot. So, let let me open Maven
+repository. And here, we are going to
+look for one dependency which will help
+us in all the ENV setup. So, I'm going
+to look for {dot} ENV and search. So,
+here in the very first result, you see
+.env Java. We want to go with this one.
+For the .env Java, here we have various
+versions. Let's pick whichever is the
+latest one. And we'll scroll down here
+to find the installation script. We'll
+click here. It will automatically copy
+to uh clipboard. And we will get back to
+our IDE. In our IDE, we have to navigate
+ourselves to the pom.xml. Here, you see
+there are various dependencies listed. I
+want to go to the last. Here, I will
+enter and then click paste. I want to
+remove this particular comment. This is
+not needed anymore. And once I do, I
+need to make sure I'm going to sync my
+Maven changes so that Maven is going to
+go find this dependency, download it,
+and make this particular package
+available for me. For now, I can close
+my pom.xml. And this is how you search
+for a particular dependency and you add
+it into your project. In the main
+method, let's do some configuration so
+that this is available. So, we will say
+configuration of .env Java. So, let's
+add .env.
+So, this is coming from the .env
+package. Here, I'm going to create a
+object for it so by the name of .env.
+And then I'm going to say, "Hey, .env,
+can you add my configuration
+and ignore if anything is missing and
+load them whatever that are present in
+my .env file." Let's add this to our
+system properties. We are going to say
+.env.entries.
+So, for every entry that is present in
+my .env file, so for each entry value, I
+am going to map it to my system.
+property.
+And here, I'm going to take the key
+value as it is, whichever is present in
+my env file. And then I'm going to pick
+my get value. So, for you to understand
+this in a more clearer way, let me
+format this so that it is visible to
+you. Here you can see what we are
+saying. I'm loading an object of .env
+from the package that I've installed.
+And for each value in my .env file to my
+system that I'm currently running as a
+process, which is my Java application,
+I'm going to set the property of key and
+value that is going to come from a .env
+file. So, let's create a file by the
+name of .env and then we will see what
+to do next. So, we will right-click here
+file.env
+and then here it is asking, "Do you want
+this to be in my Git?" I'm saying
+cancel. I don't want this file to be
+tracked at all in my Git because this is
+where I'm saving my secret values. So,
+here I'm going to maintain the key-value
+format of database URL, database
+username,
+and database password. So, these are my
+keys and I'm going to maintain my
+values. So, if you remember in my YML
+file, I was maintaining the plain text.
+I'm going to copy this information of
+URL, paste it here, and in the same way,
+let me do for other fields also for the
+username, and for my password also. Now,
+I have a location where all my
+information is saved in my .env. My Java
+application is going to load this .env
+file whenever my application is going to
+run, and it will be made available to my
+YML file. But I need right now I still
+see the plain text here. So, how do I
+substitute it with the .env values? So,
+there is a syntax for this. So, we need
+to use a dollar symbol, and we need to
+mention in the curly braces what is a
+key that you want to load. So, I'm
+saying I want my database URL, and in
+the same way, database username for the
+next field in the curly braces again.
+And for the same way, in the database
+password.
+So, now that I have all of this
+information, we can also check in my Git
+tracking.
+I am not committing my .env file, and I
+am committing my application file, but
+here there is no sensitive information.
+Now, in this way, when my application is
+deployed to production, I can make sure
+I can set my .env values on the server,
+and this information is not leaked
+anywhere to the internet. Now, let's run
+this project and see does it succeed or
+does it continue to give us more errors,
+right? So, let's run it and then take a
+leap of faith. All right, so right now
+I'm seeing some logs, and then we can
+see yes, there is a successful DB
+connection message, where it says
+database JDBC URL for this particular
+link has been connected, and then right
+now we currently don't have any tables
+to be created, so right now the DB
+connection is successful, and my
+application is started, and it is up and
+running. And on which port it is running
+on? Port number 8080. So, we are done
+with the setup of the .env. Let me
+commit these changes, and then we will
+go to the next chapter. So, let's stop
+this server which is currently running.
+We will go to the commit message, we
+will write this as chore
+add .env Java for the
+for the application. We're done with
+most of the basics that are needed for
+our application to be up and running.
+Now, let's start with the actual coding
+part in itself. So, if you remember from
+our DB diagram, we had three tables. So,
+let's go about creating these three
+tables, but where do I create them?
+Let's follow a proper structure here.
+So, let's create a new package in my
+main folder by the name of entities,
+and under my entities I'm going to
+create several Java class files. So, by
+the name of product.
+Of course, don't ask me again. Let me
+add this automatically. So, let's
+mention the attributes that the product
+table needs and then we will get into
+the rest of the part. Let's start with
+our ID value. So, this will be long ID
+and then we will have a private string
+product name, private string
+description. We will have private string
+category. We will have private this big
+decimal
+and price. Let's add one more field,
+which is our private integer stock
+quantity. So, we are done with our basic
+fields. Now that we have our product
+class ready, now we have to inform
+Spring Boot and say, "Hey, you can go
+ahead and create objects for this. You
+can create table for this." So, we need
+to mention certain annotations. So,
+annotations add some sort of meta
+information so that this particular
+class is extending more functionality.
+So, let's add the annotations that are
+necessary for our class. Starting with
+the entity. Now, this entity is coming
+from the JPA. So, we have to import this
+and you can see it is coming from the
+Jakarta Persistence API. JPA table and
+here I can mention a different table
+name. I want to have a plural of
+products. After this, I want to add my
+annotations for getter and setter, which
+are coming from the Lombok library. And
+uh one more is the all arcs constructor
+and no arcs constructor. And
+additionally, I want to use the builder
+design pattern, which will make sure on
+the fly when I need a certain field to
+be set in a certain way. I'm using the
+builder design pattern for it. If you
+don't know what is builder design
+pattern, just Google it and then you
+will understand this. Again, this is
+builder design pattern is being enabled
+by the Lombok library for us. These are
+the annotations we have added just at
+the class level, but there are few more
+things. You have said Annie that the ID
+is a primary key, but you haven't
+mentioned this in your table, right?
+Because now when Hibernate comes and
+checks this particular class, it knows
+it has to create these, but let's say
+you want to enforce some restrictions.
+You want to add some validations for
+these fields. Let's say your name cannot
+be empty. Your description has to be in
+a certain length. So, how do we do that?
+That is when you add your annotations at
+your field level. So, now we will get
+into the fields. So, for each fields,
+let's add certain annotations, right?
+Now, the first one for the ID we are
+going to take from the JPA again
+with the
+ID. We are going to generate this value.
+This is something which I'm handing over
+to the database and then I'm saying,
+"Hey, I want you to follow the strategy
+of generation type identity. You
+maintain the sequence and then give me
+the information for this." Now, when it
+comes to the name, I want to make sure
+this column is not null. So, we have a
+description which can be null. Our
+category for now I'm saying, "Okay, this
+can be null as well." After category, we
+have price. This is an interesting field
+in itself. Again, here column cannot be
+null. I'm going to add one decimal min
+validation where it will say, "My value
+of my price should be always be greater
+than zero." So, here my inclusive is
+false and then my message says, "Price
+must be
+greater than zero." So, this is the
+validation that I'm going to add for the
+price field. And when it comes to the
+stock quantity, in the same way let's
+add our column to be nullable. But here
+you see this is in camel case, but when
+it comes to the database, we have to
+maintain everything in snake case. So,
+we need to have our underscores. So, I'm
+enforcing the name of the column to be
+something different from what we already
+have. So, I'm going to copy paste here
+and then between words, let's add a
+underscore and the capital becomes
+small. So, this is how we are going to
+store the database column name. Now,
+here because this is a integer value,
+our decimal min will not work. Rather,
+you have a min value. So, here our value
+will become zero and messages
+stock cannot be less than zero. So, this
+is our basic validation that we have
+added. Apart from this, let's say you
+want to add little more enforcement,
+let's take a look at that also. So, for
+our field where we are saying nullable
+is false, so it cannot be blank as well.
+So, we have our not blank and then we
+are adding a message where it says
+product name is required.
+And in the same way, when it comes to
+our price, this cannot be null value and
+then our message will be
+price is required.
+And lastly, in our stock quantity, let's
+add a not null with a message of
+stock
+quan-
+-tity
+stock quantity is required.
+So, in this way we are done with one of
+the biggest table, which is our product
+table. And in fact, there will be more
+changes on which we will revisit
+especially on the relations. So, I'm
+adding a to do that we'll have to
+revisit here on the relations that we
+will be adding. For now, we will close
+our product class and then open the next
+one, which is our order class. Order
+class. Now, in this Now, in our order
+class, as you know the drill already, so
+we'll have some table level annotations.
+Let's add our entity. Let's add our
+table with the name of orders. And the
+same way we'll have our getter and
+setter.
+Getter and setter. There is a different
+way. Let's say you don't want to add
+your getter and setter. There is one
+more annotation. But for now, to be more
+verbose, let's go with the setter and
+getter. And then we'll have our all arcs
+constructor and no arcs constructor. And
+now in the order, we'll have to maintain
+few fields. So, let's write down the
+fields and then later we'll get into the
+annotations part of it. So, we will go
+by the private long ID. And we will have
+one more which is the private string
+customer name.
+Private string customer email. Along
+with customer email, we will also have
+to track our order status. After a
+status, we have private big decimal of
+total price. So, this total price is a
+calculation of each big decimal price
+value that we have at our product level.
+Next, we will have one more computed
+information which is our local date time
+for local
+date time for our created at field. So,
+the created at and updated at fields
+were present in our ER diagram. So, the
+same things we have mentioned here. Now,
+let's add some annotations for the
+fields that we have added. So, this will
+be the at the rate ID generated value
+will be strategy with generation
+strategy of identity. And our customer
+name should have a annotation of column
+which is nullable false. And we need to
+rename this to a different uh key of
+customer underscore name. In the same
+way, we will have to do for our customer
+email. Customer underscore email with
+the nullable as false. And in the same
+way, when it comes to our status also.
+So, our nullable will be false. And in
+the total price, let's add our
+annotation of column and here we'll have
+to make sure our
+column name is in the snake case format
+with nullable false. Now, when it comes
+to the created at column, let's add our
+annotation of column
+name with the column name as created
+underscore at. So, this is something
+which we have to pre-process. So, this
+is something a method which will run
+before it saves the record to the
+database. So, here we are going to
+create a method by the name of public
+void pre-persist
+pre-persist. And here I'm going to say
+this dot created at field that we have
+access to, this will have my local date
+dot now. Now, in the same way you can
+add the same created at logic in other
+classes also, but I'm giving this as
+assignment. And also here we didn't add
+any extra validations. So, now this is a
+take home assignment for you where you
+can add little extra validations. And
+when we actually go about creating our
+particular order, right? Then we will
+see how we can handle these particular
+errors, how we will show these messages
+to the UI. So, we will get to know all
+those things. Now, let's get into the
+next class which is our order items. So,
+let's create another entity which is
+order items. And here we are going to
+look at what more fields are going to
+come. So, order items will follow the
+same convention as we did before. We'll
+have our at the rate entity. We'll have
+our table with the name of
+order items. We will have our getter.
+We'll have our setter.
+No args constructor.
+All args constructor and the builder
+design pattern.
+Right? So, now you know what are the
+most common annotations that we are
+going to use in this project. When it
+comes to the fields of order items,
+let's write those down. Private long ID
+and then you have your integer quantity
+and then you have your
+private big decimal, which I have to
+import, I believe.
+Price at purchase.
+>> [snorts]
+>> And finally, we'll have to add our
+relations here. So, to do that I've
+mentioned here, which I'll be adding it
+later. So, now when it comes to the
+field, let's add these annotations,
+right? So, at the rate ID at the rate
+generated value with the strategy of
+generation strategy.identity
+and in the quantity, I want to make sure
+this will be a column of nullable false.
+Right?
+So, nullable false. And And when it
+comes to the price at purchase, we need
+to make sure we have a nullable false.
+And then we are also renaming this
+particular field as price at purchase.
+Now, this is exactly what we have
+replicated our ER diagrams, but there is
+one thing which is missing, the
+relations of one to many. So, right now
+we have three files, we need to connect
+our tables. So, this is where we are
+going to start. So, if you remember the
+relations that we set between these
+tables, let's start with the order. So,
+one of the relation that we mentioned
+was one to many, where we were saying
+every order will have multiple order
+items. So, we need a field for it,
+right? So, let's add it before, let's
+say, the created at. So, let's say we
+want to have our private list of order
+item, where I'm saying order items. And
+so, let me import this list from the
+utils package. And here I'm going to
+say, "Hey, one order will have many
+order items." And what will this be
+mapped to? So, when I say mapped by,
+this will be mapped by orders. So, where
+is this particular orders present? It
+should be present in my order item. So,
+let me open my order items. And here I'm
+going to add a field where it is going
+to be by the name of orders. Now, in the
+order items I want to make small
+correction. Here I want to make it as
+order item and then let me also update
+the file name. All right. So, here we
+have order item where we are saying
+every order will have multiple order
+items, right? So, in this, so this will
+be many to one because on the other side
+we had mentioned one to many. So, here
+we are going to say, "Hey, private
+order, I'm going to have my field by the
+name of order." So, this is a field name
+that I have to map it here. So, in my
+mapped by I need to mention order and
+not orders, right? So, make sure you do
+that correction also. Now, in our order
+items we are left with one more which is
+the join column. So, we are going to
+say, "Hey, please join my column by the
+name of order underscore ID and this
+will be nullable false." So, this will
+add our very first relation between our
+order table and order items. We are left
+with our products. So, in our product
+class currently we are missing one
+particular relation that is to be mapped
+which is our at the rate one to many and
+then we are saying private list order
+item
+and then order items. Let's also import
+my list from the utils and I have to
+make sure it is also mapped. It is
+mapped by the product field, but is this
+product field available in my order
+item? Until now, no. So, let's add that.
+So, I'm going to say many to one and
+then private product product. And you
+know the drill now. So, we have to join
+the column by the name of product ID
+with nullable false. And one small
+addition into the product. So, whenever
+I'm requesting a product or let's say
+I'm getting a product by its ID, I don't
+want to know the order item because I'm
+interested to know what all fields that
+the product has, but not the orders in
+which the product is present. So, I have
+to make sure I give this @jsonignore.
+So, adding this property will make sure
+whenever I'm fetching my product, I'm
+not accidentally also getting all the
+orders that are associated with it. So,
+this is a good practice that we have to
+maintain. Now that we are done with
+adding all the three tables that are
+necessary for my project, let me get
+into my main application and let's say
+we run this and then let's look if my
+application is able to create these
+particular tables in my database. We
+will check the logs also. We can see All
+right. So, there are some changes and we
+can see the logs also. And because this
+is running for the very first time and
+these tables are not present in my
+database, it has ran this create table
+create orders and create products. Apart
+from this, it has also added a
+constraint
+which is my relation between the tables.
+It has altered the existing table. It
+has added the foreign key references
+with the primary key that is in my
+original table. So, this is the beauty
+of Hibernate. This is all done by
+Hibernate all by itself. We as
+developers, we are just doing the Java
+code part and Hibernate is doing all of
+our SQL heavy lifting. So, let's also
+verify these in our Supabase tables so
+that we know these tables are actually
+created. Right now, I'm in my Supabase
+dashboard. I'm opening my project and
+here in the table editor when we go and
+see, right now here I have three tables
+that are already created. Let me open my
+product items and then I can go to the
+definition and then also see what are
+the commands that it has used to define
+this particular table. Let's say you
+want to look how all my tables are
+structured, is it matching my original
+DB style? Let's get into the schema
+visualizer. Here let me collapse this.
+And here you can see this is exactly the
+original DB design that we did on a
+razor. Now we have done all this via
+code and we didn't write even one single
+SQL line ourself. We have handed it over
+to hibernate and hibernate as ORM it has
+done all the magic. Now that we have
+completed our models, we will commit
+this files and then we'll go to the next
+layer, which is a repository layer. So
+let's add these to the git. So let's say
+store entities
+for creator store added. Right, let's
+commit this files and then we are good
+to go. So we can close this files for
+now and we'll get the project explorer.
+Now that we have our entities in place,
+we will create our repository package
+using which the repository will be
+responsible for talking to the database
+and performing the operations of create,
+read, update, delete onto the entities.
+So let's create that. Now in the new
+we'll create a new package by the name
+of repositories.
+So for our three entities that we
+created, we have to create its
+respective repositories so that I can
+control these particular tables from my
+code. So let's create the files
+necessary for it. So I'll click on new,
+create new Java interface, but this time
+it will be product repository.
+And this will be an interface guys. So
+make sure you remember that. This is not
+a class, this is a interface, right?
+Now, in the product repository
+interface, we are going to extend some
+inbuilt functionality. We are going to
+take help of JPA repository. Again, JPA
+is coming from the Jakarta Persistence
+API, which is going to give us all the
+implementations that are necessary. And
+who is going to write this particular
+implementation? It has been written by
+Hibernate, right? So, JPA is a standard
+that Java language has given. And
+whichever ORM we are using, the ORM is
+responsible for writing its
+implementation. So, let's extend the
+interface. So, the flexibility that we
+get here is because we are going to
+extend JPA repository, and we don't know
+what is the underlying ORM. Tomorrow,
+let's say you want to switch to a
+different ORM, we don't really have to
+make much code changes. We just have to
+give the configuration as we saw in the
+application.yml, and then we are good to
+go with our code. So, let's extend JPA
+repository.
+Now, here I need to mention which entity
+this particular JPA repository will be
+implemented. So, I'll mention the data
+type as product, because this is for the
+product entity. And the product entity
+class currently has one unique
+identifier, which is by the name of ID.
+And what is the data type for it? It is
+of long. So, we need to carry forward
+the same data type into the product
+repository, so that all its unique
+identifiers are of data type long. Now,
+this is it. We don't really have to add
+any more methods into this interface,
+and your underlying ORM is going to do
+all the heavy lifting, right? So, for
+now, we are going to close product
+repository. So, we are going to create
+more repositories that will match our
+entities, right? So, we'll click on new,
+create a order
+order repository.
+Now, product repository this is not a
+class again, make sure you mark it as an
+interface and here also we are going to
+extend the JPA repository and you can
+see it is already giving me lot of
+suggestions, which is very nice. Right?
+Now, apart from this I'll need one more
+interface, which is the order item
+repository
+and I'm going to in a similar way extend
+JPA repository order item
+order item and then this is of long.
+Right now, you might not really
+understand why did we even create these
+interfaces, but when we start writing
+our business logic, I'll show you how
+these repositories are helping us to
+communicate with the database. Now, that
+completes our repositories, we can close
+this. Now, we will start by implementing
+some controllers. In our original
+diagram on Eraser, we have listed
+certain end points, so let's create
+these end points and where will these
+end points reside? These will be in the
+part of controller. So, let's create a
+new package by the name of controllers
+and in the controllers I'm going to have
+various controllers for my product and
+order. Right? So, I'm going to create
+one for my product controller and in the
+same way when the right time comes, I'm
+going to create for the rest. So, let's
+start with the product. If you remember
+in the product we had a read, update,
+delete, read a single product, read all
+products. So, let's create certain
+controllers. These are our rest end
+points, which will enable the client,
+whether it is a front end mobile app or
+a website or even your postman, to
+communicate with our back end. So, this
+is a point of control which all external
+systems are going to talk to and our
+controller is responsible for defining
+these particular back-end endpoints and
+it is going to tell which particular
+functionality is going to run in this.
+So, let's get started by writing our
+very first controller. In the product
+controller, as I said, we are going to
+have certain methods. Let's list them
+down. In the product controller, to the
+very first one that I want to have is
+create product. So, once I create a
+product, I should also be returning that
+particular product. And we will have a
+method for updating the product, update
+product. And while you're updating, you
+need to accept what is the new product
+with which you want to update, right?
+So, I'm going to accept that. Along with
+this, I'm also going to accept my ID
+value. So, this ID will tell which
+product am I actually updating and what
+are the new fields that I would need in
+this. So, for now, let's return null
+here and we will see what all logic goes
+later, right? So, after the create
+update, I need an option to read the
+product also. So, let's say get
+products. So, here I'm going to return
+all the products. And when I'm
+returning, this will of course be a
+list. So, let's declare a list of
+product. And for now, I'm going to
+return null. In the same way, I'm also
+going to return a individual product by
+a certain ID. So, let's write that.
+Public void get product by ID. So, you
+see how I'm naming my methods which are
+very much readable and understandable.
+So, for an outsider, when they come and
+look at your code base, it is very
+clearly giving signal that you're trying
+to perform an action and it is very much
+readable. So, this is something which
+you have to follow while you're coding.
+So, let's accept a long ID. And when I'm
+getting it, I also need to return my
+product. So, for now, let's return null
+for time being. And after all this, we
+also need to give a flexibility to
+delete the product. So, public void
+delete product. And while I'm deleting,
+I don't need the entire product object.
+I just need which product you are
+looking to delete. So, I'll just accept
+the ID value now. So, long ID. And then
+here, I don't really have to return
+anything. So, I'm going to mark it as
+void. So, Anirudh, you have written the
+methods, but you didn't really tell
+which method is responsible for which
+endpoint. So, that is what we are going
+to do now. So, at our class level, let's
+add certain annotations. And at the same
+way, we are going to have some method
+level annotations, which will make this
+particular class Spring Boot ready. So,
+let's start by adding the at the rate
+rest controller. So, rest controller
+says, I am going to use this particular
+class for all my rest API operations.
+So, I'm going to mention a particular
+path under which all my endpoints are
+going to be available. So, I'm going to
+have a request mapping. And then my
+endpoint will be {slash} API {slash}
+products. So, every method currently
+that I have declared here will be
+available under the suite of API
+{forward-slash} products. Now, this is
+at the class level. Now, what happens to
+the method level annotations? Let's
+start by writing those. Now, when it
+comes to our methods, we need to provide
+certain annotations, which will make
+them eligible for the rest API
+operation. So, it can be a post
+endpoint, get endpoint, delete endpoint,
+or a put endpoint. So, let's write
+those. So, for my create product, I want
+to have my at the rate post mapping. And
+I need to be in a position where I'm
+going to accept this particular product.
+And this will be small p product with by
+the variable name. And here I need to
+make sure whatever product is being
+passed, it is a valid product and in
+fact I have certain validations which
+are already written at my entity level.
+So for these validations to kick in, we
+need to also specify hey Spring Boot, I
+want you to make sure whatever
+information that you're giving me, these
+are actually valid. And apart from this,
+because this information cannot be
+passed, this is an object. It cannot be
+passed in a URL. Rather, we're going to
+accept it in the request body. So we're
+going to mention it as at the rate
+request body. So whichever client is
+responsible for doing the post end point
+call, they need to ensure that in the
+request body they are passing this
+product. If you don't know what is
+request body, I will show you during the
+demo, but we will go to the next one for
+now. Here in the update product, right
+now I don't want a post mapping, rather
+I want a put mapping where I'm saying I
+want to update certain information. So
+I'm going to accept few fields in my URL
+and then also in my request body. So you
+see here we're accepting two parameters.
+So for the ID it is going to come from
+my path. Right? So I'm going to have my
+forward slash ID and then this will be a
+path variable that I'm going to accept
+from. And again here we're going to
+accept product. So we need to make sure
+this is also valid. And this is again
+coming from my request body. So these
+are the annotations which are coming out
+of the box as libraries when we are
+working with Spring Boot. So lot of
+things are being abstracted from us and
+we can actually focus on the development
+part only. Now, let's look at the get
+products. Because we're are to get some
+information, we're doing the
+@getmapping.
+Now, here we have another get method,
+but here it has been differed where we
+are accepting certain information as ID.
+Now, where will this ID come from
+because this is a primitive data type?
+We can access it in the URL itself. So,
+we are saying @getmapping
+and then I'm going to accept this ID in
+the path. And this value is again going
+to come from my path variable where I'm
+saying in my API path I have a variable,
+so you make sure you go and find it. And
+one more thing we have to make sure
+whatever ID we are specifying, this is
+the same ID matching here so that Spring
+Boot can easily match and understand,
+okay, the user is trying to look for
+this particular variable in the path.
+Now, let's get to the last one, which is
+the delete mapping, and then you can
+already guess here we are going to
+accept the ID value in the path
+variable. And let's also add the path
+variable annotation for this. Now, we
+are done with the skeleton for the
+product controller with annotations.
+Earlier, we have just written bare-bones
+methods. After that, we have written
+annotations to the class, and later we
+have written certain methods which are
+going to help us meet the requirements.
+And for these methods to empower them,
+we have given certain annotations that
+will make them REST API eligible. Now,
+Anirudh, are you going to write your
+entire logic of these particular
+endpoints in this file? Already, this
+looks lot bloated. There are so many
+methods. Let's say tomorrow you're going
+to add five more methods into this, then
+we cannot really have a business logic
+in this. So, if you're following the
+proper solid principles, we need to make
+sure we separate out our logic of
+creating this product, updating this
+product, getting products all into
+separate place so that we comply by the
+solid principles rule. So, this is where
+in the MVC architecture, we will get
+something called as a services folder.
+In the services, we will have our actual
+business logic. So, all of the setup
+that we have done so far, whether it is
+repository, entities, controllers, all
+of them ultimately have to go through
+our services, which is our protein of
+this entire project. So, let's add a
+certain class by the name of product
+service. And in the product service, we
+are going to handle all of it. So, let's
+inject product service. Now, you see
+I've used the word something called as
+an inject. So, this is called as
+dependency injection in Spring Boot. So,
+this is something which we will explore
+in our upcoming lessons. But for now,
+understand that services file is where
+you have written your actual business
+logic. So, let's add our
+private final product service.
+And product service. Now that we have an
+argument available with us, we need to
+make sure we also pass the required
+args constructor, so that all these
+required values are passed in my
+constructor creation. And all of this is
+again done behind the scene by Lombok.
+It will inject the necessary code. So,
+I'm handing off all that boiler plate
+code writing to the Lombok library. Now,
+let's create this particular product
+service. When I hover on this error,
+there is an option where it says I can
+create a class. But rather than that, I
+will click on project. In my creator
+store, I'm going to create a package by
+the name of services. And in services,
+I'm going to have my very first class of
+product service. In our product service,
+we have to create methods which are
+similar to what we have originally seen
+in my product controller, so that each
+method has its supporting service method
+available. So, convention that I follow
+is I make sure I have the same method
+names in my service level also. So, that
+the controller whenever it is given
+task, it will hand off that particular
+task to the service. So, let's paste
+this here and then we will remove things
+which are not necessary for us, right?
+So, we don't really need a request body
+or something here. We're just going to
+accept it and then we are going to
+return the created product. Right? So,
+put mapping is not necessary. We don't
+really need the path variable. So,
+anything that is related and specific to
+the controller, right? So, that we can
+basically remove in our services layer.
+So, the get mapping and the path
+variable, right? So, all these are very
+much specific to our controller. So, we
+don't really need them when it comes to
+my service layer. So, you can see I have
+created my bare-bones class where I have
+all of my methods which will be called
+by controller, right? So, for this
+service file to be available, we need to
+add certain annotations by the name of
+@service
+so that this particular service bean is
+available to me while I'm working in my
+controller, right? So, product service,
+let me import that and then let's also
+rename this as product service. Now, we
+are all good. Now, let's complete our
+controller properly and then we'll get
+into the service layer. So, here we are
+saying whenever I receive a create
+product request, I'm going to use my
+product service and then I'm going to
+pass on this request to my service
+layer. That is it. This is all the
+method you need here. And in the same
+way, let's get to the update product.
+So, here we're going to say product
+service.update product and then we're
+handing off this task to the service
+layer. So, in the same way I'm going to
+have my product service.getproducts
+and product service.getproductbyid
+and then I'll pass my ID. In the delete
+product, I will be following the same
+convention where I'm going to say
+product service dot delete product. Now
+you see, the controller has only single
+responsibility where it is actually
+mapping the endpoints and it is handing
+off its task to the service layer. So
+the service layer is responsible for
+doing all your business logic and it is
+also responsible for talking to the
+database when necessary. So let's visit
+the product service and here we will try
+to understand what we are trying to say.
+Currently we got a request where they
+are saying we have to create a product.
+So how am I going to create my product?
+I need to have some way where I can
+communicate with my database. Oh, that
+reminds me of something. I have
+something by the name of repositories
+and I also told this product repository
+has some inbuilt cooked-in methods. So
+why don't we reuse something which is
+already available to us? So let's inject
+product repository into our service.
+Let's add private final product
+repository and we need to make sure we
+pass the argument. So required args
+constructor and this product repository
+is now available for us. So here what we
+are going to say is product repository
+dot save and then I'm going to pass this
+particular entity. Now you see, the
+request that the service got, it has
+handed over to the repo sitory and the
+repository has cooked-in methods via our
+hibernate which is the ORM and our ORM
+has all the implementations that are
+necessary. So you don't really have to
+write any create command, any insert
+command and all of it will happen
+automatically. So in the same way, let's
+complete our rest of the methods that
+are available to us in the product
+service and then we will see a proper
+demo of this. So, in my update product,
+I need to firstly make sure whatever
+product that I'm saying, "Hey, can you
+update this?" Firstly, I need to check
+if this particular product is actually
+present or am I just blindly saying,
+"Okay, go and update this." No, right? I
+cannot have such a way of update. So, I
+need to make sure once the product is
+actually present, only then I'm going to
+update it. So, let's add my particular
+product uh here, and then let's look for
+a product's existence. So, we are going
+to say existing product, and then I'm
+going to query my product repository,
+and then I'm going to say, "Hey, can you
+find something by a ID?" Then I'm going
+to say, "Hey, whenever you find, you
+return me the details, but let's say you
+do not find, so return me an error." So,
+I'm going to And let's say you really
+don't find that in your database, we
+need to throw some sort of error. So,
+here we are going to say new runtime
+exception, product not found with ID,
+and then I'm just going to print this
+ID. So, let's say you actually find an
+existing product, and then there is no
+runtime error that it is running into.
+So, we can take the existing product and
+then say, "Hey, let me set my name, let
+me set the description, let me set the
+category, let me set the price, also set
+the stock quantity." So, I'm going to
+say set stock quantity, and then get my
+stock quantity. Here, you can see I'm
+using certain setter methods and getter
+methods. So, who is this actually
+providing us? So, this is our Lombok
+library, which is giving all of it just
+out of the box. So, now that I have a
+updated product with all the new
+details, I need to make sure it is also
+saved into the database, not just into
+the memory. Right now, I just did it in
+memory in my Java application only, but
+I didn't inform to my database. So, for
+that, I need to again query my
+repository and then say, "Hey, can you
+save this existing object with all the
+details that I'm giving you?" When we
+fetch this particular product
+originally, so we have passed the ID and
+then it really gave us that particular
+product record. So, when we are going to
+save it again, it is going to go look
+for that, filter it out, and then going
+to update with the new details. Now,
+let's get into the get all products.
+Now, here I'm going to say product
+repository. dot
+find all, and then automatically it is
+going to give us in the data type that
+we are requesting. After get products,
+let's write our get products by ID. So,
+here I'm again going to make use of
+product repository, and then I'm going
+to use a inbuilt method, which is find
+by ID, and then I'm going to pass my ID.
+But, there are chances that this ID is
+not present in the database. In that
+cases, what can you do? There are two
+options. One is you return a optional
+data type, and then you say, "Hey, I
+didn't really find it." There are
+chances that this information is present
+or it is not present. Hence, the
+optional. But, let's say you don't want
+to have optional, but you can also
+choose to throw a error. Uh let me
+remove the extra semicolon, and you can
+also have some sort of runtime exception
+and handle that exception, where you're
+saying, "Hey, this particular product is
+not available with Now, in the delete
+product, this is fairly simple. I just
+have to use product repository.
+delete by ID. Now, with that, we are
+summing up the entire MVC flow for our
+product entity. With that, we complete
+the entire product flow. We have started
+with the model creation. We've seen how
+this will be created in the database.
+We've set up a repository, which is
+responsible for talking to the DB. We
+have created a controller, where this
+will be exposed to the client so that
+the client can go request for a certain
+information at a particular endpoint and
+the controller following single
+responsibility principle. It is going to
+hand off its task to the service. Now
+here in the service we are going to have
+our business logic and whenever we want
+to do some sort of persistence, then
+only we are going to go request over
+product repository and then going to
+say, "Hey, can you save this? Can you
+update this? Or can you delete this?" So
+these are the operations which are given
+to us just out of the box while we are
+working with Spring Boot. Now in order
+to test it, I'm going to take help of
+Requestly which will act as our API
+client. So before that, let's run our
+application and then once it is up and
+running, then we can get to the next
+part. So we can see, yes, my application
+is up and running and the DB connection
+is done. So let me open my
+um API client. So this is a Requestly a
+totally new install. Let's create a new
+collection in this and we will name it
+as
+creator store and under this store we
+are going to have some requests. So I'm
+going to add a request. This will be of
+HTTP type. Here I'm going to start by
+creating
+create a new product. Now
+uh let's collapse this and then we are
+going to save this. Now in this, the
+type of the HTTP method will be of post
+and our URL will be HTTP {forward slash}
+localhost 8080 which is the port on
+which it is running. In our request
+mapping, if you remember, we gave a API
+path of {forward slash} API {forward
+slash} products.
+So products. Now in this, we need to
+pass a request body which we were
+originally accepting in our create
+product method. So we will get to the
+request body. In the raw, I'm going to
+select JSON and then here we are going
+to add the details. So, let's say I'm
+going to add my detail of
+uh t-shirt, right? So, t-shirt and then
+I have a stock
+quantity of 100. And let's say the price
+of this is currently 199. And then I
+have the description, which is optional.
+So, this is not uh necessary. I have a
+category and this gets into the apparel
+section and let's run it and see does it
+give us any error? Are we missing any
+information? And then based on it, we
+are going to see what to do next. Let's
+click send and then you see, because my
+description was optional, my rest of the
+information using which I have passed in
+my request body, it did create an object
+for me and it returned but with the new
+ID of one. And this ID is auto-generated
+by database, so I don't really have to
+do anything in this. After t-shirts, I
+want to create few more products, so
+let's use the same endpoint for this.
+So, here I'm going to say stickers and
+then stickers will be a little less
+price and I'm going to take in more
+quantity. Let's say 2,000 this time. And
+then this is in the accessories
+accessories category. Let's save this
+and let's send. So, I have my another
+product also ready. Now that I have
+created the products, let's read and see
+what all information I have so far
+created. I'll click the press button and
+then I'll say read all products. And
+here I'm going to copy the same
+endpoint. And in this, this will be a
+get endpoint. So, in this I'm going to
+click send. And in my response body, you
+see I got a array, which is a list. And
+in the list, I have the product objects.
+This is exactly matching how I am
+sending in my controller. Now, let's
+create one more route. This will be for
+getting individual product this time.
+So, let's keep it in our creator store
+collection. Let me duplicate this. And
+this time in the copy, so let's say
+get
+>> [clears throat]
+>> Here, get individual product. Right? So,
+in this we are going to pass a path
+variable this time. I'm going to send
+the path variable of ID two. Now, we are
+getting the individual object this time,
+which is a product of stickers. So,
+let's save this. Now, onto the next
+operation. Say your product has started
+becoming viral. Everybody started buying
+stickers. Now, in order to do that, you
+need to firstly increase the quantity
+and then also increase the price because
+you can make more revenue. So, let's say
+update the product. Now, here in this
+product, I'm going to update my product,
+which is of two. Here, I'm going to
+change the mapping to put. And in my
+request body, I'm going to pass certain
+details. So, this will be of JSON type.
+And of course, in the stickers, this
+will be of stickers. Let me add some
+description. I'm going to say viral
+product from Instagram. And then
+accessories will be as it is. In my
+price, I'm going to bump it up and then
+I'm going to make it as 150. And in my
+quantity, I'm going to make them as
+9,000 this time. Right? So, I have a
+very large quantity available so that it
+meets the demand. Let me click send. And
+right now, you see there is an updated
+information that I received. I'm not
+having the older information. Now, how
+can I confirm this is the case? If I go
+back to my get all products and click
+send, so you see now we are reading the
+latest details from the database. And
+now, even if I close my back end
+application and restart, the information
+will still be persisted because all
+these are coming from my database
+server. So, let's also check that claim,
+right? I'll stop the application and
+then I'll restart. Then we will see are
+these exactly working as expected. So,
+let's restart this
+so that we can check the claim that is
+my DB actually persisting the
+information or not. And then okay, now
+that this is running, let's wait for the
+DB connection. Okay, that is also done.
+Now I'm back in my requestly, I'll click
+send and then you should see yes. Now
+I'm still getting my same information
+and no information is deleted. Now, that
+reminds me we have one more endpoint
+which is to delete the details. Let's
+say I duplicate this and then here I'm
+going to say delete the product. Delete
+product and then my HTTP method becomes
+delete. Here I don't really have to send
+any information, right? So, I'll save
+this and then I'll click send. So, right
+now my particular product, okay, by
+mistake I have deleted product two, but
+you understand the intention, right? So,
+let's say when we are going to read the
+product, I'm going to get only single
+product now. And it has deleted the
+product two which is the stickers and
+then I'm left with only one product
+which is the t-shirt. So, that is the
+full CRUD operation on product. Now we
+have few more entities which are left,
+which is the order creation. So, now
+that you have done all the listing and
+everything, you also need to accept the
+orders, right? So, let's look into that.
+We understood that we are able to do all
+the CRUD operations on the product, but
+we haven't really accepted orders. So,
+in order to do that, we have to firstly
+create something called as a DTO layer.
+So, having this DTO layer will make it
+simple for us to accept orders because
+when we get into our entities and look
+in the order, here we currently have lot
+of relations and lot of things in place,
+but we don't want to capture our
+relations while we are creating the
+order. Rather actually send only the
+information that is needed. So, we'll
+keep the order open. We will create a
+new package by the name of DTO. In our
+DTO, we will have two classes again
+related to our product, where we will
+have minimal information only that is
+needed, and we will exclude the ones
+which are not necessary. So, let's start
+with the very first one, which will be
+order item request. And in this class,
+we will specify the fields that are
+needed for us. So, we would firstly need
+getters and setters so that for these
+fields whenever the time comes, the
+application will automatically do the
+operation. And then apart from that, we
+need the no args constructor and all
+args constructor, and of course our
+builder pattern. Now, in the order item
+request, I'm going to accept firstly the
+private string product ID, so that I
+know this particular order item is of
+which product we are talking. And after
+that, we are going to have one more
+product integer quantity, so that you
+know this particular order item has
+different quantity in this. Now, we have
+added annotations at the class level.
+What you know, right? What to do next?
+We are going to add the annotations to
+the field level. So, let's add that. In
+the product, I will have something
+called as not null, and then I'm going
+to say a message that product ID is
+required. And for the quantity, we will
+have again similar not null, and then
+I'm going to say quantity
+is required. Now, when it comes to the
+quantity, there is one more check that I
+want to keep. I need a minimum value of
+at least one quantity should be present
+while you're placing the order, and then
+the same validation message of
+quantity must be
+greater than one. Right? So, this is the
+order item. In fact, this is basically
+representing a simplified version of
+order item class. And why exactly do we
+need this? So that when the user is
+making request, they're going to just
+pass the order item request inside the
+bigger order object. Now, let's create
+the order request as well. So, we'll
+create order request and then the class
+will be ready for us. Now, in the order
+request class, you know the drill
+already. We need to add our getters,
+setters, no args constructor, all args
+constructor, and the builder design
+pattern. Now, with that we are done with
+all this, let's add the fields which are
+only necessary while we accept orders.
+So, of obviously, you will have some
+customer information. So, let's add
+private string customer name, private
+string customer email, and then along
+with that, we will also have private
+list of order item request and then the
+items here. So, let me import the Java
+list. So, we have the necessary
+attributes and then now we are left with
+the validations to be added on this. So,
+we cannot have a blank name. So, we will
+have a message that customer name is
+required. So, in a similar way, we will
+have a not blank for the email as well.
+And then we will say message customer
+email is required. And we will have a
+validation of email so that they're
+actually sending a formatted email. So,
+message is
+enter a valid email. And on the order
+items, because this in itself has
+validation, so I'm going to add at the
+rate valid and then I'm going to say not
+empty. I need minimum one item in this.
+So, order must So, order must contain
+at least one item. So, this will sum up
+our DTO layer now, which makes us easy
+to accept orders without any relations
+to come in place. So, in my entities
+where I have my order, I need to make
+sure I also have back referencing. So, I
+need to say JSON manage reference and
+then here the cascade will be cascade
+type cascade
+type dot all. And in our order item,
+where we have a relation for this
+particular order, I need to also mention
+the at the rate JSON back reference. In
+the order item request, I want to make
+small tweaks. I want to make sure this
+particular product ID is of long data
+type and the quantity is messages.
+Quantity must be at least one. So, this
+is a more clear messaging than the one
+which is before.
+Right? So, let's comment this and then
+now we'll get into our service layer.
+So, in the service layer, I believe we
+know what to do. And in our order
+service, this is where our entire
+application comes together. Here we are
+going to make use of two particular
+services. One is the private order
+repository. Let's add order repository.
+And then, of course, we have our private
+product repository so that I can deal
+with my products. And so, here we need
+to make sure this particular class has
+all the necessary annotations of service
+layer by mentioning at the rate service
+and then required args constructor so
+that so that these two fields are
+injected via the constructor. In our
+order service, let's add the method
+which will help us to create orders. So,
+I'm going to say public order
+create order and then I'm going to
+accept information in order
+request which we have created as a DTO
+layer where we have only the necessary
+fields. So, let's add that. And here let
+me import the order class also. And once
+we have that, here I'm going to return
+null for now. And we will write the
+business logic that is necessary for
+this. So, our order creation has to be
+transactional and this will come from
+the Jakarta persistence API. And why
+exactly did we add transaction here?
+Because when we are placing an order, we
+are making sure this creates a new
+record in the order table. We have a
+linking in the order item, and there is
+a update to the stock in our products
+table also. So, for all of these
+sequence of events, which is more than
+one SQL statement to run, we usually
+group them all into one single
+transaction, so that if anything goes
+wrong, there is a proper rollback. And
+if everything is good, we will do a
+proper commit for that transaction. So,
+let's get into the logic of creating
+order. So, here I see I'm going to
+return a order object as my data type.
+So, let's create an order object, and
+then for now, let me just return this
+order, right? So, this much we we all
+know. Now, from our order object, let's
+set some properties which we are getting
+from our order request, right? So, let's
+say order.set
+customer name, and then we are going to
+say order request.get customer name. In
+the same way, order.set customer email
+ID, we're getting it from the email ID
+which we have supplied in the DTO. And
+we will update the order status. We will
+say order.set
+status, and then I'm going to say
+confirmed. So, now that I have my base
+order object ready with me, there is
+little more logic. This is very fairly
+simple. We are getting some products in
+the request. So, we need to go and check
+in our products table, is the stock
+available? If it is available, then we
+need to add it into our total price, and
+we need to make sure there is a record
+for it. So, for that, we need to iterate
+over the items that we are receiving as
+a request in the order request. So, for
+order request.get
+items, I'm going to iterate on each and
+every particular item value. So, I'm
+going to say this is a
+order item request, and then item
+request, which will be used to iterate
+on this entire list and then I'm going
+to do some particular logic here. So
+firstly, I want to see is my product
+really existing. So in my product
+repository and then I'm going to go and
+find this particular item by ID where
+I'm going to say the item that you're
+requesting, I'm going to get the product
+for it and then I'm going to look for
+it. If this particular product is
+present, I'm going to return it. If not,
+I will be So I'm going to throw error.
+So I'm going to say new runtime product
+not found with ID and then here let's
+specify the item request. Get product ID
+so that we know what we are returning
+exactly. So let's say the product is
+available in the database. We also have
+to check in our stock. It is not
+necessary that it is in stock. So we
+need to add a layer for checking that.
+So check the product stock. In order to
+check the product stock availability,
+let's write the logic. So we are going
+to say, "Hey product, in this, can you
+get me the current stock quantity and
+based on this, I'm going to check it
+against what items the user has
+requested?" So I'm going to get the
+quantity and let's say the user is
+requesting something which is more than
+the stock, then we need to throw error,
+right? So this is what exactly we'll do
+here. So here we're going to say throw
+new runtime exception and then we we are
+going to here we're going to say not
+enough stock for this particular
+product. And we will proceed to the next
+step. So we have our basic checks in
+place. Now, we need to calculate the
+total price for all the items that the
+user is requesting. So we will write the
+logic for that. So we will say calculate
+total.
+Now in order to calculate the total
+price, we need to maintain some sort of
+global variable where we will have our
+big decimal. We will say big
+decimal.total price and then big
+decimal. Let's start with the zero.
+While I'm calculating, I'm going to say
+total
+total price dot add and then I'm going
+to add certain price here.
+price of item
+So here, each price of item is
+calculated based on how much quantity it
+is requested and what is the current
+price of that particular product.
+They're going to say big decimal price
+of item equals to product dot get my
+current price and I'm going to multiply
+it with big decimal dot
+value of
+item requested dot get quantity. So
+basically, I am multiplying it by the
+quantity of its current price so that I
+will get my total price and this keeps
+adding up in this entire for loop. Once
+I have my total price calculated, I need
+to update the product table
+with latest stock quantity.
+Now that we have the total price in
+place, we need to make sure our stock is
+also updated. So let's do that. So we
+have our product dot set stock quantity
+and here I'm going to get my product dot
+get current stock and here don't follow
+AI. So it is giving me the wrong code
+already. So I'll get the current stock
+and I'm going to reduce by what the user
+has requested so that we will have the
+latest information. So let's say I have
+originally 100, user has requested for
+50 items. I'm going to remove the 50 and
+then update it with the ones which are
+remaining. Now into our product
+repository, now that we have this, we
+can save our product and then we are
+going to do our final calculation of
+total order items. Builder pattern to
+make object. So which object are we
+making? I'm going to make the order item
+order item dot builder. So we don't have
+to use the new keyword in this. Rather,
+we are going with the builder pattern
+and then I'm going to say
+{dot} order and then I'm going to give
+it the order object which we have worked
+on and I will be saying {dot} product
+and then this is the product which I'm
+purchasing and then in the quantity
+quantity the user has requested me
+{dot} get quantity and in my price at
+purchase I have my product
+product {dot} get price. And using all
+this I'm going to build my order item
+which will stand in the junction table
+which we originally discussed. It will
+have all this information. It will make
+sure it has all the one-to-many and
+many-to-one relations whichever is
+needed. So we have done all those. Now
+we are just looking on the business
+logic. Now that we have our order item
+we need to make sure we save all this in
+some way and then we return it to the
+user. So I'm going to say order items
+{dot} add order item. But where is this
+order item present? We need to create a
+list for that. So here let's create a
+list temporary list which will store our
+information and this will not be get
+items. We will say new array list. This
+is a simple array on which we are adding
+our details. Now once we are done with
+the iteration we need to also update our
+order object in itself. So I'm going to
+say order {dot} set order items and then
+I've used the temporary list which we
+have created and then let me also set
+the price for it. So I'm going to say
+order {dot} set total price and then I'm
+going to get my total price value which
+I have computed it during this
+particular iteration, right? Now that we
+have seen our service let's create our
+controller for this particular order
+service. So in our controllers we will
+have our new order controller and in
+this file this is fairly simple. We have
+seen it already. We have to add the rest
+controller. We have to add a request
+mapping and then here we are going to
+have
+{forward slash} API {slash} orders and
+then we need to also give our required
+arcs constructor so that we can inject
+our private final order service. So
+order service we have created, we need
+to inject that also into our controller.
+This is exactly where we are going. Hey,
+let's have a public method which will
+return order and then I'm going to
+create an order for it. Create order and
+in the request body I'm going to accept
+something but before that let's import
+our order.
+So I've imported my order class in our
+create order method let's accept the
+request body. So we will send
+information that is only required. So we
+will be passing the order request order
+request and then I need to make sure our
+validations are in place. So I will say
+at the rate valid and now by just using
+the order service I'm going to say order
+service.createorder
+and then I just have to return this.
+That is it. Now our controller is
+handing off all the tasks to the service
+layer which is doing the transactional
+operations. So firstly we will start our
+application and going to my main class.
+This is my creative store application.
+Let me run this and once it is connected
+to the DB we will get into our request.
+In request there are various products
+which we already saw. Let's add one more
+request. This is for create order and
+then this will of course be a post route
+and this will be a HTTP localhost
+80 80/api/orders.
+So here I need to pass some information
+so that my order is placed. So let's go
+for that. So I'm going to say customer
+name I'm going to say Anirudh and my
+customer email
+I'm going to have anirudh@gmail.com.
+After email let's add some items to the
+cart and then here I'm going to say this
+will this will be a list and in each
+list I'm going to have my product ID and
+product ID will be one because I have
+product ID one when I go to get all
+products. So, let's say here I'm
+fetching all the products. So, what all
+do we have? We have t-shirt with the ID
+of one. So, let me go there. Here I have
+my
+uh create order in my request body. So,
+I'm also going to mention I want uh five
+t-shirts for this particular order. So,
+I'm going to mention this. Let me add a
+comma and then we are good with the
+request body. Let's correct the request
+body first and then we are uh
+good to try this out. Let's click send.
+Okay, now the request body is still
+correct, but there is some sort of
+error. Let's debug that. Okay. Okay, so
+right now we are in our order service
+and based on this error, let's try to
+see what is missing. Okay, one thing
+which I can immediately see here for our
+private variables, we don't have the
+final one. And okay, we can also see the
+order repository is not used. Okay, so
+where can it be possibly be present?
+Okay, okay. Oh, right now here we see we
+are just returning the order object
+itself. That is wrong. Here we need to
+use the order repository and save the
+order. So, that will return us an order
+object in itself, right? So, that is the
+issue. Let's restart this and then we
+should be good to create the order in
+Requestly. So, these sort of errors are
+very common, right? So, that you know
+this is how debugging is actually done.
+Let's get into Requestly and then we
+will see
+we will see the creation of it now. It
+has taken time and then it did return me
+the details. We have our order. We have
+our customer information. We have the
+status. We have the total price which is
+dynamically calculated based on the
+quantity. And then it is also telling
+which order items does it have and what
+all product is it related to. And we
+also have our created at time. So, at
+this time this particular product has
+been placed. So, I'll give you two
+assignments. Make sure you complete
+them. Take a screenshot of the
+completion and then post it on social
+media. So, the very first one which we
+want is get all orders and then we want
+one more which is get order by ID. So,
+we have seen that every order has a
+particular ID. So, let's say I want to
+get this particular order by its ID. So,
+let's say somebody's looking for the
+tracking status of an order. So, this is
+very fairly
+commonly asked. So, here I'm going to
+add some particular methods for you. So,
+we will have list of orders and then get
+orders. I'm going to have a to-do here
+where I will say
+to be implemented
+and then I'm going to return null for
+now. So,
+this will be a take-home assignment for
+you. In the same way, let's add one more
+method for the get order by ID. So, this
+will not return a list, rather this will
+return a single order. You know that
+what to do. We have to get into our
+service layer. We need to write the
+supporting methods for this. Once we
+have the supporting methods, we just
+wire it up here and then we are good to
+test it on requestly. So, one aspect of
+this entire back-end application that is
+still pending is our Swagger
+documentation. We have installed that
+originally while we are creating our
+project in the pom.xml,
+but we haven't yet used it. So, let's
+see how to do the setup of the Swagger.
+Before that, let's commit our changes
+which are related to the order order
+module completed.
+The very first location from where I
+would like to start is in my pom.xml.
+Here we have one dependency which is
+helping us in the documentation. If we
+search for Spring Doc, you can see we
+have added one dependency which is the
+open API specification.
+Now, let's run the application and see
+when we visit the Swagger documentation
+URL, does it actually give us anything
+or is it empty for now? Our application
+is up and running. Let's visit the
+Swagger docs. So, this is the URL for
+Swagger on localhost 8080 it is
+currently running and we have a swagger
+UI forward slash index.html.
+So, this is the location where we are
+able to find our Swagger documentation.
+You can see this is nicely kept in the
+dark mode and here we have two
+controllers which are listed. As I said
+before, controllers are something which
+are client-facing and here we are
+getting list of all our CRUD operations.
+So, we can look up for some information.
+Let's say I had my t-shirt, right? So,
+let's say I'm looking for that. So, I'm
+entering my ID one. If I execute it, I
+should be getting my t-shirt as the
+response. So, you can see I got a status
+code of 200 and this t-shirt details. In
+the same way, when we want to set up our
+order controller, we can come here,
+click on the try it out and then here we
+are getting an example request body
+where you don't have to really guess. In
+case of requests or Postman or any other
+API client, you have to be aware of the
+format. But because we have this
+dependency which is intelligent enough
+based on which request body, which path
+variable you're accepting, it is asking
+you to fill that up in your form. So,
+let's say you have your put endpoint.
+When I click on try it out, because I
+have my path variable as well as the
+request body, you can see it is clearly
+asking me to enter the ID value followed
+by the request body. So, this is the
+flexibility and convenience we get with
+Swagger documentation and we as back-end
+developers we hand over this particular
+Swagger documentation to the front-end
+guys and they will test out our APIs.
+With that, we come to the end of the
+video. If you enjoyed this, make sure
+you drop a like, comment and also
+subscribe to the channel and we'll see
+you in the next one.

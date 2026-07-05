@@ -1,0 +1,205 @@
+so I was just chilling out reading
+something for an upcoming video yes
+folks we do learn For an upcoming video
+in fact there's a lot of learning that
+goes into it and just then I saw an
+email and I thought let's make a video
+Let's explore things together so in case
+you are a web developer this video is
+going to be really interesting if
+anybody of you is a web developer uh the
+the word Postman is really very familiar
+to all of us we all have used it if you
+have developed any kind of API or have
+tested any kind of API or even have just
+worked in the front end the postman is a
+go-to tool for everybody and yes there
+are alternate options uh for the inbuilt
+plugins for vs code and a lot of things
+but yes Postman is kind of a go-to tool
+for everybody and just right now let me
+show you I received an email so this is
+the email that I got that hey Postman is
+you got an early access of Postman vs
+code extension and I saw is it just me
+that got this extension or everybody
+then I went on to just searching for it
+and turns out it's available for
+everyone it's fairly new compared to how
+many developers actually use Postman
+3000 is like nothing by the time you'll
+be watching this video it will be 10 000
+or probably more just let me know in the
+comment section by the time you're
+watching this video how much is the
+download a figure there right now I'm
+just just curious to know about that so
+we have couple of contenders here that
+we can actually pull through I have
+created and started an app onto the
+server here on 4000 so that we can at
+least see what's happening how the
+request actually goes uh what fun we can
+have and I also have the classiest
+Thunder clients so thunderclient is
+actually the first among one of the
+first extension which actually probably
+pushed vs code to actually make an
+extension otherwise they were purely
+happy with their little bulky and a slow
+uh desktop application so it was not
+enjoying them much in the recent days
+but I have just installed it and the
+first thing that I noticed here is they
+look for sign in so I can use
+thunderclient without without giving any
+of my login credential information it
+just works out of the box let's try to
+make a request here let's try a new
+request so already my application is
+running so let me just actually copy and
+paste this
+so I have one other request let's see
+how does the request actually looks like
+on both of these clients and how does it
+work uh so I have this URL which is
+slash items
+items in which there is some response
+which I am getting uh so it's just a
+basic get request let's send this and
+yes I'm getting some of the requests so
+this is nice I can see Header
+information
+really nice cookies result docs I I
+really just need this much of it
+information I can definitely send my
+queries headers auth so all of this all
+of my Beta tokens everything is
+mentioned so a well thought out of
+plugin we all are aware about the client
+let's see the first thing that I noticed
+here is I have to sign in I have to sign
+in like what's the point of sign in come
+on give us an option like I want to just
+explore this there's no point of signing
+in so buy too much collection of the
+data anyways I'll give you on that I'll
+sign in I won't be like that so yeah
+open this up
+and it's saying signing you in so I
+already have an account
+and it should be just that's it so it
+opens up on the browser you sign in into
+your account I already have a postman
+account I just you get that so this is
+the basics of how it looks like let's
+close this one and let's see that if we
+are going to make the same HTTP request
+how the interface looks like this is the
+first time I'm actually seeing it so
+this says Untitled request can I change
+this nah
+now no way to change this and title
+request at least as of now uh let's see
+the URL let's say how does it looks like
+okay so we have a lot more uh okay looks
+good looks good and we have slash items
+okay what more I can do here so let me
+close this one
+okay I will get a response here the key
+is query parameters all right
+authorization no auth basic plr token
+all right looks good headers buddy do we
+have form data yeah we have Farm data we
+can send images as well and we have none
+okay
+Raw binary Json so almost all options
+are here so they are not cutting through
+any options uh prerequisites test
+settings
+support for settings is coming soon all
+right I'll give you that you are in beta
+so I'll give you that much let's send it
+all right so very familiar-ish kind of a
+looking syntax so compared to what we
+saw in the thunderclient it's it's
+almost looking like a postman so I can
+see it in raw prettier
+ah preview nice pretty yeah get me
+pretty cookies
+okay no cookies received from the server
+that's nice all the information that I
+want is here what do you do clear
+response okay
+all right so that's minimizing it text
+based results body okay okay let's see
+what else we have this is probably for
+reporting the bug log out uh more
+options workspace that's nice let's see
+I have collections let's try to set some
+environment variables okay and web it
+variable is not yet here okay uh I think
+now thunderclient is leading the way
+honest opinion uh but I think very soon
+the postman guys are gonna catch up they
+have a pretty big team uh compared to
+ThunderClan they are humongous as a team
+but this is good now I don't need to ask
+my students to install any pla any
+software or something I can just ask
+them to install an extension and pretty
+much anything and everything can be done
+within just the vs code I hope this
+doesn't makes vs code too bulky because
+that's one thing I'm worried about but
+anyways together we saw some stuff and
+we can just go and look for it all right
+so
+let's see what are the reviews right now
+reviews are always bad because people
+usually post reviews when they are
+unhappy which makes reviews very skewed
+so I don't really rely on the on that
+the sidebar layout is a copy of
+thundered client extension no this is
+how it is going to be because you need
+to have you have only limited options of
+how things needs to be done
+so it was expected requires you to login
+in to do anything which is not possible
+inside Dev environment which does not
+have internet connection yeah that
+that's a valid point so this one is a
+valid point this one I think is I think
+a fan base authentic line which is good
+which is good but I think this is valid
+also I didn't liked it why they asked me
+to log in so if Postman is watching this
+video uh Hey guys hey folks you are
+doing such an awesome job you are such a
+big company and asking for a login
+yikes I don't like it either give us a
+guest option or something this is I'm
+happy uh like what more you can do this
+is how the entirety of the API testing
+and everything works this is cool I like
+that now I have two options I can use
+this one
+I like this one actually better not the
+top bottom this is actually much easier
+because this is somewhat I don't know
+why but I like this kind of a layout do
+we have option to change layout here as
+well in the in this one do we have
+option to change the layout
+okay let's get this so can I change this
+nope I cannot change this no
+no right click nothing all right so this
+is your first look a fun video just to
+test out the things which will just
+shared to me all right so if you have
+any of your opinion let me know in the
+comment section let's see how how this
+war is going to end up this is all good
+for users at least all right let's catch
+up in another such video

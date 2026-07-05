@@ -1,0 +1,241 @@
+All right. So, hey everyone, welcome
+back. Welcome back to another exciting
+video. And in this particular video, I
+have something very exciting for you.
+So, in this particular video, I want to
+showcase a product which is really
+amazing. And for a white coder like me,
+this particular product is a goldmine.
+And AI can actually do a lot of stuff.
+You can use cloud code, you can use code
+X, and a lot of more tools.
+That becomes a bottleneck. That is the
+UI design.
+I have built Whisper type. I have built
+the Skyping. And all the more so the
+products are in the line. And AI is able
+to do all the functionality, but one
+thing where I struggle a lot is
+basically the design. What design about
+that that design is not production
+grade, not polished. And that is where
+this particular product comes into the
+picture. So, here I want to show you
+this particular product that is Flow
+step. And let me show you the demo,
+okay? So, Flow step basically that I
+will ask you to leave my UI banana. It
+generates a UI. It generates production
+grade grade applications of for UI. So,
+you can see that you have my best good
+demos. And this is the landing page of
+this particular website. And if you see
+that actually what you can do is you can
+have collaborations. You can build the
+UIs with the help of AI. So, you can cut
+there. Let's quickly jump into the
+application. So, many already have an
+account set up curly hair. This is the
+application. So, let's say make
+application banana chateau. This is
+something I really want to build for
+myself. That is a fitness tracking with
+home.
+To maybe recently could take fitness
+tracking up banana that made could be
+personal use curly. And as you know the
+AI does the bare minimum UI. Bare
+minimum. What else is the application
+which allows that I would there is no
+use of it. So, I have written a very
+simple prompt. And you can even attach
+references if you want to. But right now
+I don't want to attach any reference.
+But I make polish application the
+screenshots below and let's just click
+on the generate. So, what it will do is
+it will basically analyze what I have
+said it and everything. So, it's going
+to analyze and based on that it is going
+to build a mobile application for me.
+So, you have to put my prompt there
+there up to get them to wait.
+So, you can see the animation going on
+here. How well the animations are going
+and I'll be immediately generate color
+and this is actually iOS mobile using a
+green theme. Okay, so I really like
+green color. Everyone knows I like green
+color and let's just wait for a while
+and it's going to generate the theme and
+it is generating something.
+Okay, pretty cool.
+The AI is actually doing the UI in front
+of me. Okay.
+Pretty awesome, right? I mean it not
+fast I am pretty awesome. I got two
+screens. Let's generate more screens.
+Okay,
+generate okay, generate a timer screen
+where users can choose a workout. Okay,
+two users can choose a workout and then
+start timer start and stop the timer.
+Okay. I want a screen to generate a
+workout like that and I can basically do
+the start and stop thing. Okay, so very
+simple prompt and basic English there
+let's just wait for a while.
+So, you can see already the design can I
+start getting there. So, this is where
+it is generating. Your design is taking
+shape. Okay, thank you so much.
+And you can see that I got a new brand
+new screen with the same theme. So, you
+have to get my workouts and that is
+running strength cycling and all we have
+and this is basically the timer thing.
+Okay, I really like how fast this is
+this is not a fast fast forwarded video.
+You can see I'm talking to you. This is
+not at all a fast forwarded video.
+And pretty good. I mean, this is
+definitely good. I but I think so this
+is definitely good. And then at the last
+generate, okay?
+A detailed detailed
+analytics
+analytics screen
+for me, okay? For me and it's going to
+be a couple of screens here
+and I have to be able to add my friends
+and we can have a leaderboard kind of a
+thing that I can do active here. You
+know, accountability thing. So I'm going
+to do this one more time to get to me
+while this is generating. So also do
+three to four screens where I
+where I can, okay, invite, let me just
+do it like this way. Where I can
+invite my friends and see the
+leaderboard.
+So this is basically what I want, okay?
+So let's just wait for a while. Oh, this
+is I I really like this. I really like
+this particular thing, okay?
+I can let us
+wait for this particular thing to
+finish. You can see that we are getting
+a detailed screen on the analytics part.
+And I really love the UI, okay? And
+let's just wait for a while putting
+pieces together. That's great.
+So you just prompt and you just get
+everything, right? And I think I can
+select the edit movie map to the camera.
+So let's just I'm just waiting for it to
+finish, okay? That's that's pretty
+awesome. Okay, it's a long screen. You
+can see we have calorie crusher, we have
+personal best
+this particular thing. And at the end I
+can just give it one more prompt. This
+is going to be my last prompt because I
+can see already all the screens are
+looking at you here.
+I think I will wait and let's just wait
+for a while. So four screens it is
+generating for me and just just look at
+the speed. This speed is going to I mean
+it's really awesome speed, okay?
+So we going to have four screens getting
+quickly it's going to generate this
+video is not at all fast forwarded. I'm
+really impressed. Personally, I'm really
+impressed because I've been making a
+custom my clothes to wipe code to get it
+up. But I got the design part sorted to
+my designs is to generate code I can
+give my clothes that hey, you have to
+build this particular design. So let me
+tell you some more advanced features
+also. So let me just skip the video
+ahead.
+So you can see that this is what it has
+generated, right? So you have to
+generate a leader board of screen five.
+Then we have the invite. We have your
+personal profile and here. So this is
+basically how you can generate so
+quickly these many screens for a fitness
+application. I make a custom see. I can
+even edit these screens to get a sunny
+kiss of AI. I can choose them. I can
+edit. I can export it to a figma. I can
+use the edit and you have to make a pass
+code prompts and for example switch to
+dark make a dark mode make it pretty try
+a different layout. For example, what I
+can do is create an error state. Okay,
+they come get this a good version of my
+day.
+So let's say
+you personally need a fitness screen. So
+I can just say edit. And we're going to
+get a custom error state to get other
+let's say for some reason our server
+down. Let's say right. So what I can do
+is I can basically say that other error
+or I do okay. So let's see how the error
+part looks. So many of you have seen the
+select here the four core and if server
+is down what should the error state
+looks like. So you can see it's going to
+generate that. And when you select
+something you can see all the properties
+with generated code. I mean if you see
+right here you have a code generation as
+well. I've got to say copy that
+the code always remains in sync.
+I'm going to copy code right this is my
+screen. You can see the full react code
+is in front of me. This is my copy code
+of my cloud code is a custom second is
+copy the code from here and I can just
+give it to the cloud and cloud is going
+to generate that.
+Pretty pretty amazing. So you can see
+this is the error screen and yeah really
+clean actually. So click it again I got
+to help you figma with you. You can just
+export it to a code. You can export it
+to a figma. You can even download it as
+a PNG and I got to go to my export to
+get my figma I have to of course connect
+my figma so I'm going to be figma
+connect me but I get a figma out of it
+and then I can even connect my cloud to
+the figma and
+let's go generate
+so this is the future of actually how
+you design AI applications right and
+honestly
+I just love this product
+I'm going to use this a lot so this was
+your flow steps so all the links will be
+available in the description below and
+do let me know what do you think about
+this product and I got to go be
+application builder a lot of times
+just give it a shot and you will be
+amazed okay and thank you so much flow
+step for sponsoring this video apart
+from the sponsorship I really like your
+product so thank you so much for this
+amazing product all the relevant links
+up coming to description
+so check flow step go so with that let's
+end this video let me know your thoughts
+below in the comment section and video
+like and subscribe to go
+with the flow
+until then bye-bye and take care

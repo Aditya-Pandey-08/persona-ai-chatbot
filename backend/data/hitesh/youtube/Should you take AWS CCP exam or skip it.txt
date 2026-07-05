@@ -1,0 +1,202 @@
+so you're looking forward to get started
+with your Cloud Journey after looking a
+few YouTube videos you realize there are
+three major Cloud contender in the
+market the first one is AWS of course
+from Amazon the second one is azure
+which is from Microsoft and the third
+one is Google Cloud now you realize that
+hey I would love to get start with
+Amazon AWS but you could have chosen
+others as well but this video is
+specifically focused on the people who
+are having a confusing mindset because
+people who are not having knowledge in
+the cloud obviously are ready to get
+started and train with the very first
+foundational exam certified Cloud
+practitioner but people who are having a
+developer skill and developer knowledge
+that's where the confusion start because
+you realize that hey I know what is an
+ec2 I also know what is the storage
+bucket I also know a little bit Basics
+about handling even the apis or even the
+fargate Beanstalk so there are things
+which I use in daily life and daily
+basis and you consulted with some of the
+people who are ahead in your Cloud
+journey and all are saying the same
+thing that hey you know what the cloud
+certified Cloud practitioner is a too
+much of a basic exam you should probably
+skip that go for either associate
+developer exam or probably you can
+directly go for something specialty like
+networking or something but let me tell
+you there is a unique perspective and
+unique advantage of becoming a certified
+Cloud practitioner yes you know Services
+about ec2 yes you know about the buckets
+but there are a lot of things which you
+probably don't know about the AWS
+services that are offered and that's the
+goal of this exam the exam is not meant
+for people for having a specialized
+skill but actually this exam is centered
+and is directional towards knowing the
+breadth of AWS which is in itself is a
+big job the goal of this exam is not to
+have in-depth knowledge about each
+service but actually to know what all
+services are offered by AWS and that's
+where it shines AWS offers so much of
+these services that even the veterans
+who have been using for it three years
+four years five years don't know oh this
+is a new service about AWS that we can
+do all these things just with click of
+button and that's where the cloud
+practitioner exam shines so people who
+are thinking that I can just walk in the
+park and will clear this exam with the
+flying colors no you won't let me give
+you an example of that yes you know
+about what is ec2 you know about what is
+storage but do you know what is Honey
+code do you know what is AWS wavelength
+Cloud9 AWS Amazon bracket device form
+what is Amazon AWS mace what is AWS
+light sale what is AWS Sumerian there
+are a lot of services which you don't
+use in your daily day-to-life and
+probably there are very unique
+specialized startups and companies which
+require these services but still they do
+exist and that is what this exam is
+specialized about that gives you the
+entire breadth of what is there in AWS
+so yes that is why a lot of people fail
+in this exam and lose their hundred
+dollar don't be like that don't just
+think that this is a walk in the park
+and I can just go and just clear this
+exam you won't be doing that now if
+you're planning for this exam let me
+give you some more hints and tips for
+that now this exam now you can give at
+your home and is a proctored exam that
+means somebody via the webcam will be
+watching you throughout the exam and
+these exams uh Proctor will ask you for
+a government ID so make sure you keep
+with that and also a special bonus Tip
+since you have subscribed to the channel
+I hope you have is make sure that if you
+are giving this exam there is no
+electronic equipment except your laptop
+is there one of our students actually
+had to keep the remote control of the TV
+also in another room because proctored
+asked it to so also one more bonus tip
+but before let me walk you through that
+what and how you can register for an
+exam in case you are looking forward
+with that so once assuming that you have
+prepared for at least two weeks for this
+exam all the preparation material and
+everything I will also start a long
+series on this channel so hit that
+subscribe that will help you to prepare
+for the cloud practitioner exam in the
+future videos so make sure you hit
+subscribe for that as well now in case
+you are looking forward with that go to
+AWS training that's how you just go for
+it click on the certification Tab and
+click click on go to your account and
+then you can register the exam this is
+how you register for AWS certified Cloud
+practitioner feel free to choose between
+PSI and Pearson view really easy to walk
+through with that once you click on with
+any one of them then simply go ahead and
+choose that whether you want to give it
+as an offline Center or online majority
+of the people these days are choosing
+for an online one yes the proctored exam
+keep a government ID handy with you and
+just book a date and a slot for you and
+again it's a really super easy process
+and you have to select from where you
+are giving it and all of that so I'm
+going to go ahead and just cancel this
+one because I had to record this video a
+couple of number of times so yes cancel
+my scheduled exam I'll just show you and
+walk you through that how you can
+actually go ahead and schedule it again
+so that I can walk you through this
+video took a lot of attempts to record
+probably something is wrong with my
+system so again it's a 120 minute exam
+if you want more guide on that let me
+know I'll create a dedicated video about
+what type of questions are being asked
+what's the format of all of that and all
+these details just click on schedule and
+will continue for that yes we want to go
+for remote online that means I want to
+give it from my home but if there is a
+test center around Pearson view or any
+other you can just choose that also I'll
+just click on continue for that and yes
+I want to select my exam language to be
+English and I also want to select my
+language as English
+now while creating the account if you
+have mentioned that my native language
+is Hindi then you will give a little bit
+extra time in each of these exams
+otherwise some exam will give you less
+time but since they understand that your
+native language and exam language is
+different they give you additional time
+which is always handy for the future
+exam so just select your location I live
+in this beautiful country known as India
+so I'll select that my country is not
+breadth Rich so it's a length Rich so I
+just have one time zone maybe you live
+in some country like Russia or something
+then obviously you have multiple time
+zones select with that and then it will
+ask you to select your time zones like
+what time slot that you are looking for
+depends on what date you are selecting
+these could be less or more for example
+on Fifth there is very less but on
+Seventh again there are more just select
+the time slot and exam maybe you are
+ready to give it on 6 30 pm on 7th of
+this Wednesday which probably most of
+you are not but in case you are then
+just click on continue it will select
+and select that and then it will ask you
+to make a payment booking created
+successfully you can close this and will
+pay for it now as of now this exam is
+100 dollar of course with the tax you
+can get 118 dollars so make sure you
+prepare in advance for it don't just go
+for it because others have said it's a
+walk in the park no it's not you'll fail
+in that it will ask you for the breath
+Rich content of AWS if you are going to
+subscribe to this channel you'll
+obviously prepare for this along with me
+in the upcoming few videos so that is
+the start a beautiful start of your
+Cloud journey I hope you have enjoyed
+this one let's catch up in the next
+video

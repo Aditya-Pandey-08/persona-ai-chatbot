@@ -1,0 +1,321 @@
+Hey there everyone and welcome back. So
+we are learning to replicate the logos
+via various techniques. This was this is
+one of our handyworks in the first
+couple of movies we tried with the
+WhatsApp then the mail icon. This is the
+image. This is our job and the next that
+I was looking up for making the videos.
+I found that this is going to be a great
+example. So, I looked up for the screen
+flow and I think we're going to
+replicate this guy which is the latest
+Screenflow 6 logo. Again, we are not the
+creators of the logo of this guy. It it
+belongs whole copyrights and everything
+belongs to the screen flow. So, I'm
+going to drag and drop it into my assets
+and let's just drag and drop it. Oops.
+Did I did
+that? And there we go. Okay. So let's go
+on to the sketch and I'm working on just
+one file so that you can look on
+whatever the work we are doing. So it's
+a good idea not to create many files
+because we won't be using them. So what
+we can do is I can select all of these
+guys and these are inside the mail. We
+have grouped them. No problem. And this
+is okay. This is text somewhere. I'm not
+able to see that. Okay. Where it is?
+Okay. This is handywork. The original
+WhatsApp. I think it's good. Okay. So,
+let's bring this guy onto our
+screen. And there we go. Very short guy.
+Let's move it a little bit up. And we
+know there is a lot of details going on
+in this logo like the color scheme, uh
+these shades, but actually these are
+triangles. And this is a pretty simple
+obvious rectangle with some rounded
+corners. couple
+of circles which are actually behind uh
+this bar. So it's good. It is good. So
+let's just try that. So first of all,
+let's get some guidelines out
+there. Okay. And we're going to follow
+the first technique in this case. Now
+notice there is a small shadow out here
+as well. So we're going to do that.
+Little details make big things. Okay. So
+this is good. Let's just go a little bit
+out. I'll press Z key. That converts it
+into the magnifying glass and then I'll
+zoom it. Okay, this is perfect. Okay, so
+now I would like to press O for getting
+the
+oval. I'll look for the centerish point.
+There we go. Alt and shift. And we're
+going to drag and drop it. So I think
+this is
+good. Okay, this is good. Now this is
+not good. Now first of all let's change
+the fill to red and reduce the opacity
+so that we can see see it. Okay, looks
+good. Now let's just select that and
+make it good. So I think there we go.
+Reduce. This looks like a fatty circle.
+So let's reduce that. And I think this
+is good. Okay, now it's looking good.
+And in case you are not happy with that,
+you can move it a little bit out there
+from the arrow keys. And there we go.
+Looks perfect. Almost perfect to me.
+Okay, this is good. Now, let's just move
+this guy out
+here. And a little bit more. We'll talk
+about the colors later on. Now, how can
+I tackle these things, the rectangles?
+Now, there are a couple of ways you can
+just work on with the vectors. Actually,
+that would be the best. But let me just
+try with the rectangles. Okay. R for
+rectangle. And let's have something like
+this. And what we're going to do, rotate
+that. So, let's just rotate that. I
+think this is. And let's align it out
+there. And I think we need a little bit
+rotation as well. Yep, that is
+perfect. And there we go. Little bit
+out.
+Press enter to get out of this
+mode. And I think this is good. And I
+think this is perfect. Almost
+perfect. Okay. Looks good. Looks nice.
+Let's remove the borders. And uh let's
+change the fill to something like
+greenish so that we can see what is
+popping out and things. Okay. Let's
+reduce the opacity as well so that we
+can see what's going at the back. Now
+let's press R and get a rectangle again.
+Big one this time. And remove the
+borders. And we would like to rotate
+that as well. So I think there we go.
+And I think I missed one thing. Let me
+get
+enter. It's not rounded. So the inside
+thing is not rounded. Okay. Interesting.
+Let's go onto the rotate and try to
+rotate this guy a little bit like that.
+Place it with the hands.
+And I think
+there not much. So let's
+Oops. Let's rotate this again a little
+bit. And why is rotate not
+working? Okay, I'll click outside. Click
+on this. Oops. I'm clicking on the
+transform. How is it going to rotate if
+I'll click on the transform? My bad. My
+bad. My
+bad. Okay. Enter.
+Making it a good size out there. Little
+bit out there. Reduce it very much out
+there. Now, let's round the corners. And
+I think this is almost perfect. So, 21.
+I'd like to go with
+20. There we go. I always like to stick
+with the even numbers and not with the
+odd because odd do make a lot of
+problems. With experience, I can tell
+you that. Okay. And this is good. So,
+let's just change the fill to something
+like
+reddish redish tone and reduce the
+opacity as well.
+Okay. Now, what I want to do is select
+these two rectangles and I would like to
+click on the subtract. Oops, I did a
+mistake again because this rectangle the
+this one should be on the top. and
+command Z this rectangle and this
+rectangle. So this rectangle should be
+at the bottom. Okay. And now I can
+select both and click on the subtract so
+that it just leaves me a line out there.
+Okay. Let's click on this line and click
+it again and we are into the vector
+mode. Oops. Command
+Z. I think this is good. Perfect. Almost
+perfect. Not just Okay, now we'll keep
+it out here
+somewhere. Okay, we will fix that later
+on. Or maybe just now like
+that. And this is
+good. And let's align this guy as well.
+I think this is already perfect. Okay,
+so smart guides are helping me. I think
+red color is not a good choice because
+it's going to make a lot of problems in
+the smart guides. So let's get this a
+little bit greenish. Okay, this is
+good. Now about the circle. So let's
+remove all the guides out there. And you
+know you can handle the things quite in
+a number of ways. So let's just say O
+for oval. And I think this is the center
+almost. And press the key. You know
+which keys. And let's just zoom it a
+little bit.
+And let's move it. I'm using my arrow
+keys to move it. Okay, I think this is
+looking good. Little bit. Okay, this is
+now perfect. I don't like the
+borders. And what we're going to do
+is we are going to make one more. So O
+for oval and alt and shift and centerish
+point. And there we go, the outer point.
+Remove the borders. Change the fill to
+something like reddish, not reddish,
+bluish,
+greenish. And let's just reduce the
+opacity so that we can see through it.
+Okay, looks good. Looks good. And again,
+my outer shape oval six should be on the
+bottom. So I'll just move it
+up and I'll select both the
+shapes. Command and click on the
+subtract. Okay. So, we got the logo or
+the round circle. Now, what I'll be
+doing is I'll press my alt key and I'll
+be making a copy of the circle. Okay,
+looks good. So, pretty easy job. And I
+think this is almost okayish. I will not
+call call it perfect okay, but okayish
+job.
+And I'll put my smart guides out there
+and
+there, there,
+and there as well. Okay, let's get out
+here. And I'll select this guy. Shift.
+And this guy as well. Now, let's move
+them out
+there. I think somewhere there. Or maybe
+I'll use arrow key to move them a little
+bit. Let's go into the zoom. And I think
+this is not much space out there. And
+this is okay. This is going to work. So
+shift and let's choose something else
+color like this. And now I'm going to
+select this guy as well as this guy and
+press union so that it looks like this.
+But you know the rectangle is actually
+looking full. So, command Z and I think
+this is just like that. So, this shape
+is actually not on the forward. I can
+move it onto forward, but this is
+actually on the back side of this. And
+this is looking good. Perfect. Okay.
+Now, it's time to change the color of
+the things. So, select this. Select this
+and this guy. And let's change the fill
+to complete white. Move turn up the
+opacity to full. And there we go. Let's
+change this guy color to
+fill. Make the fill of this color. And
+uh what else we can do? Bump the opacity
+already. Remove the
+borders. Okay, this is looking nice.
+Already looking
+good. And one thing that is not looking
+good is actually this guy. So this guy,
+I'll move it onto the
+forward. And
+uh what else we are missing? We are
+missing a border. So we should have a
+border. And this border would be not
+this color obviously. Let's have it a
+white color. Little bit dark because I
+think there is a little bit darker shade
+of white of course. So I think this is
+good. Okay. So now it's giving us a feel
+that it's above but I think a shadow
+would be much better. So a Y shadow
+would be good.
+minus one, I think. Yes. Let's remove
+the border. And yes, this is much
+better, I would say. Much sharp,
+actually. I like it. Adding our own
+flavors. No big deal. And I think this
+is looking good with the shadows because
+it's giving us the feel that yes, this
+guy is on the top and these are on the
+bottoms. Okay, now let's tackle the
+final guy. Remove all guides and uh V
+for vector. This is easy. Click
+here. Click on
+here. And uh we're going to click here.
+Move it a little bit
+roundish. Like that. Click on this guy.
+Little
+bit like
+this. And press the command to make it
+straight. There we go. Click here.
+Little bit roundish. Not much. And there
+we go. And I think I need to go way into
+the zoom because this is messed up. So,
+command Z a couple of times. And one
+more time.
+So, I'll go into this and I'll click
+there.
+And now it's it's good like that.
+And
+then I'll just click
+here. Just like
+[Music]
+that. Almost good. Take your time. No
+problem in that. Press command and let's
+join the shapes. Okay, now it's good.
+Let's click enter. And I think this is
+good. Let's go one more time. Zoom. And
+this is not a perfect job. So let's
+double click there. Move these guys to a
+little bit out there. This one a little
+bit like
+that. Like that. And this one will go a
+little bit
+out. And this is okay. This is okay. And
+obviously this will look so
+good. And not like that.
+Obviously. Let's move this as well. So I
+think this is good. Let's remove the
+border and give it a fill. And this will
+look
+good. Okay, let's go back a little bit.
+Zoom. Let's place our guidelines so that
+we can place it onto a perfect
+place. And there we
+go. Oops, no guidelines. There we go.
+Click on this and drag it out there. So,
+I think we'll place it
+here. And change the fill color to pure
+white.
+And this is little bit bumpy here. But I
+think you can work out on on that at
+your own time. So although we can fix
+that just by removing this
+point and I think this point should go
+here somewhere. And let's just remove
+this point as well. I think this is
+better shape actually. Little bit
+trianglish but we can just fix that as
+well. Yep. I think I like this. I like
+this. There's a small bump there as
+well, but you can fix that. No problem.
+Consider this an assignment. I know this
+is mean, but you can just work out. Now,
+there is one more thing remaining in the
+shadows, but I think video is going too
+long. So, let's just finish up this some
+finishing touch in the next movie.
+[Music]

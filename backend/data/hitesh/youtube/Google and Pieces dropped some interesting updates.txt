@@ -1,0 +1,441 @@
+hey there everyone Natasha here back
+again with another video and welcome to
+this very special video where I want to
+cover a lot of updates Yes you heard it
+right things are moving a lot and who is
+going to give you updates about what
+things are moving where they are moving
+of course this channel so here I am
+talking about all the updates that are
+moving that you should keep an eye on
+they are really interesting and some of
+them might be very useful for you so
+this one is not the that Hands-On coding
+or a crash course by the way I did a
+recently a crash course on the Redux
+toolkit if you haven't checked it out do
+check it out it's all pure Hands-On an
+amazing code tutorial as well so by the
+way uh there are actually three updates
+that I want to give you and out of all
+these I can definitely make a separate
+video on each one of them discuss my
+thoughts but I thought let's sum them up
+and have a pure discussion just an
+informal raw video of how things are
+moving what I do I what do I think about
+them and what's your thought that's all
+that is also really important so let me
+know in the comments section the first
+update is from the Google and the Google
+didn't shut down any more services
+hopefully for now but I do have a video
+pending that I really want to make about
+the situation of the Firebase and why
+some of the things they are taking away
+from the Firebase is it a good time to
+move on to some open source we'll
+discuss about them in some separate
+video but there is a different update
+that I want to show you so let me share
+my screen here and let's have a
+discussion on this so this is the new
+Talk of the Town that's going on so this
+is idx.dev this is something
+groundbreaking and I didn't got yet the
+access of this as a private beta
+hopefully very soon I will be I'm in the
+joining list uh I didn't approach anyone
+to give me a unfair advantage to get
+this access but if somebody is watching
+who works at Google or can give me an
+Access on that I would love to explore
+this and share my opinion uh onto this
+one so if somebody's watching hey I
+would love to get an access on this one
+so what is this all about so this is idx
+so idx is a developer experience this is
+so-called known as you can build
+everything inside a web browser these
+days the war of building everything in
+the web browser is that it's top peak
+almost somewhat similar to the database
+War everybody is building up their own
+things like there is a code space a
+GitHub code space is there there are so
+many other Summers from jet brains and
+there are independent players in the
+market like replit is there uh there
+there's uh there's so many of them uh
+some of them I forgot the name there is
+a codespace.io and there is one more I
+need to search that so probably I can
+search it here so there is one more here
+I have how can I forget the name of it
+code sandbox uh versus there is another
+one uh stack Blitzer yeah stack Blitz
+and code sandbox both of them are there
+everybody is trying to bring users so
+that they can build everything in the
+web browser no setup environment nothing
+so that we can build everything on the
+on the cloud itself within just the
+browser I think it's almost there but
+the only missing piece is the mobile
+development the mobile development is
+not yet optimized for having an
+in-browser experience and I think that's
+the missing piece that says the missing
+piece we are having I cannot build react
+native apps or the flutter apps and can
+test them out within the browser
+otherwise it would be so much easier to
+teach people for that so that's where
+the Google comes in and what if your
+developer experience was always boosted
+with the AI so yes they are including
+their Kodi Ai and they're saying
+entirely in the cloud entirely in the
+browser I don't have to ask people that
+hey go ahead and buy a laptop which has
+this GB of RAM that GB it's built all
+all in so this is something really like
+that and of course all the cloud
+features like syncing with the team no
+this is not a sponsored video I'm just
+putting out thoughts and what all can be
+done with this one so again not a
+sponsored video so what they're saying
+is they are introducing a project idx
+these days launching application means
+navigating an Endless Sea of complexity
+felt the pain at Google so we started
+idx an experimental new initiative aimed
+at bringing your entire full stack
+multi-platform app to workflow I am I'm
+really a little bit curious that hope
+they don't push me to build everything
+using the flutter I don't want to do
+that it's a great Tech flutter is Great
+Tech I don't really say that but don't
+force me to do that I if I want to work
+in next year a singular react just allow
+me to do all of that so idx starts with
+a web-based workspace that feels
+familiar for coding but fresh and we're
+just at the beginning of this journey
+you are Google your beginning phase is
+much more advanced than anything that
+anybody can build are there are a couple
+of Open Source versions of that I'll
+also talk about that probably I can make
+this video much more useful and fruitful
+than what you are thinking so we love
+your input about the working so uh there
+are a couple of things that you should
+really know so definitely you should
+really know about there's a Code sandbox
+there is a stack blitz so in case you
+have never heard about them so let me
+just walk you through with them as well
+I'm keeping this video a little bit
+informal so that more and more
+information I can pass you and you can
+be more familiarized with that so
+there's a stack Blitz as well both of
+them are great and actually I do have a
+paid plan of I have I've paid money to
+them because it's easier for me to teach
+it's easier for me to do pair
+programming in this so uh I bought it
+before I went into the job I was
+teaching few people pair programming in
+this one so yeah that's when I bought it
+I don't use it these days because now we
+don't do peer programming in my new
+company so we do stack Blitz as well
+this is again pretty powerful and what
+you don't know about is one of such
+platform which is kind of Open Source as
+well so if you have heard about this
+coder.com uh it's also kind of a
+self-hosted remote development platform
+uh probably
+uh what happened to you guys I posted
+about you just
+okay uh probably I can just get you on
+the GitHub uh that would be better uh
+yeah there we go I think that will load
+up probably something is wrong with
+their homepage bad timing but yeah this
+is coder uh this is pretty powerful
+amazing environment so it's a software
+developed environment a via terraform
+that you can be on the Linux so
+basically what you say is it gives you
+it gives you all the environment you
+want to build in react node uh maybe
+python environment Django whatever you
+can just have everything so there is a
+code Marketplace even so if you just
+look at the coder
+and here you can see all the things like
+you can just have this kind of
+environment just up and running on AWS
+and can have your own environment even
+you can have the Snippets of the
+terraform so that they can give you
+environment so this is a pretty uh Cool
+Tech where you can have the Ides in the
+browser you can spin up a big machine in
+the AWS Google Cloud wherever you like
+and can have this coder sitting on top
+of it using the terraform we can
+actually interact with it and can pull
+up the sample template just like the
+GitHub sandbox GitHub code sandbox does
+it uh GitHub we call it as GitHub we
+call it something how can I forget the
+name of all of them but again uh code
+spaces GitHub code spaces so yeah I was
+saying you can make it sit on the top of
+any Cloud environment and you can have
+almost like a GitHub code spaces
+environment for you and you can spin up
+more because it's a terraform so you can
+code it out and can build more than a
+kind of a sample templates for angular
+react python Jupiter notebook you name
+it you can build anything on top of that
+so this space is crowded what I'm saying
+is and another entry in this space by
+the way jetbrains is also in this space
+there is also a git pod that is also in
+this very crowded space By the way very
+replet is also a big player very crowded
+space and this is where they actually
+say that hey we'll be allowing you if
+they actually allow me to do this within
+the idx google.com that's it I'm moving
+on to this one these days I am very
+aggressive in teaching people mobile app
+development and I would do this on
+YouTube for free if this is something
+that is there I would love to do this
+and I love this this is the first time
+actually officially visiting the website
+so react is there flutter is there hope
+they don't push me too much into the
+flutter but hey if they are giving me
+all these options hey this is something
+serious uh so iOS simulator Android
+emulator I don't have to say to people
+that in order to develop IOS app you
+need an iOS device no you can you just
+need idx ah man this is super super
+interesting code faster with generative
+AI I have noticed a significant
+Improvement in my performance of writing
+the code and teaching it I'm using the
+GitHub copilot these days but the code
+is actually very common if anybody is
+building with the GitHub code space it's
+a very common code it just messes up
+things sometimes okay so this is what it
+is they have written a good article on
+it this is the one that I have read
+already so this is something that they
+mention all these things app app it's
+again the same thing as you see on the
+website what's interesting is there is
+an article on the TechCrunch as well
+that hey there is a AI enabled
+browser-based development environment so
+yes these days you have to inject AI
+everywhere to make it noticeable so they
+have their Kodi to make it more uh here
+it is they mentioned the Kodi that hey
+this is more fancy then you think
+thinking it's competing with uh chat GPT
+and whatnot but I think this could be a
+game changer you can build a lot of
+things with this this is the private
+preview I would love to love to check
+this out and have my thoughts onto this
+one uh while GitHub co-pilot Amazon code
+whisper and other are similar AI coding
+features Google focus on full stack
+development puts a slightly different
+Twist on this theme with codespace and
+AWS Cloud9 GitHub and Amazon also offers
+cloud-based environment I told you this
+is a this is a crowdy space this is not
+the Google's first one but I think good
+good stuff we should keep an eye on this
+one and that's what make developers so
+much special so many companies are
+working for us to make our life easier
+so that we can build awesome projects
+pretty cool isn't it okay so that's
+that's the first update officially uh so
+that's basically a wrap of the first
+update that we have there is another
+second very minor teeny tiny updates so
+maybe you're interested in this or not
+so I'll still walk you through so
+another update that we have is the Redix
+UI so Redix UI or the company behind the
+Redix UI silently lies that hey we would
+also like to compete in the space where
+the Tailwind is already competing and we
+would love to get started so if you
+click on the get started you'll see that
+now here we have in the Redix we didn't
+used to have all these things so that
+you see on the left hand side these
+avatars and badges and buttons and calls
+outs and cards this was not a feature of
+Red X UI this was supposed to come from
+this Library which is known as Shad CN
+So based on the Redix they built all
+their components so the basic core
+components were coming up from the Red X
+but on top of that the larger components
+like cards and buttons all these were
+actually being created by this company
+so they silently decided that hey we'll
+roll out our own stuff although Shad CN
+is still much more better at this point
+because they are little more mature but
+I think they are catching up pretty fast
+so anything that you need from hover
+card to pop over there man just giving
+you directly all these things crawl area
+you need separators sliders they're
+giving you a lot of stuff up go ahead
+play around here there's so much fun on
+this so this is like the basic now the
+third update is actually a major one so
+in case you noticed I brought an amazing
+amazing engineer on this channel uh we
+did had a live stream some of you have
+already watched that he is none other
+than our Savo uh the guy behind the
+pieces and he actually rolled out a new
+version he discussed this briefly in the
+live stream as well that what we are
+about to bring and it's actually here so
+I would love to give some shout out to
+them as well so if you check out the
+pieces
+uh so this is their home page and you
+can actually check out about the product
+updates here and this is the new update
+they were talking about this is pretty
+serious stuff if you think about it so
+it says discover related people set
+co-pilot context and so much more what
+I'm super excited about is this part set
+co-pilot context so far whenever we use
+uh any copilot whether that's from
+Amazon whisper GitHub they are trained
+on generalized models so what people are
+doing best practices or what the people
+are writing on the internet so based on
+that things are being trained one of the
+disadvantage of them is everything is
+coming up from the cloud so everything
+that you are writing in your code that
+is also going on their server whether
+it's a chart GPT server it's Amazon
+Google wherever that is and some
+companies don't allow that because the
+code is sensitive definitely Microsoft
+is not going to allow you or adobe is
+not going to allow you to write the next
+killer feature in the Firefly of
+Photoshop using these copilot it
+improves the productivity everybody
+agrees on that but if the proprietary
+code goes for the training and it comes
+into the suggestion that's it the game
+is over so really that is super super
+important I hope now you understand the
+gravity of the situation that why
+setting up the local context is so much
+important for a lot of companies and in
+fact a lot of people are still not able
+to use the copilot's feature because of
+the suggestions so in this one they are
+actually saying that a dynamic llm
+runtime for offline interaction you
+don't need to be connected on internet
+nothing is going out there you can use
+your own Rams and gpus and you can
+actually select the folder I'll show you
+they actually mentioned this Advance
+related people's infrastructure you can
+set your context menu by the way you can
+just select and add people into the same
+context so that you can just interact
+with the team team members annotation is
+something you can annotate your entire
+code that hey this code does that and
+that later on can be used for searching
+and this is this is my favorite one set
+co-pilot context you can literally
+search for a browser you can browse into
+a folder and just ask questions based on
+your own code base you don't need to
+give a KT session a knowledge transfer
+session to somebody who's coming in you
+can just ask him that hey use Pieces
+Just this is the folder and ask any
+question to it that that's all you have
+to do so this is so much interesting and
+I think this is one of the game changer
+thing that's going to come manage
+copilot context and this is super useful
+as well let's just say sometimes I'm
+working in back end sometimes I'm
+working in front end I can set my
+context just for the back end or just
+for the front end to ask relative
+relevant questions about that that's
+that's crazy man change the color of
+your message bubble how cute that is but
+that's appreciated again there is so
+much more that he discussed on that so
+by the way in case you haven't watched
+the live stream where we actually nerded
+out a lot me and Sava behind the scene
+Technologies of the pieces how
+fluttering as their rust is there how
+the custom llm works and what all the
+magic is done behind the co-pilot I told
+you co-pilot looks like a snippet saving
+manager but the amount of tech they have
+introduced already these features are
+nothing what they are cooking up with
+the tech so I think in the future also
+they'll be rocking quite a lot uh so
+this is the basics if you need any one a
+video on because I know the Google part
+and the pieces part they can deserve a
+separate video on its own where I can
+just jargon out things spit out the
+information some of which might be
+useful some of which might not be if you
+wish to have see that just let me know
+in the comment section uh just uh write
+out we need video on Google or the
+pieces just write Google or pieces I'll
+collect that and based on the feedback
+that you give me I'll try to prepare a
+dedicated video on that but hey quite an
+interesting update quite a lucky time to
+be a developer around here so that's all
+for the update uh that I wanted to show
+you around I hope you have enjoyed that
+and let's catch up with another such fun
+video

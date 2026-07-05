@@ -1,0 +1,263 @@
+hey there everyone at a shear and
+welcome to another video in our
+JavaScript series so let's get started
+and talk about some of the more fun
+stuff in JavaScript so first and
+foremost how can I write code in
+JavaScript and can execute that code now
+this alone thing has so much of the
+backlog from the history that a lot of
+people even forget that how code
+actually works and especially in the
+case of JavaScript in this video we're
+gonna learn a whole lot about that and
+we are gonna talk about JavaScript
+engine before you write any code in
+JavaScript it is actually very important
+that you know about JavaScript but I
+know you are very excited to write your
+very first code it's the fun thing I'm
+not gonna do in it so I'm gonna be
+running the code first and I'm gonna run
+it in variety of ways so that you
+understand how actually these engine
+work behind the scene for writing the
+code I will be using throughout the
+series vs code it's my new favorite
+thing and it's gaining a whole lot of
+popularity there are a lot of themes
+that you can install there are a lot of
+plugins and even you can write code
+customize themes just like what I do and
+I like to do you can do all of that but
+even just writing the direct code on to
+this is so much fun it does so much for
+you automatically
+but even though if you are already a big
+fan of sublime text I won't be standing
+a chance against you go ahead and use
+sublime text rest of the thing we're
+gonna talk later on so let's come back
+first and we're gonna go ahead and
+create a folder on the desktop and I
+have called this folder as GS tube I'm
+not very innovative but I think that's a
+fun name to have so in this one I'm
+gonna create a new folder I'm gonna call
+this one as oh one hello feel free to
+name it however you like and that's what
+we got up here now let's go ahead and
+fire up the vs code come on V is code
+there we go let me go ahead and open
+this up now all you gotta do in this one
+is just drag and drop this oh hello
+inside the vs code and there we go all
+good and nice I'm gonna expand this up
+and yes my vs code is bit customized I
+use a lot of themes and plugins and
+custom design stuff so that's what I
+like now the classic way or 101 way of
+learning the JavaScript has been for
+years is creating two sets of file the
+first file that we create is
+usually called as index dot HTML we're
+gonna talk bit more about them later on
+so let's go ahead and create that if
+you're using same code editor as I am
+using just go ahead and hit the
+exclamation sign and hit the tab key
+this is coming up through an Emmet Emmet
+has been a fantastic add-on on that and
+vs code directly support them to write
+the shorthand code notation much more
+faster especially boilerplate code for
+example I can just write h1 and hit the
+tab and it automatically fills me these
+h1 tags but we are not here for the H
+ones we are here for a Java Script thing
+here let's go ahead and create another
+file and we are gonna create a new file
+again we are gonna call this one as
+script dot J s there we go right now
+there is nothing inside this file and
+it's ok 100% ok we're gonna go in back
+into the HTML and you can go just at the
+very end of where the body is about to
+end and just start typing script and
+we're gonna choose the script source
+here go ahead and hit enter and it says
+hey please load me a source off script
+which is JavaScript in this case I'm
+going to call this that I have a script
+that I called a script dot J s this is
+the one that I want in some of the cases
+it's gonna say that hey just go ahead
+and say in the current folder dot slash
+means current folder load at dots script
+GS we're gonna talk a whole lot about
+these relative paths and stuff and how
+Java Script treats them but right now
+this is all what we got go ahead and
+save this up now we got nothing so far
+so at least let's just write a hello on
+the screen we're gonna get that into the
+h1 and we're gonna just say hello there
+we go and save this if I open this up I
+go into this hello and I try to open up
+my index dot HTML it's gonna open this
+up into a web browser
+so hello loads up but can I see my
+JavaScript as well no not right now so
+go ahead right click on that and we are
+gonna click on inspect and we're gonna
+click on console my console opens up on
+the right hand side which yours might be
+on the bottom it's okay
+100% okay I'm gonna zoom this up now
+together let's go ahead and write some
+of the very minimal basic code of
+JavaScript we're all we're gonna say is
+simply console dot log and then pay
+of parentheses and inside that we are
+gonna simply say hello I'm gonna say my
+name you need to say your name don't use
+my name your name only so go ahead and
+save that as soon as you're gonna save
+it's gonna add these semicolons if not
+just go ahead and do that now let's go
+back on this and we're gonna hit a
+reload as soon as I reload it says hello
+hit H this is a proof that we are able
+to load up our JavaScript code in this
+HTML and this brings us to the very
+important question that is it the right
+way to run the JavaScript code yeah
+absolutely 100% there is no problem in
+this way but this is not the only way to
+JA run the JavaScript code and we need
+to understand why this is all happening
+and how can I run my code a bit more in
+the advanced way and actually a modern
+way let's go in and talk about this okay
+so first and foremost you need to
+understand that JavaScript is just like
+C++ or Java or like Python or any other
+language it needs a certain thing or a
+set of tool or software so that this
+JavaScript code can be converted into
+the machine understandable code and
+that's the most foundation of running
+the JavaScript and since the very
+history long we have always seen that
+these browser comes up with the code or
+the compiler loosely saying compiler
+here javascript comes up with a compiler
+which can turn your JavaScript code into
+the executable code nobody bothered to
+discuss about that hey there is some
+compiler there which is running your
+code everybody thought that javascript
+could be run just in the browser because
+nobody knew how to run that and that is
+why nobody talked about these JavaScript
+engines but the fact is these engines
+were already there in front of us but
+nobody bothered to run the standalone
+JavaScript code and some of these
+engines are v8 and spider monkey and
+there is no shortage of them now we know
+a whole lot of them if I go onto the v8
+it's a pretty simple website v8 dot dev
+you can see that they boast a whole lot
+about the things that they have to offer
+like the memory issues and a whole bunch
+of things and these are available here
+it also says that it's a
+high-performance JavaScript web assembly
+engine written in C++ but can convert
+your JavaScript code into understandable
+or runnable code not only that if we're
+going to go on to spider monk
+which is the mozilla version of how they
+want to run the javascript code and
+there is no shortage of these engines
+these engines just like you install some
+compilers for c++ to run the code can be
+installed in your system and can run the
+code so similar to this there are so
+many of them are available now things
+like no GS are such one implementation
+which can convert your standalone
+JavaScript code so that you don't have
+to always attach your JavaScript into
+HTML and then hit a reload every single
+time I know that's painful that's why we
+are not gonna do it
+now apart from this in the 2020
+especially and moving forward in the
+years we got a whole lot of choice denno
+no J's and bunch of others as well but
+throughout this course we are going to
+be using node it's available for
+cross-platform Windows Mac Linux there
+is no issue it has been in the market
+very rock-solid so go ahead and download
+whichever the version suits for your
+machine it can be 64-bit 32-bit whatever
+suits your machine go ahead and download
+that Mac installer or Windows installer
+it's a pretty simple regular install I
+think everybody can do that
+click click Next I agree ok yes I agreed
+to install so that's all what you gotta
+do once you've done that you can fire up
+your terminal and windows guys please
+don't use command prompt much I highly
+recommend to use either a git bash or
+something which is much more powerful
+than Windows shell but windows shell is
+also gonna work fine all we got to do is
+simply say node and space and - we as
+soon as it gives you any version doesn't
+need to be exact my number I'm pretty
+sure yours gonna be advanced as soon as
+we get this number that's all what we
+care about this is all what we need now
+what I can do with this once the node is
+installed that means I have a compiler
+installed on my system and I can run
+that very basic code of JavaScript that
+I have here which is console dot log and
+to give you a brief idea that I don't
+have to even have these index dot HTML
+again again I'm gonna just press my ctrl
++ tilde sign tilde is just below your
+Escape key by the way so all I have to
+do here is I can simply say that first
+and foremost I'm gonna do a LS that
+means hey list all of my files if you're
+in the windows it's a dir command pretty
+basics come on so I can go ahead and say
+node and then I can name the file script
+as soon as I run this this again runs my
+command so this proves the point that
+yes there is something the engine which
+is converting my code and I don't always
+need to attach my code with HTML so that
+my browser can execute and again you're
+gonna see that a whole lot of time in
+these ones that yes all of these demo
+and know Jesus they uses some or the
+other engines to convert your JavaScript
+ok quite a lot of information in just
+one video ok I know you got a little bit
+a long video here I'm gonna try to keep
+the videos short and fun so that you get
+a whole lot of knowledge exciting one
+and we enjoy that and I'm pretty sure
+you've already hit the subscribe so no
+need to say it again that's it for this
+one and wait for the next one it's gonna
+be much more fun let's go ahead and
+catch up in next one
+[Music]

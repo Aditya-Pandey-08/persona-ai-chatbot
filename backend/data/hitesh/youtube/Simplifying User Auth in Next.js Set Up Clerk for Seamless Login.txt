@@ -1,0 +1,276 @@
+Hey there everyone.
+My name is Hitesh and I make coding
+videos just like the one you're watching here.
+So in case you are new here, go
+ahead and subscribe the channel and let's continue
+our series of building the SaaS.
+So in the last video we did a whole
+lot of work in just setting up the middleware.
+So in this video we'll take a small
+detour and we'll make sure that the login
+and signup process is comparatively easy.
+We definitely will come back onto the login
+and sign up so that I can walk
+you through with the customization of it.
+But right now with this SAS, the focus is more on
+utilizing the power of the cloud nary and the AI and
+how to build the whole structure, not just with the auth.
+So we'll take a small easiest step with this one.
+But again, there's going to be no
+change at all in this one.
+So let me just share the screen and
+how we're going to do with this one.
+So let's just close everything up here.
+We can go on to the clerk and we can see in the
+clerk we have built your own sign in and sign up pages.
+It's not customized signup, but it definitely works
+the way how they want it to work.
+And all you can do is you can come here
+and just create a route like this which is signup
+slash and this page TSX and just have to add
+this and this automatically works everything just like the magic.
+So let me just go ahead and set this one up.
+Now in order to set this up, what we're
+going to do is we're going to have this
+app so everything goes inside the app.
+I'll just right click on this, create a
+new folder and I'll use the parentheses.
+When you use parentheses, this route is not being fetched
+on the next j's it just grouping of the routes.
+So I'm going to call this one as auth
+so that I know exactly that all of my
+routes and folders and everything is inside that.
+Now I can go back and create an app which is sign
+up and then this whole page tsx I need to make.
+So I'll just copy this and we'll try to create
+a new file and we'll paste it up there.
+Hopefully this will create the
+folders and structure for me.
+And yes it does.
+And yes it does just exactly they want.
+So this is a catch all route in which all of
+the routes are being cached for the signup related process.
+And now you can just go ahead and
+copy the code and paste it up here.
+So that's it.
+You can borrow this signup component from the clerk
+next js and it just loads that up automatically.
+We'll come back onto this one in this because
+we have to make a slight modification since we
+have taken the detour which is sign dash up.
+But no worries, we can just fix that up
+and we'll need one more similar with folder, this
+one which is sign in and this page TSX.
+So again, copy this and let's go ahead
+inside the auth and create a new file.
+And let's just paste this one. And there we go.
+So now we have sign up and sign in.
+Sign in borrows the sign in
+component, copy and paste this.
+And there we go.
+So the route that it creates is
+sign dash in and sign dash up.
+And the easy thing for us is I can
+go into the middleware and can say this is
+sign dash in and this is sign dash up.
+And the advantage of this, not scattered around
+everywhere is I can just make a couple
+of changes here and just work with that.
+So this one can be simply sign dash in, sign dash in.
+And I think that's it. That's it. That is it.
+All it takes.
+We can come back here and can
+make our own routes in this one.
+Probably I'll share that as well.
+But I think this is all that is required.
+Let's read more of the documentation part of it.
+Now we have to update the environment variables.
+Environment variable, definitely need this sign
+up and sign in URL.
+So we'll just copy this and
+we'll just create the new files.
+And again, this file is env local.
+So I'll talk about these later on.
+Right now we just create this one.
+Oh, we already have env local in which we
+can just go ahead and copy paste this.
+This is publishable key.
+But this time we'll say that hey, this is our routes.
+All the things are up here.
+All right, what else do you need?
+We have the API keys.
+We don't have the API keys.
+So let's go back here.
+These are the keys.
+So let's just go ahead and copy
+this and we'll paste them up here.
+We'll anyways delete these keys.
+So that's going to be useful much for you.
+Anyways, you can just go ahead and have your own keys.
+That's it I guess.
+And we can have the users up here.
+We probably have some users from
+the old past of these ones.
+So we can just delete this user and now
+in the users and authentication you can just check
+for email, whatever you need email you need phone
+number, you need usernames, password, email verification code.
+You want to get that you want
+to allow user for social connection.
+I guess one is by default
+allowed Google which is shared credential.
+But hey, it works, it works.
+So let's just go ahead and try to see
+that whether it works or it doesn't work.
+So we're going to go ahead and say NPm
+run dev and we can just go ahead.
+Environment is loading is env local.
+I really like this message.
+It makes it very clear that which environment variable
+I'm actually loading up which one is in the
+present and working in a production grid application.
+There are many such applications.
+So this is the home route and this is okay.
+Now let's just say if I go ahead and
+see home is not going to be working.
+We don't have that.
+Let's try dash sign in.
+If I go ahead and sign in, it doesn't
+look really that well because we haven't customized it.
+But yeah it is there it works.
+We can probably customize it a little bit.
+This one was sign in.
+We'll work on the sign up as well.
+So auth sign up and page.
+We probably can align it center and we
+can probably have a layout as well.
+What do you want how this should be worked?
+Probably we should talk about this later on.
+Right now let's focus on the functionality part.
+So now we have this.
+Now we need couple of more routes to
+actually verify whether things are going good or
+not good or how they are working.
+Let's close this and create another of
+this folder which is collection folder.
+I'm going to call this one as app because whole of
+my rest of the app is going to be up here.
+And we can just go ahead and
+create couple of routes up here.
+The first one, let's go ahead and create a home.
+So we're going to just open this up.
+Right click new folder.
+And we're going to call this one as home.
+This is my home route.
+Now in each of these routes that you create in
+next js you need to have a page TSX.
+And we'll be just saying home.
+There nothing else as of now.
+Right click new file and we're going to
+call this one as page dot TSX.
+Now TSX is good and we can just go ahead
+and say Rfce, I don't have that extension so let
+me just go ahead and quickly grab that extension.
+Alright, so here is the extension es seven.
+I think this is the one that I've been using
+so I can just go ahead and open this up.
+Install should be okay without reloading the application and
+I can just go ahead and hit the tab
+that I want a view of the explorer again.
+So let's go there.
+And now probably I can say
+Rfce react functional export page.
+Let's call this one as home.
+Home is good enough and we'll just go like that.
+All right, so at least we have a homepage.
+We don't have much saying in this, but let's just say
+if we have more of these pages like social share, so
+we can just right click and create a new folder.
+We're going to call this one as social dash share.
+Inside that we need a page TSX and let's just say rFCe.
+There we go.
+This one is going to be social share.
+There we go.
+Now the thing is, how much of
+these pages are we able to access?
+Sign in is good enough and we
+should be able to access the home.
+There we go.
+And what about social share?
+It's redirecting me to the sign in.
+So our middleware is working fine.
+We definitely will come back here and
+I'll walk you through how you can
+have a customized solution like this one.
+This is surely doable.
+We did it up here, I'll walk you
+through but I think this will actually detour
+us from too much in the UI part.
+I wanted to focus more on the functionality part first.
+So there we go.
+Now let's go ahead and try login.
+I'll probably log in with my existing email
+and unable to complete action on time.
+This problem persists.
+Please contact support looks like the issue is here.
+So all the issue is probably up here.
+Probably I don't have proper all right, so let me go
+ahead into user oh, this is sign in I guess.
+Yep, this is sign in.
+I should be in the sign up.
+Alright, so this is sign up.
+Let's try with the google and this should be sign up.
+So already it logs in with my existing browser wherever
+I'm logged in with the google and now I'm able
+to access home and if I go ahead and try
+a social share I'm able to access the social share.
+So at least the UI part and what
+all needed for this authentication is all done.
+I can focus now on functionality part and we have
+something on the pages so let's just go ahead since
+we are already here in the auth part.
+Let's just create one more couple of more
+files and we'll just sort this out.
+We have one more route in this
+one, let's create a new folder.
+This one is going to be video upload, video upload.
+And again page tsX.
+I can do it much faster with the keyboard,
+but I'll still do it with the mouse.
+Video upload. There we go.
+So we have three routes at least.
+And later on probably we can create a layout so that
+it looks good but doesn't really matter in the route.
+We can just check what's happening, what's
+not happening and all of that.
+Again, super happy with what is
+the progress that we have made.
+All right, what next?
+We have now in the next video we can just close
+all of this and we can create one more folder here
+which can be API and can focus more on the API
+part first because that's where the majority of things happen.
+That's where majority of the cloud nary talks happen.
+So let's just right click on this one, create
+a new folder on the API and that's it.
+So what we can do now, now in the next video,
+what we can do is we can focus more on the
+API understandability of how do we take a file upload and
+send it to the cloudinary and get response back, how do
+we send the video get to them and how we get
+the response back, how that all the things happen.
+So that is going to be taken care of in
+the API part in itself and the home API as
+well, in which we just make a query that how
+many videos you have, we return that videos back.
+We also need to set up the prisma as
+well so that without the Prisma we cannot upload
+the videos because we need to take care that
+who is the user who's uploading the videos.
+So that also need to be taken care of.
+We'll see what we are going to pick up in the
+next video, either the prisma or the API route of this.
+So both are equally good.
+You'll be enjoying both of them.
+That's it for this video.
+Let's catch up in the next one.

@@ -1,0 +1,385 @@
+hey there everyone a here back again
+with another video and welcome to the
+deploy Series in this video I'll walk
+you through that how you can install
+your own servers and can make it almost
+like netlify or worel and it's not
+really like netlify or verel it's even
+better than that yes that's a bold
+statement but it justifies that in this
+video I'll walk you through how you can
+use an open source project named coolify
+and can install that on your own VPS and
+just forget about everything else it
+does manage everything for you like just
+like if you have deployed any
+application in the past like netlify or
+warell and they do all the magic for you
+just point out your G repository get
+domain from there just pull the
+application from there and it does all
+the magic for you exactly like that we
+can set up whole things on our own so
+let me just show you and by the way we
+have a Comon Target as well not much
+just 100 comments in this video and I'll
+show you the whole Magic of the coolify
+it's super easy to work on with this but
+I need motivation and that comes from
+the comment section so just put that in
+the comment not asking you much there's
+not much of the fees so go ahead and try
+that so let me just share this one here
+and I have spined up a new uh machine
+for us which is this one ubben 2 AP West
+so feel free to have this and once you
+click on this this time we're not going
+to be setting up any SSH or something
+rather all of the application in digital
+ocean lenoe provides you to launch this
+L console which you click on this there
+is some way or the another to open up
+this console so it says hey you would
+like to log in yes I would like to log
+in and I can just log in as a root and
+the password is going to be my
+password and there we go and that's it
+you are now logged in with the root so
+that's the step one now after that you
+have to go onto this coolify uh
+documentation everything comes from the
+documentation so where we go this is how
+the web page looks like and you can see
+there are so many sponsors of this you
+can see so many application and so many
+features on this it supports any
+language you want to work with database
+MySQL
+uh Java based application
+JavaScript it works on any server ec2
+digital ocean lenoe hetner wherever you
+want to go any case you want to deploy
+kubernetes is on the way but Docker swam
+multiple servers however you want to go
+it's ridiculously powerful the apis web
+hooks DB backups it's it's crazy
+powerful and you can go with their Cloud
+version of course the pricing comes with
+the cloud version which is I guess
+pretty decent $5 base price $3 per
+additional server build monthly but in
+case you are here watching the deploy
+series then pretty sure you want to just
+do all the things selfhosted and there's
+just one command to do so I'll go and
+I'll ask you to go into the
+documentation because there are more
+steps involved in this one just click on
+the self-hosted one and the same command
+is here but the more important thing is
+we are spinning up a very basic server
+but this time we need 2 CPU 2 GB Rams
+I'm not spinning that I'm still spinning
+that same $5 it will Works decently
+there I can show you the demo but for
+real world application at least 2 GB of
+RAM that's the most important part of it
+so go ahead and grab that and then you
+can install anything and host anything
+super base app right post hog whatever
+you want you can just go ahead and
+install that so let me just go ahead and
+walk you through and the best part is
+you don't need to do any kind of a
+hardening server and everything they
+take care of most of the stuff in fact
+they require you to login from the root
+to actually install this without the
+root it doesn't work uh you can try that
+with the user I tried it it doesn't work
+so have to go with this they somehow
+mentioned that non logged in permissions
+and all these are coming up I don't know
+where I read that but I read it
+somewhere anyways now I can just go
+ahead and come up here paste this
+command and just get it up and running
+now this is going to take some time
+because it actually downloads a whole
+bunch of things from here and there a
+lot of stuff comes in and you can see
+the permissions open SSH and permission
+root login in enabled no Snaps are
+installed try snaps so it does take care
+of everything it knows everything that
+the open SS server is there uh permit
+root login is enabled so that once
+everything is installed it makes sure
+that however I want this server to be
+running with all the security and
+measures it does that so that's really
+nice although the knowledge that we have
+gathered is really important but hey
+this needs to do its job this is going
+to take some time so I'll probably pause
+the video here there is no nothing of
+much value that I'm adding here just by
+showing you all this download steps if
+it does it faster that would be nice I
+don't think so it will do it faster
+anyways let's pause the video here all
+right so finally I didn't took much of
+the time uh just a sip couple of sip of
+water and it does the magic so now you
+can see it has installed so many of the
+things realtime database to whatnot and
+everything now it's asking us to go onto
+this URL which is pretty simple the URL
+and it runs on Port 8,000 now a couple
+of interesting steps comes after that so
+we can just go ahead and hit enter now
+it will ask us to register this is the
+important one so let's just go ahead and
+name it so I'm going to name hes and
+email is going to be hesch
+code.com
+password I'll use the my default
+password up here which I've been using
+for this series for a
+while all right and I'm going to click
+on register and there we go it says get
+started yes I want to get started
+started now although it's going to ask
+you a whole lot of Step I highly
+recommend you try it with your own but
+I'm going to do is skip the onboarding I
+don't want onboarding I've done it so
+many times you can go ahead and try this
+you have been for a while in this series
+now I'll just simply say skip on
+boarding and I want to show you the
+super power of this the whole
+application so notice here right now it
+says dashboard and there's no project
+nothing is running this is how it looks
+like the first but on the left side you
+can see there are tabs for projects so
+you can go ahead and add projects I'll
+walk you through with one of them you
+can even add multiple servers so this
+whole server can actually run multiple
+of other servers so if you have spined
+up more machines you can just go ahead
+and connect them here and this is going
+to be your one control panel to manage
+everything sources you can go ahead and
+add sources uh your GitHub repository
+anything that you want you can just go
+ahead and add this as a resource
+destinations are there where you want to
+send it you can even connect the S3
+storage so all the Amazon S3 buckets and
+all these things yes they can seamlessly
+get connected
+we also have options of uh keys and
+tokens if you want some of the common
+keys to be shared along multiple
+application you can go ahead and do that
+there is even a command center so you
+can run the commands to execute on the
+server with the Local Host uh however
+you want to go with that profile teams
+on boarding a whole lot of steps are
+there most of the time you'll be in the
+project section once you click on the ad
+you can name the project I'm going to
+call this one as uh react react app and
+I'm going to say this is a nice react
+app that's all I have uh but it's not
+just about react you can install the
+backend application databases a whole
+lot of stuff is there I'm going to go
+ahead and hit continue on this one this
+is your first app now once you click on
+the settings of this app you can see you
+can add resources and once you click on
+this add resources this is where the
+craziness starts so you're going to go
+up at the top you can just mention any
+public URL and then it will ask you what
+branch I should deploy it it will even
+deploy that even put up an SSL
+certificate on that and you can use
+private repositories you can use Docker
+files Docker compos Docker images you
+can even spin up your own databases here
+but it's not really wise to have the
+database on a just a 1 GB of RAM at
+least 2 GB or 4 GB is recommended but
+hey just one click and postgress will be
+there dragonfly would be there mongod DB
+on your own machine will be there this
+goes a little crazy so you can spin up
+the entire app right probably I'll make
+a video on that dedicated one and just
+have it all up and running even apps
+Smith is there I know the founders of
+apps Smith and app right that's why I'm
+mentioning them but again you can just
+go ahead and use chat vot I don't know
+what that is uh so code server pretty
+interesting stuff this is really nice so
+you can have whole lot of things and the
+scroll bar it's it's a lot of them you
+can go ahead and try this out let me
+just quickly find if I can find any
+react application on my repository if I
+can all right but I'm not sure that this
+application will work because most of my
+application are packed inside one
+gigantic repository lots of further
+small apps are there because of the
+courses but I think this one will work
+fine so I can just go ahead and copy
+this GitHub repository if it works and
+same way you can just install Express
+app Django app whatever you want you can
+just go ahead and install just like that
+so this is the project I never mentioned
+uh you can create more environment by
+the way production and uh like testing
+environment a whole lot of that I I can
+just click on the public repository and
+the public repository I can mention the
+URL and I'll say check
+repository and this one says main uh NYX
+pack is good and 3,000 Port is good and
+you can choose other packs as well
+static NYX file whatever for majority of
+the node base application NYX pack is
+good enough and Port 3,000 yep seems
+good I'll click on the continue and
+there you can see a lot of gazillion
+option opens up this will be my
+application name pretty good NYX pack
+and the domain is going to be this long
+domain which is good enough but you can
+actually go ahead and just put up a
+comma and add more domains if you want
+to allows redirection good enough not
+going to be bothered much about it
+Network good enough so all the things
+are being taken care of me uh apart from
+this there are Advanced option for auto
+deploy preview deployment Force https
+there are even environment variables
+that you can go ahead and add more like
+for example the port is one environment
+variable for me uh the storage Source
+you can just see all these options are
+there it would be impossible for me to
+just go ahead and have this uh right now
+I'll just click on General and I'll see
+just if we can just click on the deploy
+now it says no logs yet and eventually
+it starts to deploy that and says oops
+something wrong uh SL artifact Upstream
+I'm not sure whether it was okay as an
+application because I know this was just
+a test application and the commit ahead
+I'm not sure whether the application is
+good I have so much of the stuff going
+on on my but you get the idea how this
+is needs to be deployed in configuration
+and just wanted to show you all these
+options and if you have any react
+application just go ahead and try this
+out just wanted to show you how the
+coolify works and this is your own uh
+application server up here now so this
+is react app I can just click on
+settings and just remove it if I wish to
+but you get the whole point of why this
+application and why this video even
+exists you can have as much as you like
+and the best part what I like about is
+in the projects I can just go ahead and
+have an add project just call it as test
+let's try to spin up a my SQL here so
+let's just go ahead and at least show
+you something here
+MySQL it would be fun to have and I'll
+click on continue and let's see if this
+small teeny tiny server allows us to
+have a a resource of my SQL or postgress
+even better let's go ahead and see
+postgress and I have all these options
+postgress username and I can even see
+the password if I want to connect that I
+can keep it in the same network let's
+start that not a good idea to start this
+onto a very small server but I think it
+can do a decent job in at least having
+this and there we go if my GitHub would
+have a nice application on the react
+probably I can just quickly create it
+push it but you can do that as well and
+it says database started there we go
+told you it's super super easy and now
+within just few clicks now we have a
+resource which is running and we have a
+MySQL we not MySQL we have a postgress
+SQL the image is there the name is there
+the username is there password is there
+initialized database is there what more
+you want from an application oh man this
+is this is really really nice and we
+have storage everything so I told you
+it's super easy although it's not my SQL
+it's a post CR but hey nothing to be
+worried on so I told you it's really
+nice and when ever you want you can just
+go ahead and see all of your projects so
+we have now my SQL which ultimately runs
+a postgress we have a react app we can
+even connect them each other so that's
+really nice I'll go ahead and click on
+this one here and this one is production
+I'll just go inside this danger zone
+will delete it don't want to consume
+much of the resources that's good enough
+and that's how you delete the
+environment continue please delete that
+project we can go same way in the react
+although it didn't worked should have
+chosen the better application but you
+get the idea of how it's being done
+danger zone delete it continue please
+delete the environment of course please
+and now I can go into the project go
+back up here and delete the project go
+ahead and delete this this one also
+needs to be deleted and there we go so
+this is the way how you can have this
+and kify is a really really nice project
+to work on with you can have your own
+servers deploy as many application on
+nextjs react V view whatever you wish
+you can just go ahead and deploy that
+not only limited to the JavaScript
+ecosystem you can even throw up the
+application which uses Java resources or
+python resources and can do a whole
+bunch of things I know the video is
+really short but there is nothing much
+more to talk about it I just just don't
+want to drag the videos I want to just
+keep it short precise informative and
+want to give you something to try on so
+go ahead try out the coolify it's really
+a nice resource on the deployment
+segment and if there is any more that
+you want me to cover in this uh playlist
+just let me know I'll add those videos
+in the playlist that's it for this video
+let's catch up in the next one
