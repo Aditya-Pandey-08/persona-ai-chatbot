@@ -8,23 +8,21 @@ dotenv.config();
 
 const app = express();
 
-// ===============================
-// Middlewares
-// ===============================
+app.use(cors({
+  origin: [
+    "http://localhost:5173",
+    "https://persona-ai-chatbot-ibgqkl203-aditya-pandeys-projects-1c2b875d.vercel.app",
+  ],
+  methods: ["GET", "POST", "OPTIONS"],
+  allowedHeaders: ["Content-Type"],
+}));
 
-app.use(cors());
+// Explicitly handle preflight
+app.options("/chat", cors());
 
 app.use(express.json());
 
-// ===============================
-// Routes
-// ===============================
-
 app.use("/chat", chatRoute);
-
-// ===============================
-// Home Route
-// ===============================
 
 app.get("/", (req, res) => {
   res.json({
@@ -32,10 +30,6 @@ app.get("/", (req, res) => {
     message: "Persona AI Backend Running 🚀",
   });
 });
-
-// ===============================
-// Start Server
-// ===============================
 
 const PORT = process.env.PORT || 5000;
 

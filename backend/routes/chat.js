@@ -1,7 +1,6 @@
 import express from "express";
 
 import { askLLM } from "../services/llm.js";
-import { loadData } from "../utils/loadData.js";
 
 import hiteshPrompt from "../prompts/hiteshPrompt.js";
 import piyushPrompt from "../prompts/piyushPrompt.js";
@@ -24,13 +23,11 @@ router.post("/", async (req, res) => {
         ? hiteshPrompt
         : piyushPrompt;
 
-    const personaData = loadData(persona);
-
-    const response = await askLLM({
-      systemPrompt,
-      personaData,
-      history: history || [],
-      userMessage: message,
+        const response = await askLLM({
+          persona,
+          systemPrompt,
+          history: history || [],
+          userMessage: message,
     });
 
     res.json({
