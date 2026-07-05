@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://persona-ai-chatbot.onrender.com",
+  baseURL: "https://persona-ai-chatbot-9an6.onrender.com",
 });
 
 export async function sendMessage(data) {
